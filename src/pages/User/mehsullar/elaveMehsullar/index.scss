@@ -1,0 +1,79 @@
+.other-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.other-title h1{
+    font-size: 40px;
+    font-family: Oswald;
+    letter-spacing: 5px;
+    color: #888;
+    text-align: center;
+}
+
+// RESPONSIVES
+//  DESTKOP && LAPTOPS
+@media(max-width:3840px) {
+
+}
+
+@media(max-width:2560px) {
+    
+}
+
+@media(max-width:1920px) {
+
+}
+// SMARTPHONES
+
+@media(max-width:1441px) {
+
+}
+
+@media(max-width:1242px) {
+
+}
+
+@media(max-width:1080px) {
+
+}
+
+@media(max-width:1025px){
+
+}
+
+@media(max-width:835px) {
+
+}
+
+@media(max-width:751px) {
+
+}
+
+@media(max-width:641px) {
+
+}
+
+@media(max-width:471px){
+
+}
+
+@media(max-width:426px){
+
+}
+
+@media(max-width:376px){
+
+}
+
+@media(max-width:321px){
+    .other-title h1{
+        font-size: 50px;
+        font-family: Oswald;
+        letter-spacing: 5px;
+        color: #888;
+        text-align: center;
+    }
+    
+}

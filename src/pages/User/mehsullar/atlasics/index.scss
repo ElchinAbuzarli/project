@@ -1,0 +1,382 @@
+.atlasics-logo{
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    // margin-left: 100px;
+    margin-top: 100px;
+}
+.atlas-card{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 19rem;
+    height: 45vh;
+    border-radius: 30px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+    color: #A3A3A3;
+
+}
+
+
+// RESPONSIVES
+//  DESTKOP && LAPTOPS
+@media(max-width:3841px) {
+    .atlasics-logo{
+        width: 25%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+        margin-top: 20px;
+    }
+    .atlas-card{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 45rem;
+        height: 45vh;
+        border-radius: 30px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        color: #A3A3A3;
+    
+    }
+}
+
+@media(max-width:2561px) {
+    .atlasics-logo{
+        width: 25%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+        margin-top: 100px;
+    }
+    .atlas-card{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 35rem;
+        height: 50vh;
+        border-radius: 30px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        color: #A3A3A3;
+    
+    }
+}
+
+@media(max-width:1921px) {
+    .atlasics-logo{
+        width: 20%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+        margin-top: 100px;
+    }
+}
+// SMARTPHONES
+
+@media(max-width:1441px) {
+    .atlasics-logo{
+        width: 25%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 00px;
+    }
+    .atlas-card{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 20rem;
+        height: 45vh;
+        border-radius: 30px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        color: #A3A3A3;
+    
+    }
+}
+
+@media(max-width:1242px) {
+    .atlasics-logo{
+        width: 25%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 00px;
+    }
+    .atlas-card{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 24rem;
+        height: 55vh;
+        border-radius: 30px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        color: #A3A3A3;
+    
+    }
+}
+
+@media(max-width:1081px) {
+    .atlasics-logo{
+        width: 25%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 00px;
+    }
+    .atlas-card{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 19rem;
+        height: 45vh;
+        border-radius: 30px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        color: #A3A3A3;
+    
+    }
+}
+
+@media(max-width:1025px){
+    .atlasics-logo{
+        width: 25%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 00px;
+    }
+    .atlas-card{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 19rem;
+        height: 45vh;
+        border-radius: 30px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        color: #A3A3A3;
+    
+    }
+}
+
+@media(max-width:835px) {
+    .atlasics-logo{
+        width: 30%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 00px;
+    }
+    .atlas-card{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 19rem;
+        height: 45vh;
+        border-radius: 30px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        color: #A3A3A3;
+    
+    }
+}
+
+@media(max-width:751px) {
+    .atlasics-logo{
+        width: 40%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 00px;
+    }
+    .atlas-card{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 19rem;
+        height: 45vh;
+        border-radius: 30px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        color: #A3A3A3;
+    
+    }
+}
+
+@media(max-width:641px) {
+    .atlasics-logo{
+        width: 45%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 00px;
+    }
+    .atlas-card{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 19rem;
+        height: 50vh;
+        border-radius: 30px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        color: #A3A3A3;
+    
+    }
+}
+
+@media(max-width:471px){
+    .atlasics-logo{
+        width: 65%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 00px;
+    }
+    .atlas-card{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 19rem;
+        height: 50vh;
+        border-radius: 30px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        color: #A3A3A3;
+    
+    }
+}
+
+@media(max-width:426px){
+    .atlasics-logo{
+        width: 65%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 00px;
+    }
+}
+
+@media(max-width:415px){
+    .atlasics-logo{
+        width: 65%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .atlas-card{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 19rem;
+        height: 45vh;
+        border-radius: 30px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        color: #A3A3A3;
+    
+    }
+}
+
+@media(max-width:376px){
+    .atlasics-logo{
+        width: 55%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 00px;
+    }
+    .atlas-card{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 19rem;
+        height: 45vh;
+        border-radius: 30px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        color: #A3A3A3;
+    
+    }
+}
+
+@media(max-width:321px){
+    .atlasics-logo{
+        width: 65%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 00px;
+    }
+    .atlas-card{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 19rem;
+        height: 45vh;
+        border-radius: 30px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        color: #A3A3A3;
+    
+    }
+}
+
+    

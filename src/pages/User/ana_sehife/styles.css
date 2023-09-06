@@ -178,1481 +178,2565 @@ object-fit: contain;
     }
 
 
-    /* RESPONSIVE DESIGN */
+    
+        /* RESPONSIVES */
+    /* DESTKOP && LAPTOPS */
+  @media(max-width:3841px) {
 
-    @media (max-width: 2561px){
+  }
   
-      /* SLIDE 1 */
-      .swiper-div :first-child {
-        z-index: -1;
-        object-fit: contain;
-        position: absolute;
-        top: 25%;
-        right: 50px;
-        width: 65%;
-        height: 1000px;
-      }
-    
-    .swiper-div :last-child{
-        margin-left:40%;
-        width: 30%;
-        object-fit: contain;
-        margin-top: 5px;
-        }
-    
-    .text-div{
-          position: absolute;
-          top: 50%;
-          left: 35%;
-          transform: translate(-50%,-50%);
-        }
-    
-    .slide-text{
-          font-size: 25px;
-          line-height: 80px;
-          font-family: Roboto;
-          font-weight: 700;
-          width: 45%;
-        }
-    
-    .slide-button{
-          position: absolute;
-          top: 85%;
-          left: 12%;
-          transform: translate(-50%,-50%);
-        }
-    
-        /* SLIDE 2 */
-        /* .ekin-logo-swp{
-          position: absolute;
-          right:45%;
-          width: 15%;
-          object-fit: contain;
-        }
-        .ekin-makina-swp{
-          z-index: -1;
-          object-fit: contain;
-          position: absolute;
-          top: 25%;
-          right: 50px;
-          width: 80% ;
-          height: 50vh;
-        } */
-    
+@media(max-width:2561px) {
+    /* SLIDE 1 */
+    .swiper-div :first-child {
+      z-index: -1;
+      object-fit: contain;
+      position: absolute;
+      top: 1%;
+      right: 1%;
+      width: 70%;
+      height: 100%;
     }
-        
-     @media(max-width:1441px){
-    
-      .swiper-div :first-child {
+  
+  .swiper-div :last-child{
+      margin-left:40%;
+      width: 40%;
+      object-fit: contain;
+      margin-top: 5%;
+      }
+  
+  .text-div{
+        position: absolute;
+        top: 50%;
+        left: 33%;
+        width: 60%;
+      }
+
+  .slide-text{
+        font-size: 55px;
+        line-height: 80px;
+        font-family: Roboto;
+        font-weight: 700;
+        width: 45%;
+
+      }
+  
+  .slide-button{
+        position: absolute;
+        top: 85%;
+        left: 12%;
+        transform: translate(-50%,-50%);
+      }
+  
+/* SLIDE 2 */
+.ekin-logo-swp{
+position: absolute;
+top: 20%;
+right:35%;
+width: 30%;
+object-fit: contain;
+}
+.ekin-makina-swp{
         z-index: -1;
         object-fit: contain;
         position: absolute;
-        top: 15%;
-        right: 50px;
-        width: 55%;
-        height: 900px;
-      }
-    
-    .swiper-div :last-child{
-        margin-left:45%;
-        width: 45%;
-        object-fit: contain;
-        }
-    
-    .text-div{
-          position: absolute;
-          top: 50%;
-          left: 35%;
-          transform: translate(-50%,-50%);
-        }
-    
-    .slide-text{
-          font-size: 25px;
-          line-height: 60px;
-          font-family: Roboto;
-          font-weight: 700;
-          width: 55%;
-        }
-    
-    .slide-button{
-          position: absolute;
-          top: 70%;
-          left: 18%;
-          transform: translate(-50%,-50%);
-        }
-    
-       /* SLIDE 2 */
-        .swiper-div-2 :last-child{
-          position: absolute;
-          right:45%;
-          width: 15%;
-          object-fit: contain;
-        }
-        #sb-2{
-          position: absolute;
-          top: 80%;
-          left: 15%;
-          transform: translate(-50%,-50%);
-        }
-        #slide-text-2{
-          font-size: 35px;
-          line-height: 60px;
-          font-family: Roboto;
-          font-weight: 300;
-          width: 65%;
-        }
-    
-        /* SLIDE 3 */
-        .swiper-div-3 :first-child{
-          z-index: -1;
-          object-fit: contain;
-          /* position: absolute; */
-          top: 15%;
-          right: 20px;
-          width: 65%;
-          height: 900px;
-        }
-        .swiper-div-3 :last-child{
-          margin-left:45%;
-          width: 45%;
-          object-fit: contain;
-        }
-        #slide-button-3{
-          position: absolute;
-          top: 80%;
-          left: 15%;
-          transform: translate(-50%,-50%);
-        }
-        #slide-3{
-          position: absolute;
-          top: 50%;
-          left: 38%;
-          transform: translate(-50%,-50%);
-        }
-    
-        /* SLIDE 4 */
-        .swiper-div-4 :first-child{
-          z-index: -1;
-          object-fit: contain;
-          /* position: absolute; */
-          top: 15%;
-          right: 20px;
-          width: 72%;
-          height: 950px;
-        }
-        .swiper-div-4 :last-child{
-          margin-left:15%;
-          width: 65%;
-          object-fit: contain;
-        }
-    
+        top: 5%;
+        right:-15%;
+        width: 100% ;
+        height: 80vh;
+}
+
+
+/* SLIDE 3  */
+.swiper-div-3 :first-child{
+  z-index: -1;
+  object-fit: contain;
+  /* position: absolute; */
+  top: 25%;
+  right: 20px;
+  width: 70%;
+  height: 1000px;
+}
+.swiper-div-3 :last-child{
+  margin-left:3%;
+  width: 45%;
+  object-fit: contain;
+}
+.slide-title{
+  width: 100px;
+  font-size: 53px;
+  line-height: 53px;
+  font-family: Roboto;
+  font-weight: 900;
+  padding-bottom: 20px;
+  }
+  .prod-but-1{
+    font-size: 20px;
+    margin-top: 50%;
+  }
+
+/* SLIDE 4 */
+.swiper-div-4 :first-child{
+  z-index: -1;
+  object-fit: contain;
+  /* position: absolute; */
+  top: 15%;
+  right: 20px;
+  width: 75%;
+  height: 80%;
+}
+.swiper-div-4 :last-child{
+  margin-left:15%;
+  width: 65%;
+  object-fit: contain;
+}
+
         /* SLIDE 5 */
-        .swiper-div-5 :first-child{
+.swiper-div-5 :first-child{
           z-index: -1;
           object-fit: contain;
           position: absolute;
           top: 15%;
-          right: 5px;
-          width: 62%;
-          height: 950px;
-        }
-        .swiper-div-5 :last-child{
+          right: -4%;
+          width: 70%;
+          height: 60%;
+}
+.swiper-div-5 :last-child{
           /* margin-left:10%; */
           margin-top: 8%;
           width: 40%;
           object-fit: contain;
-        }
+}
     
-        /* SLIDE 6 */
-        .swiper-div-6 :first-child{
+/* SLIDE 6 */
+.swiper-div-6 :first-child{
           position: absolute;
-          top: 12rem;
-          left: 5rem;
-          width: 35%;
+          top: 12%;
+          left: 5%;
+          width: 43%;
           object-fit: contain;
-        }
-        .swiper-div-6 :nth-child(2){
+}
+.swiper-div-6 :nth-child(2){
           position: absolute;
-          top: 12rem;
-          right: 40rem;
+          top: 12%;
+          right: 40%;
           width: 12%;
-        }
-        .swiper-div-6 :nth-child(3){
+}
+.swiper-div-6 :nth-child(3){
           position: absolute;
-          top: 12rem;
-          right: 25rem;
+          top: 12%;
+          right: 25%;
           width: 12%;
           /* top: 2px; */
-        }
-        .swiper-div-6 :nth-child(4){
-          top: 10rem;
-          position: absolute;
-          right: 4rem;
-          width: 17%;
-        }
-         .swiper-div-6 :nth-child(5){
-          position: absolute;
-          right: 25rem;
-          top: 25rem;
-          width: 33%;
-        }
-        .swiper-div-6 :nth-child(6){
-          position: absolute;
-          top: 25rem;
-          right: 4rem;
-          width: 22%;
-        }
-        .swiper-div-6 :nth-child(7){
-          position: absolute;
-          top: 45rem;
-          right: 25rem;
-          width: 25%;
-        }
-        .swiper-div-6 :last-child{
-          position: absolute;
-          top: 40rem;
-          right: 3rem;
-          width: 25%;
-        }
-    }
-        
-     @media(max-width:1025px){
-      .swiper-div :first-child {
-        z-index: -1;
-        object-fit: contain;
-        position: absolute;
-        top: 2%;
-        right: 50px;
-        width: 90%;
-        height: 950px;
-      }
-    
-    .swiper-div :last-child{
-      position: absolute;
-      top: 0%;
-        left:-15%;
-        width: 45%;
-        object-fit: contain;
-        }
-    
-    .text-div{
-      position: absolute;
-      top: 40rem;
-      width: 90%;
-      left: 32rem;
-      text-align: center;
-        z-index: 999;
-        font-family: Roboto;
-        font-weight: 700;
-        margin-top: 20rem;
-        color: black;
-        /* padding: 0 50px; */
-      }
-    
-      .slide-text{
-        width: 100%;
-    
-    
-      }
-    
-    .slide-button{
-          position: absolute;
-          top: 72%;
-          left: 18%;
-          transform: translate(-50%,-50%);
-        }
-    
-       /* SLIDE 2 */
-       .swiper-div-2 :first-child{
-        width: 90%;
-       }
-       .swiper-div-2 :last-child{
-        position: absolute;
-        left: 2rem;
-        top: 9rem;
-        width: 45%;
-       }
-        #sb-2{
-          position: absolute;
-          top: 70%;
-          left: 15%;
-          transform: translate(-50%,-50%);
-        }
-        #slide-text-2{
-          font-size: 30px;
-          line-height: 60px;
-          font-family: Roboto;
-          font-weight: 700;
-          font-weight: 300;
-          width: 100%;
-        }
-    
-        /* SLIDE 3 */
-        .swiper-div-3 :first-child{
-          z-index: -1;
-          object-fit: contain;
+}
+.swiper-div-6 :nth-child(4){
           position: absolute;
           top: 10%;
-          right: 20px;
-          width: 85%;
-          height: 850px;
-        }
-    
-        .swiper-div-3 :last-child{
-          margin-left:5%;
-          margin-top: 7%;
-          width: 45%;
-          object-fit: contain;
-        }
-    
-        #slide-button-3{
-          position: absolute;
-          top: 80%;
-          left: 15%;
-          transform: translate(-50%,-50%);
-        }
-    
-        .slide-title{
-          display: none;
-        }
-    
-        #slide-3{
-          position: absolute;
-          font-family: Roboto;
-          font-weight: 700;
-          top: 55%;
-          left: 78%;
-          transform: translate(-50%,-50%);
-          width: 100%;
-        }
-    
-        #slide-3 ul {
-          list-style: none;
-        }
-    
-        /* SLIDE 4 */
-        .swiper-div-4 :first-child{
-          z-index: -1;
-          object-fit: contain;
-          /* position: absolute; */
-          top: 5%;
-          right: 20px;
-          width: 100%;
-          height: 950px;
-        }
-    
-        .swiper-div-4 :last-child{
-          margin-left:5%;
-          width: 85%;
-          object-fit: contain;
-        }
-    
-        #sb-4{
-          position: absolute;
-          top: 48rem;
-        }
-    
-        /* SLIDE 5 */
-        .swiper-div-5 :first-child{
-          z-index: -1;
-          object-fit: contain;
-          position: absolute;
-          top: 15%;
-          right: 5px;
-          width: 75%;
-          height: 900px;
-        }
-    
-        .swiper-div-5 :last-child{
-          /* margin-left:10%; */
-          margin-top: 1%;
-          margin-left: 30% ;
-          width: 50%;
-          object-fit: contain;
-        }
-    
-        #sb-3{
-          position: absolute;
-          top: 50rem;
-          left: 9rem;
-        }
-     
-        /* SLIDE 6 */
-        .swiper-div-6 :first-child{
-          position: absolute;
-          top: 20rem;
-          left: 1rem;
-          width: 40%;
-          object-fit: contain;
-        }
-        .swiper-div-6 :nth-child(2){
-          position: absolute;
-          top: 15rem;
-          right: 28rem;
-          width: 12%;
-        }
-        .swiper-div-6 :nth-child(3){
-          position: absolute;
-          top: 15rem;
-          right: 18rem;
-          width: 12%;
-          /* top: 2px; */
-        }
-        .swiper-div-6 :nth-child(4){
-          top: 13rem;
-          position: absolute;
-          right: 4rem;
+          right: 4%;
           width: 17%;
-        }
-         .swiper-div-6 :nth-child(5){
+}
+.swiper-div-6 :nth-child(5){
           position: absolute;
-          right: 18rem;
-          top: 29rem;
+          right: 25%;
+          top: 30%;
           width: 33%;
-        }
-        .swiper-div-6 :nth-child(6){
+}
+.swiper-div-6 :nth-child(6){
           position: absolute;
-          top: 30rem;
-          right: 4rem;
+          top: 30%;
+          right: 4%;
           width: 22%;
-        }
-        .swiper-div-6 :nth-child(7){
+}
+.swiper-div-6 :nth-child(7){
           position: absolute;
-          top: 45rem;
-          right: 20rem;
+          top: 55%;
+          right: 28%;
           width: 25%;
-        }
-        .swiper-div-6 :last-child{
+}
+.swiper-div-6 :last-child{
           position: absolute;
-          top: 40rem;
-          right: 3rem;
+          top: 50%;
+          right: 3%;
           width: 25%;
-        }
-    
+}
+  }
+  
+@media(max-width:1901px) {
+
+.slide-title{
+  width: 100px;
+  font-size: 43px;
+  line-height: 53px;
+  font-family: Roboto;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.text-div{
+  position: absolute;
+  top: 45%;
+  left: 38%;
+  transform: translate(-50%,-50%);
+}
+.slide-text{
+  font-size: 30px;
+  line-height: 40px;
+  font-family: Roboto;
+  font-weight: 400;
+  width: 55%;
+
+}
+.slide-button{
+  position: absolute;
+  top: 75%;
+  left: 12%;
+  transform: translate(-50%,-50%);
+}
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  width: 50%;
+  height: 630px;
+
+}
+
+
+.swiper-div :last-child{
+margin: 5%;
+width: 30%;
+object-fit: contain;
+}
+/* SLIDE 2 */
+.ekin-logo-swp{
+  position: absolute;
+  top: 5%;
+  right:65%;
+  width: 25%;
+  object-fit: contain;
     }
+  .ekin-makina-swp{
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 0%;
+  right:-25%;
+  width: 110% ;
+  height: 110%;
+    }
+  
 
-
-@media(max-width:948px){
-
-  .swiper-div :first-child {
-    z-index: -1;
-    object-fit: contain;
-    position: absolute;
-    top:0px;
-    right: 4rem;
-    width: 80%;
+/* SLIDE 3 */
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 50%;
+  height: 630px;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 2% 0 0 10%;
+  width: 25%;
+  object-fit: contain;
   }
-  .swiper-div :last-child {
-    width: 70%;
-    object-fit: contain;
-  }
 
-  .swiper-div-4 :first-child {
+/* SLIDE 4 */
+.swiper-div-4 :first-child {
     z-index: -1;
     object-fit: contain;
     position: absolute;
     top: 30px;
     right: 50px;
+    /* display: flex; */
     justify-content: flex-start;
-    width: 70%;
-  }
-  .swiper-div-4 :last-child{
+    width: 50%;
+    height: 630px;
+    }
+.swiper-div-4 :last-child{
     margin: 5%;
-    width: 60%;
+    width: 40%;
     object-fit: contain;
     }
-    .swiper-div-4 :first-child {
-        z-index: -1;
-        object-fit: contain;
-        position: absolute;
-        top: 30px;
-        right: 2px;
-        justify-content: flex-start;
-        width: 100%;
-      }
-      .swiper-div-4 :last-child{
-        margin: 5%;
-        width: 100%;
-        object-fit: contain;
-        }
-}   
-    
- @media(max-width:769px){
-
-  .swiper-div :first-child {
+   /* SLIDE 5 */
+.swiper-div-5 :first-child{
     z-index: -1;
     object-fit: contain;
     position: absolute;
-    top: -10rem;
-    left: 0%;
-    width: 100%;
-    height: 850px;
-  }
-
-.swiper-div :last-child{
-  position: absolute;
-  top: 0rem;
-    left:-25%;
-    width: 35%;
+    top: 15%;
+    right: -10%;
+    width: 80%;
+    height: 75%;
+   }
+.swiper-div-5 :last-child{
+    margin-left:10%;
+    margin-top: 3%;
+    width: 25%;
     object-fit: contain;
-  }
-
-.text-div{
-  position: absolute;
-  top: 22rem;
-  width: 90%;
-  left: 25rem;
-  text-align: center;
-    z-index: 999;
-    font-family: Roboto;
-    font-weight: 700;
-    margin-top: 20rem;
-    color: black;
-    /* padding: 0 50px; */
-  }
-
-  .slide-text{
-    width: 100%;
-    font-size: 25px;
-    line-height: 35px;
-
-  }
-
-  .prod-but-1{
-    font-size: 15px;
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    padding: 15px;
-    color: white;
-    background: linear-gradient(#0c41be, #000046); 
-    border: none;
-    border-radius: 15px;
-    margin-bottom: -8rem;
-    margin-left: -6rem;
-  }
-
-   /* SLIDE 2 */
-   .swiper-div-2 :first-child{
-    width: 95%;
-    position: absolute;
-    top: -4rem ;
-
    }
-   .swiper-div-2 :last-child{
-    position: absolute;
-    left: 2rem;
-    top: 4rem;
-    width: 45%;
-   }
-    #sb-2{
-      position: absolute;
-      top: 72%;
-      left: 15%;
-      transform: translate(-50%,-50%);
-    }
-    #slide-text-2{
-      font-size: 25px;
-      line-height: 30px;
-      font-family: Roboto;
-      font-weight: 700;
-      width: 100%;
-      margin-bottom: 5rem;
-    }
-
-    /* SLIDE 3 */
-    .swiper-div-3 :first-child{
-      z-index: -1;
-      object-fit: contain;
-      position: absolute;
-      top: -5%;
-      right: 20px;
-      width: 85%;
-      height: 850px;
-    }
-
-    .swiper-div-3 :last-child{
-      margin-left:5%;
-      margin-top: 7%;
-      width: 45%;
-      object-fit: contain;
-    }
-
-    #slide-button-3{
-      position: absolute;
-      top: 87%;
-      left: 15%;
-      transform: translate(-50%,-50%);
-    }
-
-    .slide-title{
-      display: none;
-    }
-
-    #slide-3{
-      position: absolute;
-      font-family: Roboto;
-      font-weight: 700;
-      top: 43%;
-      left: 80%;
-      transform: translate(-50%,-50%);
-      width: 100%;
-    }
-
-    #slide-3 ul {
-      list-style: none;
-    }
-
-    /* SLIDE 4 */
-    .swiper-div-4 :first-child{
-      z-index: -1;
-      object-fit: contain;
-      /* position: absolute; */
-      top: -15%;
-      right: 20px;
-      width: 100%;
-      height: 950px;
-    }
-
-    .swiper-div-4 :last-child{
-      margin-top: -1%;
-      margin-left:5%;
-      width: 85%;
-      object-fit: contain;
-    }
-
-    #sb-4{
-      position: absolute;
-      top: 34rem;
-    }
-
-    /* SLIDE 5 */
-    .swiper-div-5 :first-child{
-      z-index: -1;
-      object-fit: contain;
-      position: absolute;
-      top: -2%;
-      right: 5px;
-      width: 70%;
-      height: 850px;
-    }
-    .swiper-div-5 :last-child{
-      /* margin-left:10%; */
-      margin-top: 1%;
-      margin-left: 5% ;
-      width: 45%;
-      object-fit: contain;
-    }
-    #sb-3{
-      position: absolute;
-      top: 35rem;
-      left: 9rem;
-    }
- 
     /* SLIDE 6 */
-    .swiper-div-6 :first-child{
-      position: absolute;
-      top: 10rem;
-      left: 1rem;
-      width: 45%;
+.swiper-div-6{
       object-fit: contain;
     }
-    .swiper-div-6 :nth-child(2){
+.swiper-div-6 :first-child{
       position: absolute;
       top: 5rem;
-      right: 20rem;
+      left: 5rem;
+      width: 30%;
+      object-fit: contain;
+    }
+.swiper-div-6 :nth-child(2){
+      position: absolute;
+      top: 2rem;
+      right: 40rem;
       width: 12%;
     }
-    .swiper-div-6 :nth-child(3){
+.swiper-div-6 :nth-child(3){
       position: absolute;
-      top: 5rem;
-      right: 12rem;
+      top: 2rem;
+      right: 25rem;
       width: 12%;
       /* top: 2px; */
     }
-    .swiper-div-6 :nth-child(4){
-      top: 5rem;
+.swiper-div-6 :nth-child(4){
       position: absolute;
-      right: 1rem;
+      right: 4rem;
       width: 17%;
     }
-     .swiper-div-6 :nth-child(5){
+.swiper-div-6 :nth-child(5){
       position: absolute;
-      right: 12rem;
+      right: 25rem;
       top: 15rem;
       width: 33%;
     }
-    .swiper-div-6 :nth-child(6){
+.swiper-div-6 :nth-child(6){
       position: absolute;
-      top: 17rem;
-      right: 1rem;
+      top: 15rem;
+      right: 4rem;
       width: 22%;
     }
-    .swiper-div-6 :nth-child(7){
+.swiper-div-6 :nth-child(7){
       position: absolute;
-      top: 28rem;
-      right: 15rem;
+      top: 32rem;
+      right: 25rem;
       width: 25%;
     }
-    .swiper-div-6 :last-child{
+.swiper-div-6 :last-child{
       position: absolute;
       top: 25rem;
-      right: 1rem;
+      right: 3rem;
       width: 25%;
     }
+  }
+
+  /* SMARTPHONES */
+@media(max-width:1441px) {
+.slide-title{
+  width: 100px;
+  font-size: 30px;
+  line-height: 43px;
+  font-family: Roboto;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.text-div{
+  position: absolute;
+  top: 45%;
+  left: 38%;
+  transform: translate(-50%,-50%);
+}
+.slide-text{
+  font-size: 30px;
+  line-height: 40px;
+  font-family: Roboto;
+  font-weight: 400;
+  width: 65%;
 
 }
-    
-@media(max-width:426px){
-  .swiper-div :first-child {
+.slide-button{
+  position: absolute;
+  top: 75%;
+  left: 12%;
+  transform: translate(-50%,-50%);
+}
+.prod-but-1{
+  font-size: 30px;
+  margin-top: 50%;
+}
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: -10%;
+  right: 50px;
+  width: 50%;
+  height: 700px;
+
+}
+
+.swiper-div :last-child{
+margin: 3%;
+width: 25%;
+object-fit: contain;
+}
+/* SLIDE 2 */
+.ekin-logo-swp{
+  position: absolute;
+  top: 5%;
+  right:65%;
+  width: 25%;
+  object-fit: contain;
+    }
+  .ekin-makina-swp{
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 0%;
+  right:-25%;
+  width: 110% ;
+  height: 110%;
+    }
+  
+
+/* SLIDE 3 */
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 50%;
+  height: 630px;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 2% 0 0 10%;
+  width: 22%;
+  object-fit: contain;
+  }
+
+/* SLIDE 4 */
+.swiper-div-4 :first-child {
     z-index: -1;
     object-fit: contain;
     position: absolute;
-    top: -48%;
-    /* right: 3rem; */
-    width: 100%;
-    height: 950px;
-  }
-
-.swiper-div :last-child{
-  position: absolute;
-  top: 0rem;
-    left:-8rem;
+    top: 30px;
+    right: 50px;
+    /* display: flex; */
+    justify-content: flex-start;
     width: 50%;
+    height: 630px;
+    }
+.swiper-div-4 :last-child{
+    margin: 5%;
+    width: 40%;
     object-fit: contain;
-  }
-  .prod-but-1{
-    font-size: 12px;
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    padding: 15px;
-    color: white;
-    background: linear-gradient(#0c41be, #000046); 
-    border: none;
-    border-radius: 15px;
-    margin-bottom: 3rem;
-    margin-left: -6rem;
-  }
-  .text-div{
-    display: none;
-     }  
-
-
-
-   /* SLIDE 2 */
-   .swiper-div-2 :first-child{
-    width: 85%;
+    }
+   /* SLIDE 5 */
+.swiper-div-5 :first-child{
+    z-index: -1;
+    object-fit: contain;
     position: absolute;
-    top: -1rem ;
-    left: 0rem;
-
+    top: 15%;
+    right: -10%;
+    width: 80%;
+    height: 75%;
    }
-   .swiper-div-2 :last-child{
-    position: absolute;
-    left: 0rem;
-    top: 2rem;
-    width: 45%;
+.swiper-div-5 :last-child{
+    margin-left:10%;
+    margin-top: 3%;
+    width: 25%;
+    object-fit: contain;
    }
-    #sb-2{
+    /* SLIDE 6 */
+.swiper-div-6 :first-child{
       position: absolute;
-      top: 58%;
-      left: 40%;
-      transform: translate(-50%,-50%);
-    }
-    #slide-text-2{
-      font-size: 15px;
-      line-height: 30px;
-      font-family: Roboto;
-      font-weight: 700;
-      width: 90%;
-      margin-bottom: 30rem;
-    }
-    .text-div{
-      display: none;
-       }  
-       .prod-but-1{
-        font-size: 12px;
-        display: flex;
-        gap: 5px;
-        align-items: center;
-        padding: 15px;
-        color: white;
-        background: linear-gradient(#0c41be, #000046); 
-        border: none;
-        border-radius: 15px;
-        margin-bottom: 3rem;
-        margin-left: -6rem;
-      }
-    /* SLIDE 3 */
-    .swiper-div-3 :first-child{
-      z-index: -1;
+      top: 0%;
+      left: 5%;
+      width: 33%;
       object-fit: contain;
+}
+.swiper-div-6 :nth-child(2){
       position: absolute;
-      top: -38%;
-      right: 5rem;
-      width: 75%;
-      height: 850px;
-    }
-
-    .swiper-div-3 :last-child{
-      margin-left:20%;
-      margin-top: 7%;
-      width: 45%;
-      object-fit: contain;
-    }
-
-    #slide-button-3{
+      top: 12%;
+      right: 40%;
+      width: 9%;
+}
+.swiper-div-6 :nth-child(3){
+      position: absolute;
+      top: 12%;
+      right: 25%;
+      width: 9%;
+      /* top: 2px; */
+}
+.swiper-div-6 :nth-child(4){
+      position: absolute;
+      top: 10%;
+      right: 4%;
+      width: 12%;
+}
+.swiper-div-6 :nth-child(5){
+      position: absolute;
+      right: 25%;
+      top: 30%;
+      width: 25%;
+}
+.swiper-div-6 :nth-child(6){
+      position: absolute;
+      top: 30%;
+      right: 4%;
+      width: 17%;
+}
+.swiper-div-6 :nth-child(7){
       position: absolute;
       top: 65%;
-      left: 40%;
-      transform: translate(-50%,-50%);
-    }
-
-    .slide-title{
-      display: none;
-    }
-
-    #slide-3{
+      right: 28%;
+      width: 20%;
+}
+.swiper-div-6 :last-child{
       position: absolute;
-      font-family: Roboto;
-      font-weight: 700;
-      top: 27%;
-      left: 25rem;
-      transform: translate(-50%,-50%);
-      width: 100%;
-    }
-
-    #slide-3 ul {
-      list-style: none;
-    }
-
-    .text-div{
-      display: none;
-    }  
-
-    /* SLIDE 4 */
-    .swiper-div-4 :first-child{
-      z-index: -1;
-      object-fit: contain;
-      /* position: absolute; */
-      top: -52%;
-      right: 5rem;
-      width: 83%;
-      height: 950px;
-    }
-
-    .swiper-div-4 :last-child{
-      margin-top: -1%;
-      margin-left:0rem;
-      width: 85%;
-      object-fit: contain;
-    }
-
-    #sb-4{
-      position: absolute;
-      top: 20rem;
-    }
-    .prod-but-1{
-      font-size: 12px;
-      display: flex;
-      gap: 5px;
-      align-items: center;
-      padding: 15px;
-      color: white;
-      background: linear-gradient(#0c41be, #000046); 
-      border: none;
-      border-radius: 15px;
-      margin-bottom: 7rem;
-      margin-left: -1rem;
-    }
-    .text-div{
-      display: none;
-    }  
-
-    /* SLIDE 5 */
-    .swiper-div-5 :first-child{
-      z-index: -1;
-      object-fit: contain;
-      position: absolute;
-      top: -32%;
-      right: 5rem;
-      width: 80%;
-      height: 850px;
-    }
-    .swiper-div-5 :last-child{
-      /* margin-left:10%; */
-      margin-top: 1%;
-      margin-left: 3rem ;
-      width: 45%;
-      object-fit: contain;
-    }
-    #sb-3{
-      position: absolute;
-      top: 25rem;
-      left: 11rem;
-    }
-    .prod-but-1{
-      font-size: 12px;
-      display: flex;
-      gap: 5px;
-      align-items: center;
-      padding: 15px;
-      color: white;
-      background: linear-gradient(#0c41be, #000046); 
-      border: none;
-      border-radius: 15px;
-      margin-bottom: 0rem;
-      margin-left: -6rem;
-    }
-    .text-div{
-      display: none;
-    } 
-    /* SLIDE 6 */
-    .swiper-div-6 :first-child{
-      position: absolute;
-      top: -3rem;
-      left: 4rem;
-      width: 55%;
-      object-fit: contain;
-    }
-    .swiper-div-6 :nth-child(2){
-      position: absolute;
-      top: 10rem;
-      right: 22rem;
-      width: 12%;
-    }
-    .swiper-div-6 :nth-child(3){
-      position: absolute;
-      top: 10rem;
-      right: 15rem;
-      width: 12%;
-      /* top: 2px; */
-    }
-    .swiper-div-6 :nth-child(4){
-      top: 10rem;
-      position: absolute;
-      right: 6rem;
-      width: 17%;
-    }
-     .swiper-div-6 :nth-child(5){
-      position: absolute;
-      right: 18rem;
-      top: 15rem;
-      width: 33%;
-    }
-    .swiper-div-6 :nth-child(6){
-      position: absolute;
-      top: 16rem;
-      right: 13rem;
-      width: 22%;
-    }
-    .swiper-div-6 :nth-child(7){
-      position: absolute;
-      top: 22rem;
-      right: 6rem;
-      width: 35%;
-    }
-    .swiper-div-6 :last-child{
-      position: absolute;
-      top: 15rem;
-      right: 6rem;
-      width: 25%;
-    }
-    .prod-but-1{
-      font-size: 15px;
-      display: flex;
-      gap: 5px;
-      align-items: center;
-      padding: 15px;
-      color: white;
-      background: linear-gradient(#0c41be, #000046); 
-      border: none;
-      border-radius: 15px;
-      margin-bottom: 7rem;
-      margin-left: -1rem;
-    }
-    .text-div{
-      display: none;
-    }  
+      top: 50%;
+      right: 3%;
+      width: 20%;
+}
 }
 
-    
- @media(max-width:376px){
+@media(max-width:1242px) {
+.slide-title{
+  width: 100px;
+  font-size: 30px;
+  line-height: 43px;
+  font-family: Roboto;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
 
-  .swiper-div :first-child {
+.text-div{
+  position: absolute;
+  top: 45%;
+  left: 38%;
+  transform: translate(-50%,-50%);
+}
+.slide-text{
+  font-size: 30px;
+  line-height: 40px;
+  font-family: Roboto;
+  font-weight: 400;
+  width: 65%;
+
+}
+.slide-button{
+  position: absolute;
+  top: 75%;
+  left: 12%;
+  transform: translate(-50%,-50%);
+}
+.prod-but-1{
+  font-size: 30px;
+  margin-top: 50%;
+}
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: -10%;
+  right: 50px;
+  width: 50%;
+  height: 700px;
+
+}
+
+.swiper-div :last-child{
+margin: 3%;
+width: 25%;
+object-fit: contain;
+}
+/* SLIDE 2 */
+.ekin-logo-swp{
+  position: absolute;
+  top: 5%;
+  right:65%;
+  width: 25%;
+  object-fit: contain;
+    }
+  .ekin-makina-swp{
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 0%;
+  right:-25%;
+  width: 110% ;
+  height: 110%;
+    }
+  
+
+/* SLIDE 3 */
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 50%;
+  height: 630px;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 2% 0 0 10%;
+  width: 22%;
+  object-fit: contain;
+  }
+
+/* SLIDE 4 */
+.swiper-div-4 :first-child {
     z-index: -1;
     object-fit: contain;
     position: absolute;
-    top: -48%;
-    /* right: 3rem; */
-    width: 100%;
-    height: 950px;
-  }
+    top: 30px;
+    right: 50px;
+    /* display: flex; */
+    justify-content: flex-start;
+    width: 50%;
+    height: 630px;
+    }
+.swiper-div-4 :last-child{
+    margin: 5%;
+    width: 40%;
+    object-fit: contain;
+    }
+   /* SLIDE 5 */
+.swiper-div-5 :first-child{
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 15%;
+    right: -10%;
+    width: 80%;
+    height: 75%;
+   }
+.swiper-div-5 :last-child{
+    margin-left:10%;
+    margin-top: 3%;
+    width: 25%;
+    object-fit: contain;
+   }
+    /* SLIDE 6 */
+.swiper-div-6 :first-child{
+      position: absolute;
+      top: 0%;
+      left: 5%;
+      width: 33%;
+      object-fit: contain;
+}
+.swiper-div-6 :nth-child(2){
+      position: absolute;
+      top: 12%;
+      right: 40%;
+      width: 9%;
+}
+.swiper-div-6 :nth-child(3){
+      position: absolute;
+      top: 12%;
+      right: 25%;
+      width: 9%;
+      /* top: 2px; */
+}
+.swiper-div-6 :nth-child(4){
+      position: absolute;
+      top: 10%;
+      right: 4%;
+      width: 12%;
+}
+.swiper-div-6 :nth-child(5){
+      position: absolute;
+      right: 25%;
+      top: 30%;
+      width: 25%;
+}
+.swiper-div-6 :nth-child(6){
+      position: absolute;
+      top: 30%;
+      right: 4%;
+      width: 17%;
+}
+.swiper-div-6 :nth-child(7){
+      position: absolute;
+      top: 65%;
+      right: 28%;
+      width: 20%;
+}
+.swiper-div-6 :last-child{
+      position: absolute;
+      top: 50%;
+      right: 3%;
+      width: 20%;
+}
+}
+
+@media(max-width:1081px) {
+.slide-title{
+  width: 100px;
+  font-size: 30px;
+  line-height: 43px;
+  font-family: Roboto;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.text-div{
+  position: absolute;
+  top: 45%;
+  left: 34%;
+  transform: translate(-50%,-50%);
+}
+.slide-text{
+  font-size: 30px;
+  line-height: 40px;
+  font-family: Roboto;
+  font-weight: 400;
+  width: 65%;
+
+}
+.slide-button{
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+}
+.prod-but-1{
+  font-size: 25px;
+  margin-top: 50%;
+}
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: -10%;
+  right: 50px;
+  width: 50%;
+  height: 700px;
+
+}
 
 .swiper-div :last-child{
+margin: 3%;
+width: 25%;
+object-fit: contain;
+}
+/* SLIDE 2 */
+.ekin-logo-swp{
   position: absolute;
-  top: 3%;
-    left:-6rem;
+  top: 5%;
+  right:65%;
+  width: 25%;
+  object-fit: contain;
+    }
+  .ekin-makina-swp{
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 0%;
+  right:-25%;
+  width: 110% ;
+  height: 110%;
+    }
+  
+
+/* SLIDE 3 */
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 50%;
+  height: 630px;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 2% 0 0 10%;
+  width: 22%;
+  object-fit: contain;
+  }
+
+/* SLIDE 4 */
+.swiper-div-4 :first-child {
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    /* display: flex; */
+    justify-content: flex-start;
+    width: 66%;
+    height: 680px;
+    }
+.swiper-div-4 :last-child{
+    margin: 0%;
     width: 50%;
     object-fit: contain;
-  }
-
-.text-div{
-  position: absolute;
-  top: 22rem;
-  width: 80%;
-  left: 20rem;
-  text-align: center;
-    z-index: 999;
-    font-family: Roboto;
-    font-weight: 700;
-    margin-top: 20rem;
-    color: black;
-    /* padding: 0 50px; */
-  }
-
-  .slide-text{
-    margin-left:-140px;
-    margin-bottom: 25rem;
-    width: 90%;
-    font-size: 15px;
-    line-height: 35px;
-
-  }
-
-.slide-button{
-      position: absolute;
-      top: 63%;
-      left: 39%;
-      transform: translate(-50%,-50%);
     }
-
-.text-div{
-      display: none;
-       }  
-
-   /* SLIDE 2 */
-   .swiper-div-2 :first-child{
-    width: 85%;
-    position: absolute;
-    top: -1rem ;
-    left: 1rem;
-
-   }
-   .swiper-div-2 :last-child{
-    position: absolute;
-    left: 1rem;
-    top: 2rem;
-    width: 45%;
-   }
-   .prod-but-1{
-    font-size: 12px;
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    padding: 15px;
-    color: white;
-    background: linear-gradient(#0c41be, #000046); 
-    border: none;
-    border-radius: 15px;
-    margin-bottom: 2rem;
-    margin-left: -6rem;
-  }
-    #slide-text-2{
-      font-size: 15px;
-      line-height: 30px;
-      font-family: Roboto;
-      font-weight: 700;
-      width: 90%;
-      margin-bottom: 30rem;
-    }
-    .text-div{
-      display: none;
-       }  
-
-    /* SLIDE 3 */
-    .swiper-div-3 :first-child{
-      z-index: -1;
-      object-fit: contain;
-      position: absolute;
-      top: -44%;
-      right: 20px;
-      width: 75%;
-      height: 850px;
-    }
-
-    .swiper-div-3 :last-child{
-      margin-left:20%;
-      margin-top: 7%;
-      width: 45%;
-      object-fit: contain;
-    }
-
-    #slide-button-3{
-      position: absolute;
-      top: 55%;
-      left: 40%;
-      transform: translate(-50%,-50%);
-    }
-
-    .slide-title{
-      display: none;
-    }
-
-    #slide-3{
-      position: absolute;
-      font-family: Roboto;
-      font-weight: 700;
-      top: 23%;
-      left: 100%;
-      transform: translate(-50%,-50%);
-      width: 100%;
-    }
-
-    #slide-3 ul {
-      list-style: none;
-    }
-    .text-div{
-      display: none;
-       }  
-
-    /* SLIDE 4 */
-    .swiper-div-4 :first-child{
-      z-index: -1;
-      object-fit: contain;
-      /* position: absolute; */
-      top: -52%;
-      right: 50px;
-      width: 88%;
-      height: 950px;
-    }
-
-    .swiper-div-4 :last-child{
-      margin-top: -1%;
-      margin-left:10%;
-      width: 85%;
-      object-fit: contain;
-    }
-    .text-div{
-      display: none;
-       }  
-    /* SLIDE 5 */
-    .swiper-div-5 :first-child{
-      z-index: -1;
-      object-fit: contain;
-      position: absolute;
-      top: -35%;
-      right: 3rem;
-      width: 80%;
-      height: 850px;
-    }
-    .swiper-div-5 :last-child{
-      /* margin-left:10%; */
-      margin-top: 1%;
-      margin-left: 30% ;
-      width: 45%;
-      object-fit: contain;
-    }
-
- 
-    /* SLIDE 6 */
-
-    .swiper-div-6 :first-child{
-      position: absolute;
-      top: -3rem;
-      left: 4rem;
-      width: 55%;
-      object-fit: contain;
-    }
-    .swiper-div-6 :nth-child(2){
-      position: absolute;
-      top: 10rem;
-      right: 18rem;
-      width: 15%;
-    }
-    .swiper-div-6 :nth-child(3){
-      position: absolute;
-      top: 10rem;
-      right: 11rem;
-      width: 15%;
-      /* top: 2px; */
-    }
-    .swiper-div-6 :nth-child(4){
-      top: 10rem;
-      position: absolute;
-      right: 4rem;
-      width: 20%;
-    }
-     .swiper-div-6 :nth-child(5){
-      position: absolute;
-      right: 15rem;
-      top: 15rem;
-      width: 35%;
-    }
-    .swiper-div-6 :nth-child(6){
-      position: absolute;
-      top: 16rem;
-      right: 10rem;
-      width: 25%;
-    }
-    .swiper-div-6 :nth-child(7){
-      position: absolute;
-      top: 22rem;
-      right: 4rem;
-      width: 35%;
-    }
-    .swiper-div-6 :last-child{
-      position: absolute;
-      top: 15rem;
-      right: 3rem;
-      width: 25%;
-    }
-    .text-div{
-      display: none;
-    }  
-
-}
- 
- @media(max-width:321px){
-
-  .swiper-div :first-child {
+   /* SLIDE 5 */
+.swiper-div-5 :first-child{
     z-index: -1;
     object-fit: contain;
     position: absolute;
-    top: -50%;
-    right: 8px;
-    width: 95%;
-    height: 950px;
-  }
+    top: 15%;
+    right: -10%;
+    width: 80%;
+    height: 75%;
+   }
+.swiper-div-5 :last-child{
+    margin-left:10%;
+    margin-top: 3%;
+    width: 25%;
+    object-fit: contain;
+   }
+    /* SLIDE 6 */
+.swiper-div-6 :first-child{
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      width: 39%;
+      object-fit: contain;
+}
+.swiper-div-6 :nth-child(2){
+      position: absolute;
+      top: 12%;
+      right: 40%;
+      width: 9%;
+}
+.swiper-div-6 :nth-child(3){
+      position: absolute;
+      top: 12%;
+      right: 25%;
+      width: 9%;
+      /* top: 2px; */
+}
+.swiper-div-6 :nth-child(4){
+      position: absolute;
+      top: 10%;
+      right: 4%;
+      width: 12%;
+}
+.swiper-div-6 :nth-child(5){
+      position: absolute;
+      right: 25%;
+      top: 30%;
+      width: 25%;
+}
+.swiper-div-6 :nth-child(6){
+      position: absolute;
+      top: 30%;
+      right: 4%;
+      width: 17%;
+}
+.swiper-div-6 :nth-child(7){
+      position: absolute;
+      top: 65%;
+      right: 28%;
+      width: 20%;
+}
+.swiper-div-6 :last-child{
+      position: absolute;
+      top: 50%;
+      right: 3%;
+      width: 20%;
+}
+}
+
+@media(max-width:1025px) {
+.slide-title{
+  width: 100px;
+  font-size: 30px;
+  line-height: 43px;
+  font-family: Roboto;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.text-div{
+  position: absolute;
+  top: 45%;
+  left: 34%;
+  transform: translate(-50%,-50%);
+}
+.slide-text{
+  font-size: 30px;
+  line-height: 40px;
+  font-family: Roboto;
+  font-weight: 400;
+  width: 65%;
+
+}
+.slide-button{
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+}
+.prod-but-1{
+  font-size: 25px;
+  margin-top: 50%;
+}
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: -10%;
+  right: 50px;
+  width: 50%;
+  height: 700px;
+
+}
 
 .swiper-div :last-child{
+margin: 3%;
+width: 25%;
+object-fit: contain;
+}
+/* SLIDE 2 */
+.ekin-logo-swp{
   position: absolute;
-  top: 1rem;
-    left:-6rem;
-    width: 65%;
+  top: 5%;
+  right:65%;
+  width: 25%;
+  object-fit: contain;
+    }
+  .ekin-makina-swp{
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 0%;
+  right:-25%;
+  width: 110% ;
+  height: 110%;
+    }
+  
+
+/* SLIDE 3 */
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 50%;
+  height: 630px;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 2% 0 0 10%;
+  width: 22%;
+  object-fit: contain;
+  }
+
+/* SLIDE 4 */
+.swiper-div-4 :first-child {
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    /* display: flex; */
+    justify-content: flex-start;
+    width: 66%;
+    height: 680px;
+    }
+.swiper-div-4 :last-child{
+    margin: 0%;
+    width: 50%;
+    object-fit: contain;
+    }
+   /* SLIDE 5 */
+.swiper-div-5 :first-child{
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 15%;
+    right: -10%;
+    width: 80%;
+    height: 75%;
+   }
+.swiper-div-5 :last-child{
+    margin-left:10%;
+    margin-top: 3%;
+    width: 25%;
+    object-fit: contain;
+   }
+    /* SLIDE 6 */
+.swiper-div-6 :first-child{
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      width: 39%;
+      object-fit: contain;
+}
+.swiper-div-6 :nth-child(2){
+      position: absolute;
+      top: 12%;
+      right: 40%;
+      width: 9%;
+}
+.swiper-div-6 :nth-child(3){
+      position: absolute;
+      top: 12%;
+      right: 25%;
+      width: 9%;
+      /* top: 2px; */
+}
+.swiper-div-6 :nth-child(4){
+      position: absolute;
+      top: 10%;
+      right: 4%;
+      width: 12%;
+}
+.swiper-div-6 :nth-child(5){
+      position: absolute;
+      right: 25%;
+      top: 30%;
+      width: 25%;
+}
+.swiper-div-6 :nth-child(6){
+      position: absolute;
+      top: 30%;
+      right: 4%;
+      width: 17%;
+}
+.swiper-div-6 :nth-child(7){
+      position: absolute;
+      top: 65%;
+      right: 28%;
+      width: 20%;
+}
+.swiper-div-6 :last-child{
+      position: absolute;
+      top: 50%;
+      right: 3%;
+      width: 20%;
+}
+}
+
+@media(max-width:949px) {
+.slide-title{
+  width: 100px;
+  font-size: 30px;
+  line-height: 43px;
+  font-family: Roboto;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.text-div{
+  position: absolute;
+  top: 45%;
+  left: 34%;
+  transform: translate(-50%,-50%);
+}
+.slide-text{
+  font-size: 25px;
+  line-height: 40px;
+  font-family: Roboto;
+  font-weight: 400;
+  width: 65%;
+
+}
+.slide-button{
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+}
+.prod-but-1{
+  font-size: 25px;
+  margin-top: 50%;
+}
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: -10%;
+  right: 50px;
+  width: 50%;
+  height: 700px;
+
+}
+
+.swiper-div :last-child{
+margin: 3%;
+width: 25%;
+object-fit: contain;
+}
+/* SLIDE 2 */
+.ekin-logo-swp{
+  position: absolute;
+  top: 5%;
+  right:65%;
+  width: 25%;
+  object-fit: contain;
+    }
+  .ekin-makina-swp{
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 0%;
+  right:-25%;
+  width: 110% ;
+  height: 110%;
+    }
+  
+
+/* SLIDE 3 */
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 50%;
+  height: 630px;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 2% 0 0 10%;
+  width: 22%;
+  object-fit: contain;
+  }
+
+/* SLIDE 4 */
+.swiper-div-4 :first-child {
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    /* display: flex; */
+    justify-content: flex-start;
+    width: 66%;
+    height: 680px;
+    }
+.swiper-div-4 :last-child{
+    margin: 0%;
+    width: 50%;
+    object-fit: contain;
+    }
+   /* SLIDE 5 */
+.swiper-div-5 :first-child{
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 15%;
+    right: -10%;
+    width: 80%;
+    height: 75%;
+   }
+.swiper-div-5 :last-child{
+    margin-left:10%;
+    margin-top: 3%;
+    width: 25%;
+    object-fit: contain;
+   }
+    /* SLIDE 6 */
+.swiper-div-6 :first-child{
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      width: 39%;
+      object-fit: contain;
+}
+.swiper-div-6 :nth-child(2){
+      position: absolute;
+      top: 12%;
+      right: 40%;
+      width: 9%;
+}
+.swiper-div-6 :nth-child(3){
+      position: absolute;
+      top: 12%;
+      right: 25%;
+      width: 9%;
+      /* top: 2px; */
+}
+.swiper-div-6 :nth-child(4){
+      position: absolute;
+      top: 10%;
+      right: 4%;
+      width: 12%;
+}
+.swiper-div-6 :nth-child(5){
+      position: absolute;
+      right: 25%;
+      top: 30%;
+      width: 25%;
+}
+.swiper-div-6 :nth-child(6){
+      position: absolute;
+      top: 30%;
+      right: 4%;
+      width: 17%;
+}
+.swiper-div-6 :nth-child(7){
+      position: absolute;
+      top: 65%;
+      right: 28%;
+      width: 20%;
+}
+.swiper-div-6 :last-child{
+      position: absolute;
+      top: 50%;
+      right: 3%;
+      width: 20%;
+}
+}
+
+@media(max-width:836px) {
+.slide-title{
+  width: 100px;
+  font-size: 30px;
+  line-height: 43px;
+  font-family: Roboto;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.text-div{
+  position: absolute;
+  top: 45%;
+  left: 34%;
+  transform: translate(-50%,-50%);
+}
+.slide-text{
+  font-size: 25px;
+  line-height: 40px;
+  font-family: Roboto;
+  font-weight: 400;
+  width: 65%;
+
+}
+.slide-button{
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+}
+.prod-but-1{
+  font-size: 20px;
+  margin-top: 50%;
+}
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: -10%;
+  right: 50px;
+  width: 50%;
+  height: 700px;
+
+}
+
+.swiper-div :last-child{
+margin: 3%;
+width: 25%;
+object-fit: contain;
+}
+/* SLIDE 2 */
+.ekin-logo-swp{
+  position: absolute;
+  top: 5%;
+  right:65%;
+  width: 25%;
+  object-fit: contain;
+    }
+  .ekin-makina-swp{
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 0%;
+  right:-25%;
+  width: 110% ;
+  height: 110%;
+    }
+  
+
+/* SLIDE 3 */
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 50%;
+  height: 630px;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 2% 0 0 10%;
+  width: 22%;
+  object-fit: contain;
+  }
+
+/* SLIDE 4 */
+.swiper-div-4 :first-child {
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    /* display: flex; */
+    justify-content: flex-start;
+    width: 66%;
+    height: 680px;
+    }
+.swiper-div-4 :last-child{
+    margin: 0%;
+    width: 50%;
+    object-fit: contain;
+    }
+   /* SLIDE 5 */
+.swiper-div-5 :first-child{
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 15%;
+    right: -10%;
+    width: 80%;
+    height: 75%;
+   }
+.swiper-div-5 :last-child{
+    margin-left:10%;
+    margin-top: 3%;
+    width: 25%;
+    object-fit: contain;
+   }
+    /* SLIDE 6 */
+.swiper-div-6 :first-child{
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      width: 39%;
+      object-fit: contain;
+}
+.swiper-div-6 :nth-child(2){
+      position: absolute;
+      top: 12%;
+      right: 40%;
+      width: 9%;
+}
+.swiper-div-6 :nth-child(3){
+      position: absolute;
+      top: 12%;
+      right: 25%;
+      width: 9%;
+      /* top: 2px; */
+}
+.swiper-div-6 :nth-child(4){
+      position: absolute;
+      top: 10%;
+      right: 4%;
+      width: 12%;
+}
+.swiper-div-6 :nth-child(5){
+      position: absolute;
+      right: 25%;
+      top: 30%;
+      width: 25%;
+}
+.swiper-div-6 :nth-child(6){
+      position: absolute;
+      top: 30%;
+      right: 4%;
+      width: 17%;
+}
+.swiper-div-6 :nth-child(7){
+      position: absolute;
+      top: 65%;
+      right: 28%;
+      width: 20%;
+}
+.swiper-div-6 :last-child{
+      position: absolute;
+      top: 50%;
+      right: 3%;
+      width: 20%;
+}
+}
+
+@media(max-width:751px) {
+.slide-title{
+  width: 100px;
+  font-size: 30px;
+  line-height: 43px;
+  font-family: Roboto;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.text-div{
+  position: absolute;
+  top: 45%;
+  left: 34%;
+  transform: translate(-50%,-50%);
+}
+.slide-text{
+  font-size: 20px;
+  line-height: 40px;
+  font-family: Roboto;
+  font-weight: 400;
+  width: 65%;
+
+}
+.slide-button{
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+}
+.prod-but-1{
+  font-size: 20px;
+  margin-top: 50%;
+}
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: -10%;
+  right: 50px;
+  width: 50%;
+  height: 700px;
+
+}
+
+.swiper-div :last-child{
+margin: 3%;
+width: 45%;
+object-fit: contain;
+}
+/* SLIDE 2 */
+.ekin-logo-swp{
+  position: absolute;
+  top: 5%;
+  right:55%;
+  width: 35%;
+  object-fit: contain;
+    }
+  .ekin-makina-swp{
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 0%;
+  right:-15%;
+  width: 90% ;
+  height: 90%;
+    }
+  
+
+/* SLIDE 3 */
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 50%;
+  height: 630px;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 2% 0 0 10%;
+  width: 22%;
+  object-fit: contain;
+  }
+
+/* SLIDE 4 */
+.swiper-div-4 :first-child {
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    /* display: flex; */
+    justify-content: flex-start;
+    width: 66%;
+    height: 680px;
+    }
+.swiper-div-4 :last-child{
+    margin: 0%;
+    width: 50%;
+    object-fit: contain;
+    }
+   /* SLIDE 5 */
+.swiper-div-5 :first-child{
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 15%;
+    right: -10%;
+    width: 80%;
+    height: 75%;
+   }
+.swiper-div-5 :last-child{
+    margin-left:10%;
+    margin-top: 3%;
+    width: 25%;
+    object-fit: contain;
+   }
+    /* SLIDE 6 */
+.swiper-div-6 :first-child{
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      width: 39%;
+      object-fit: contain;
+}
+.swiper-div-6 :nth-child(2){
+      position: absolute;
+      top: 12%;
+      right: 40%;
+      width: 9%;
+}
+.swiper-div-6 :nth-child(3){
+      position: absolute;
+      top: 12%;
+      right: 25%;
+      width: 9%;
+      /* top: 2px; */
+}
+.swiper-div-6 :nth-child(4){
+      position: absolute;
+      top: 10%;
+      right: 4%;
+      width: 12%;
+}
+.swiper-div-6 :nth-child(5){
+      position: absolute;
+      right: 25%;
+      top: 30%;
+      width: 25%;
+}
+.swiper-div-6 :nth-child(6){
+      position: absolute;
+      top: 30%;
+      right: 4%;
+      width: 17%;
+}
+.swiper-div-6 :nth-child(7){
+      position: absolute;
+      top: 65%;
+      right: 28%;
+      width: 20%;
+}
+.swiper-div-6 :last-child{
+      position: absolute;
+      top: 50%;
+      right: 3%;
+      width: 20%;
+}
+}
+
+@media(max-width:641px) {
+.slide-title{
+  width: 100px;
+  font-size: 30px;
+  line-height: 43px;
+  font-family: Roboto;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.text-div{
+  position: absolute;
+  top: 40%;
+  left: 34%;
+  transform: translate(-50%,-50%);
+}
+.slide-text{
+  font-size: 20px;
+  line-height: 40px;
+  font-family: Roboto;
+  font-weight: 400;
+  width: 65%;
+
+}
+.slide-button{
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+}
+.prod-but-1{
+  font-size: 20px;
+  margin-top: 50%;
+}
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: -10%;
+  right: 50px;
+  width: 50%;
+  height: 700px;
+
+}
+
+.swiper-div :last-child{
+margin: 3%;
+width: 45%;
+object-fit: contain;
+}
+/* SLIDE 2 */
+.ekin-logo-swp{
+  position: absolute;
+  top: 5%;
+  right:55%;
+  width: 35%;
+  object-fit: contain;
+    }
+  .ekin-makina-swp{
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 0%;
+  right:-8%;
+  width: 80% ;
+  height: 80%;
+    }
+  
+
+/* SLIDE 3 */
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 50%;
+  height: 630px;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 2% 0 0 10%;
+  width: 22%;
+  object-fit: contain;
+  }
+
+/* SLIDE 4 */
+.swiper-div-4 :first-child {
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    /* display: flex; */
+    justify-content: flex-start;
+    width: 66%;
+    height: 680px;
+    }
+.swiper-div-4 :last-child{
+    margin: 0%;
+    width: 50%;
+    object-fit: contain;
+    }
+   /* SLIDE 5 */
+.swiper-div-5 :first-child{
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 15%;
+    right: -10%;
+    width: 80%;
+    height: 75%;
+   }
+.swiper-div-5 :last-child{
+    margin-left:10%;
+    margin-top: 3%;
+    width: 25%;
+    object-fit: contain;
+   }
+    /* SLIDE 6 */
+.swiper-div-6 :first-child{
+      position: absolute;
+      top: 20%;
+      left: 1%;
+      width: 49%;
+      object-fit: contain;
+}
+.swiper-div-6 :nth-child(2){
+      position: absolute;
+      top: 12%;
+      right: 40%;
+      width:12%;
+}
+.swiper-div-6 :nth-child(3){
+      position: absolute;
+      top: 12%;
+      right: 25%;
+      width: 12%;
+      /* top: 2px; */
+}
+.swiper-div-6 :nth-child(4){
+      position: absolute;
+      top: 10%;
+      right: 4%;
+      width: 17%;
+}
+.swiper-div-6 :nth-child(5){
+      position: absolute;
+      right: 25%;
+      top: 30%;
+      width: 30%;
+}
+.swiper-div-6 :nth-child(6){
+      position: absolute;
+      top: 30%;
+      right: 4%;
+      width: 22%;
+}
+.swiper-div-6 :nth-child(7){
+      position: absolute;
+      top: 65%;
+      right: 28%;
+      width: 25%;
+}
+.swiper-div-6 :last-child{
+      position: absolute;
+      top: 50%;
+      right: 3%;
+      width: 25%;
+}
+}
+
+@media(max-width:471px) {
+
+.text-div{
+  display: none;
+}
+
+.slide-button{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+}
+.prod-but-1{
+  font-size: 18px;
+  margin-top: 50%;
+}
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: -10%;
+  right: 0px;
+  width: 100%;
+  height: 700px;
+
+}
+
+.swiper-div :last-child{
+margin: 8%;
+width: 75%;
+object-fit: contain;
+}
+
+/* SLIDE 2 */
+.ekin-logo-swp{
+  position: absolute;
+  top: 18%;
+  right:48%;
+  width: 49%;
+  object-fit: contain;
+    }
+
+  .ekin-makina-swp{
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 0%;
+  right:0%;
+  width: 110% ;
+  height: 90%;
+    }
+  
+
+/* SLIDE 3 */
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 95%;
+  height: 80%;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 7% 0 0 30%;
+  width: 52%;
+  object-fit: contain;
+  }
+
+/* SLIDE 4 */
+.swiper-div-4 :first-child {
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: -5%;
+    right: 0px;
+    /* display: flex; */
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    }
+.swiper-div-4 :last-child{
+    margin: 0%;
+    width: 100%;
+    object-fit: contain;
+    }
+   /* SLIDE 5 */
+.swiper-div-5 :first-child{
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 13%;
+    right: 0%;
+    width: 100%;
+    height: 70%;
+   }
+.swiper-div-5 :last-child{
+    margin-left:25%;
+    margin-top: 0%;
+    width: 45%;
+    object-fit: contain;
+   }
+
+  /* SLIDE 6 */
+  .swiper-div-6 :first-child{
+    position: absolute;
+    top: -3rem;
+    left: 20%;
+    width: 55%;
     object-fit: contain;
   }
-
-  .text-div{
-    display: none;
-     }  
-
-  .prod-but-1{
-    font-size: 12px;
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    padding: 15px;
-    color: white;
-    background: linear-gradient(#0c41be, #000046); 
-    border: none;
-    border-radius: 15px;
-    margin-bottom: -8rem;
-    margin-left: -6rem;
+  .swiper-div-6 :nth-child(2){
+    position: absolute;
+    top: 27%;
+    right: 72%;
+    width: 18%;
   }
 
-   /* SLIDE 2 */
-
-   .swiper-div-2 :first-child{
-    width: 85%;
+  .swiper-div-6 :nth-child(3){
     position: absolute;
-    top: -1rem ;
-    left: 4rem;
+    top: 27%;
+    right: 50%;
+    width: 18%;
+    /* top: 2px; */
+  }
 
+  .swiper-div-6 :nth-child(4){
+    top: 27%;
+    position: absolute;
+    right: 6rem;
+    width: 23%;
+  }
+   .swiper-div-6 :nth-child(5){
+    position: absolute;
+    right: 60%;
+    top: 45%;
+    width: 40%;
+  }
+  .swiper-div-6 :nth-child(6){
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    width: 30%;
+  }
+  .swiper-div-6 :nth-child(7){
+    position: absolute;
+    top: 65%;
+    right: 30%;
+    width: 35%;
+  }
+  .swiper-div-6 :last-child{
+    position: absolute;
+    top: 40%;
+    right: 7%;
+    width: 32%;
+  }
+}
+
+@media(max-width:426px) {
+.text-div{
+  display: none;
+}
+
+.slide-button{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+}
+.prod-but-1{
+  font-size: 18px;
+  margin-top: 50%;
+}
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: -10%;
+  right: 0px;
+  width: 100%;
+  height: 700px;
+
+}
+
+.swiper-div :last-child{
+margin: 8%;
+width: 75%;
+object-fit: contain;
+}
+
+/* SLIDE 2 */
+.ekin-logo-swp{
+  position: absolute;
+  top: 18%;
+  right:48%;
+  width: 49%;
+  object-fit: contain;
+    }
+
+  .ekin-makina-swp{
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 0%;
+  right:0%;
+  width: 110% ;
+  height: 90%;
+    }
+  
+
+/* SLIDE 3 */
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 95%;
+  height: 80%;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 7% 0 0 30%;
+  width: 52%;
+  object-fit: contain;
+  }
+
+/* SLIDE 4 */
+.swiper-div-4 :first-child {
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: -5%;
+    right: 0px;
+    /* display: flex; */
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    }
+.swiper-div-4 :last-child{
+    margin: 0%;
+    width: 100%;
+    object-fit: contain;
+    }
+   /* SLIDE 5 */
+.swiper-div-5 :first-child{
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 13%;
+    right: 0%;
+    width: 100%;
+    height: 70%;
    }
-   .swiper-div-2 :last-child{
-    position: absolute;
-    left: 4rem;
-    top: 2rem;
+.swiper-div-5 :last-child{
+    margin-left:25%;
+    margin-top: 0%;
     width: 45%;
+    object-fit: contain;
    }
-    #sb-2{
-      position: absolute;
-      top: 48%;
-      left: 43%;
-      transform: translate(-50%,-50%);
-    }
-    #slide-text-2{
-      font-size: 15px;
-      line-height: 30px;
-      font-family: Roboto;
-      font-weight: 700;
-      width: 90%;
-      margin-bottom: 33rem;
-    }
-    .text-div{
-      display: none;
-       }  
 
-    /* SLIDE 3 */
-    .swiper-div-3 :first-child{
-      z-index: -1;
-      object-fit: contain;
-      position: absolute;
-      top: -48%;
-      right: 20px;
-      width: 75%;
-      height: 850px;
+  /* SLIDE 6 */
+  .swiper-div-6 :first-child{
+    position: absolute;
+    top: -3rem;
+    left: 20%;
+    width: 55%;
+    object-fit: contain;
+  }
+  .swiper-div-6 :nth-child(2){
+    position: absolute;
+    top: 27%;
+    right: 72%;
+    width: 18%;
+  }
+
+  .swiper-div-6 :nth-child(3){
+    position: absolute;
+    top: 27%;
+    right: 50%;
+    width: 18%;
+    /* top: 2px; */
+  }
+
+  .swiper-div-6 :nth-child(4){
+    top: 27%;
+    position: absolute;
+    right: 6rem;
+    width: 23%;
+  }
+   .swiper-div-6 :nth-child(5){
+    position: absolute;
+    right: 60%;
+    top: 45%;
+    width: 40%;
+  }
+  .swiper-div-6 :nth-child(6){
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    width: 30%;
+  }
+  .swiper-div-6 :nth-child(7){
+    position: absolute;
+    top: 65%;
+    right: 30%;
+    width: 35%;
+  }
+  .swiper-div-6 :last-child{
+    position: absolute;
+    top: 40%;
+    right: 7%;
+    width: 32%;
+  }
+}
+
+@media(max-width:376px) {
+.text-div{
+  display: none;
+}
+
+.slide-button{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+}
+.prod-but-1{
+  font-size: 16px;
+  margin-top: 50%;
+}
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: -10%;
+  right: 0px;
+  width: 100%;
+  height: 700px;
+
+}
+
+.swiper-div :last-child{
+margin: 8%;
+width: 75%;
+object-fit: contain;
+}
+
+/* SLIDE 2 */
+.ekin-logo-swp{
+  position: absolute;
+  top: 18%;
+  right:48%;
+  width: 49%;
+  object-fit: contain;
     }
 
-    .swiper-div-3 :last-child{
-      margin-left:20%;
-      margin-top: 7%;
-      width: 45%;
-      object-fit: contain;
+  .ekin-makina-swp{
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 0%;
+  right:0%;
+  width: 110% ;
+  height: 90%;
+    }
+  
+
+/* SLIDE 3 */
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 95%;
+  height: 80%;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 7% 0 0 30%;
+  width: 52%;
+  object-fit: contain;
+  }
+
+/* SLIDE 4 */
+.swiper-div-4 :first-child {
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: -5%;
+    right: 0px;
+    /* display: flex; */
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    }
+.swiper-div-4 :last-child{
+    margin: 0%;
+    width: 100%;
+    object-fit: contain;
+    }
+   /* SLIDE 5 */
+.swiper-div-5 :first-child{
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 13%;
+    right: 0%;
+    width: 100%;
+    height: 70%;
+   }
+.swiper-div-5 :last-child{
+    margin-left:25%;
+    margin-top: 0%;
+    width: 45%;
+    object-fit: contain;
+   }
+
+  /* SLIDE 6 */
+  .swiper-div-6 :first-child{
+    position: absolute;
+    top: -3rem;
+    left: 20%;
+    width: 55%;
+    object-fit: contain;
+  }
+  .swiper-div-6 :nth-child(2){
+    position: absolute;
+    top: 27%;
+    right: 72%;
+    width: 18%;
+  }
+
+  .swiper-div-6 :nth-child(3){
+    position: absolute;
+    top: 27%;
+    right: 50%;
+    width: 18%;
+    /* top: 2px; */
+  }
+
+  .swiper-div-6 :nth-child(4){
+    top: 27%;
+    position: absolute;
+    right: 6rem;
+    width: 23%;
+  }
+   .swiper-div-6 :nth-child(5){
+    position: absolute;
+    right: 60%;
+    top: 45%;
+    width: 40%;
+  }
+  .swiper-div-6 :nth-child(6){
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    width: 30%;
+  }
+  .swiper-div-6 :nth-child(7){
+    position: absolute;
+    top: 65%;
+    right: 30%;
+    width: 35%;
+  }
+  .swiper-div-6 :last-child{
+    position: absolute;
+    top: 40%;
+    right: 7%;
+    width: 32%;
+  }
+}
+
+@media(max-width:321px) {
+.text-div{
+  display: none;
+}
+
+.slide-button{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+}
+.prod-but-1{
+  font-size: 13px;
+  margin-top: 50%;
+}
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: -10%;
+  right: 0px;
+  width: 100%;
+  height: 700px;
+
+}
+
+.swiper-div :last-child{
+margin-left: 5%;
+margin-top: 20%;
+width: 90%;
+object-fit: contain;
+}
+
+/* SLIDE 2 */
+.ekin-logo-swp{
+  position: absolute;
+  top: 5%;
+  right:20%;
+  width: 70%;
+  object-fit: contain;
     }
 
-    .prod-but-1{
-      font-size: 12px;
-      display: flex;
-      gap: 5px;
-      align-items: center;
-      padding: 15px;
-      color: white;
-      background: linear-gradient(#0c41be, #000046); 
-      border: none;
-      border-radius: 15px;
-      margin-bottom: 3rem;
-      margin-left: -6rem;
+  .ekin-makina-swp{
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 0%;
+  right:-5%;
+  width: 120% ;
+  height: 100%;
     }
-    .slide-title{
-      display: none;
+  
+
+/* SLIDE 3 */
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 95%;
+  height: 80%;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 15% 0 0 15%;
+  width: 72%;
+  object-fit: contain;
+  }
+
+/* SLIDE 4 */
+.swiper-div-4 :first-child {
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: -5%;
+    right: 0px;
+    /* display: flex; */
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    }
+.swiper-div-4 :last-child{
+    margin-top: 10%;
+    width: 105%;
+    object-fit: contain;
+    }
+   /* SLIDE 5 */
+.swiper-div-5 :first-child{
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 13%;
+    right: 0%;
+    width: 100%;
+    height: 70%;
+   }
+.swiper-div-5 :last-child{
+    margin-left:10%;
+    margin-top: 5%;
+    width: 75%;
+    object-fit: contain;
+   }
+
+  /* SLIDE 6 */
+  .swiper-div-6 :first-child{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 55%;
+    object-fit: contain;
+  }
+  .swiper-div-6 :nth-child(2){
+    position: absolute;
+    top: 27%;
+    right: 72%;
+    width: 18%;
+  }
+
+  .swiper-div-6 :nth-child(3){
+    position: absolute;
+    top: 27%;
+    right: 50%;
+    width: 18%;
+    /* top: 2px; */
+  }
+
+  .swiper-div-6 :nth-child(4){
+    top: 27%;
+    position: absolute;
+    right: 15%;
+    width: 25%;
+  }
+   .swiper-div-6 :nth-child(5){
+    position: absolute;
+    right: 60%;
+    top: 45%;
+    width: 40%;
+  }
+  .swiper-div-6 :nth-child(6){
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    width: 30%;
+  }
+  .swiper-div-6 :nth-child(7){
+    position: absolute;
+    top: 65%;
+    right: 30%;
+    width: 35%;
+  }
+  .swiper-div-6 :last-child{
+    position: absolute;
+    top: 40%;
+    right: 7%;
+    width: 32%;
+  }
+}
+
+@media(max-width:281px) {
+.text-div{
+  display: none;
+}
+
+.slide-button{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+}
+.prod-but-1{
+  font-size: 13px;
+  margin-top: 50%;
+}
+
+.swiper-div :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: -10%;
+  right: 0px;
+  width: 100%;
+  height: 700px;
+
+}
+
+.swiper-div :last-child{
+margin-left: 5%;
+margin-top: 20%;
+width: 90%;
+object-fit: contain;
+}
+
+/* SLIDE 2 */
+.ekin-logo-swp{
+  position: absolute;
+  top: 5%;
+  right:20%;
+  width: 70%;
+  object-fit: contain;
     }
 
-    #slide-3{
-      position: absolute;
-      font-family: Roboto;
-      font-weight: 700;
-      top: 22%;
-      left: 118%;
-      transform: translate(-50%,-50%);
-      width: 100%;
+  .ekin-makina-swp{
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 0%;
+  right:-5%;
+  width: 120% ;
+  height: 100%;
     }
+  
 
-    #slide-3 ul {
-      list-style: none;
-    }
-    .text-div{
-      display: none;
-       }  
+/* SLIDE 3 */
+.swiper-div-3 :first-child {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  /* display: flex; */
+  justify-content: flex-start;
+  width: 95%;
+  height: 80%;
+}
+.swiper-div-3 :last-child{
+  /* position: absolute; */
+  margin: 15% 0 0 15%;
+  width: 72%;
+  object-fit: contain;
+  }
 
-    /* SLIDE 4 */
-    .swiper-div-4 :first-child{
-      z-index: -1;
-      object-fit: contain;
-      /* position: absolute; */
-      top: -52%;
-      right: 20px;
-      width: 83%;
-      height: 950px;
+/* SLIDE 4 */
+.swiper-div-4 :first-child {
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: -5%;
+    right: 0px;
+    /* display: flex; */
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
     }
+.swiper-div-4 :last-child{
+    margin-top: 10%;
+    width: 105%;
+    object-fit: contain;
+    }
+   /* SLIDE 5 */
+.swiper-div-5 :first-child{
+    z-index: -1;
+    object-fit: contain;
+    position: absolute;
+    top: 13%;
+    right: 0%;
+    width: 100%;
+    height: 70%;
+   }
+.swiper-div-5 :last-child{
+    margin-left:10%;
+    margin-top: 5%;
+    width: 75%;
+    object-fit: contain;
+   }
 
-    .swiper-div-4 :last-child{
-      margin-top: -1%;
-      margin-left:15%;
-      width: 85%;
-      object-fit: contain;
-    }
+  /* SLIDE 6 */
+  .swiper-div-6 :first-child{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 55%;
+    object-fit: contain;
+  }
+  .swiper-div-6 :nth-child(2){
+    position: absolute;
+    top: 27%;
+    right: 72%;
+    width: 18%;
+  }
 
-    #sb-4{
-      position: absolute;
-      top: 20rem;
-    }
-    .text-div{
-      display: none;
-       }  
+  .swiper-div-6 :nth-child(3){
+    position: absolute;
+    top: 27%;
+    right: 50%;
+    width: 18%;
+    /* top: 2px; */
+  }
 
-    /* SLIDE 5 */
-    .swiper-div-5 :first-child{
-      z-index: -1;
-      object-fit: contain;
-      position: absolute;
-      top: -41%;
-      right: 5px;
-      width: 80%;
-      height: 850px;
-    }
-    .swiper-div-5 :last-child{
-      /* margin-left:10%; */
-      margin-top: 1%;
-      margin-left: 30%;
-      width: 45%;
-      object-fit: contain;
-    }
-    #sb-3{
-      position: absolute;
-      top: 22rem;
-      left: 8.6rem;
-    }
-    .text-div{
-     display: none;
-      }  
- 
-    /* SLIDE 6 */
-    .swiper-div-6 :first-child{
-      position: absolute;
-      top: -2rem;
-      left: 4rem;
-      width: 65%;
-      object-fit: contain;
-    }
-    .swiper-div-6 :nth-child(2){
-      position: absolute;
-      top: 9rem;
-      right: 13rem;
-      width: 15%;
-    }
-    .swiper-div-6 :nth-child(3){
-      position: absolute;
-      top: 9rem;
-      right: 8rem;
-      width: 15%;
-      /* top: 2px; */
-    }
-    .swiper-div-6 :nth-child(4){
-      top: 9rem;
-      position: absolute;
-      right: 1rem;
-      width: 20%;
-    }
-     .swiper-div-6 :nth-child(5){
-      position: absolute;
-      right: 11rem;
-      top: 12rem;
-      width: 35%;
-    }
-    .swiper-div-6 :nth-child(6){
-      position: absolute;
-      top: 13rem;
-      right: 6rem;
-      width: 25%;
-    }
-    .swiper-div-6 :nth-child(7){
-      position: absolute;
-      top: 18rem;
-      right: 0rem;
-      width: 28%;
-    }
-    .swiper-div-6 :last-child{
-      position: absolute;
-      top: 12rem;
-      right: 0.5rem;
-      width: 25%;
-    }
-    .prod-but-1{
-      font-size: 15px;
-      display: flex;
-      gap: 5px;
-      align-items: center;
-      padding: 15px;
-      color: white;
-      background: linear-gradient(#0c41be, #000046); 
-      border: none;
-      border-radius: 15px;
-      margin-bottom: -8rem;
-      margin-left: -6rem;
-    }
+  .swiper-div-6 :nth-child(4){
+    top: 27%;
+    position: absolute;
+    right: 15%;
+    width: 25%;
+  }
+   .swiper-div-6 :nth-child(5){
+    position: absolute;
+    right: 60%;
+    top: 45%;
+    width: 40%;
+  }
+  .swiper-div-6 :nth-child(6){
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    width: 30%;
+  }
+  .swiper-div-6 :nth-child(7){
+    position: absolute;
+    top: 65%;
+    right: 30%;
+    width: 35%;
+  }
+  .swiper-div-6 :last-child{
+    position: absolute;
+    top: 40%;
+    right: 7%;
+    width: 32%;
+  }
 }
 
 

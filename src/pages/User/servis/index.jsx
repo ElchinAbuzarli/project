@@ -23,7 +23,7 @@ const Service = () => {
           </div>
        <div className='service-div'>
         <img className='service-img' id='service-1-img' src={service1} alt="" />
-        <p>
+        <p className='service-txt'>
         <b>LALETECH MMC</b> böyük əhəmiyyət verdiyi <b>texniki xidmət</b> sahəsində 
         mütəxəssis heyəti və təcrübəli işçiləri ilə <b>müştəri məmnuniyyətini</b> hər zaman ön planda tutur.
         <br />
@@ -35,7 +35,7 @@ const Service = () => {
         </p>
        </div>
        <div className='service-div-2'>
-        <p>
+        <p className='service-txt'>
          <b>Mexanika, Hidravlika, Elektrik və Elektronika,</b> Bir sözlə, <b>Injeksiyon  maşınında</b> lazım ola biləcək bütün məsələlərdə tam xidmət göstərmək qabiliyyətimiz
          bütün müştərilər tərəfindən təqdir olunur. Bu sahədə üzərimizə götürdüyümüz missiyanı ən uğurlu şəkildə yerinə yetirmək üçün bütün lazımi araşdırmaları
           <b> tam və əksiksiz</b> şəkildə həyata keçirməyə davam edirik.

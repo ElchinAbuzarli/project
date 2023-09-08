@@ -13,7 +13,7 @@ const About = () => {
       <div className='title'>
       <h1 className='about-title'>HAQQIMIZDA</h1>
       </div>
-      <h1 className='bizkimik'>BİZ KİMİK?</h1>
+      <h1 className='bizkimik' id='bizkimik'>BİZ KİMİK?</h1>
       <div className='about'>
         <p className='about-content'>
           LALETECH-MMC şirkəti olaraq fəaliyyətimiz dünyada inkişaf edən

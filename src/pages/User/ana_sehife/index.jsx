@@ -35,7 +35,7 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/pagination';
 import './styles.css';
-import { Autoplay,EffectFade,  Pagination } from 'swiper/modules';
+import { Autoplay,EffectFade,Pagination } from 'swiper/modules';
 
 
 const Home = () => {
@@ -255,7 +255,7 @@ const Home = () => {
 
           <div className='map'>
 
-        <img className='map-image' src={Map} alt="" />
+        <img className='map-image' src={Map} alt="MAP" />
       </div>
         </div>
 

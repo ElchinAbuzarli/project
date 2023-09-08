@@ -3,7 +3,6 @@
     font-family: Roboto;
     font-size: 42px;
     line-height: 38.4px;
-    height: 3vh;
     margin: 0 0 16px;
     font-weight: 600;
     width: 10%;
@@ -12,9 +11,7 @@
 .service-section{
     margin: 100px 0;
     display: flex;
-    // justify-content: space-around;
     align-items: center;
-    // width: 50%;
 }
 .service-div p{
     font-size: 16px;
@@ -85,11 +82,561 @@
     display: flex;
     justify-content: space-evenly;
 }
-@media(max-width:979px){
+
+    /* RESPONSIVES */
+    /* DESTKOP && LAPTOPS */
+    @media(max-width:3841px) {
+
+    }
+      
+  @media(max-width:2561px) {
+  
+    }
+      
+  @media(max-width:1921px) {
+  
+    }
+  
+      /* SMARTPHONES */
+  @media(max-width:1441px) {
+    .ekin-title{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        margin-left: 0px;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .service-title{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 38.4px;
+        margin: 0;
+        font-weight: 600;
+        width: 5%;
+        letter-spacing: 2px;
+    }
     .section-div{
         flex-direction: column;
         align-items: center;
         gap: 100px;
+        padding: 0 5px;
+    }
+    .service-div{
+        flex-direction: column;
+        padding: 0 200px;
+
+    }
+    .service-div-2{
+        flex-direction: column-reverse;
+        padding: 0 200px;
+
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+    }
+    .service-div p{
+        font-size: 25px;
+        font-family: Roboto;
+        line-height: 35.2px;
+        font-weight: 400;
+        width: 100%;
+        // border: 1px solid red;
+    
+    }
+    .service-div-2 p{
+        font-size: 25px;
+        font-family: Roboto;
+        line-height: 35.2px;
+        font-weight: 400;
+        width: 100%;
+    }
+    }
+    
+  @media(max-width:1242px) {
+    .ekin-title{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        margin-left: 0px;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .service-title{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 38.4px;
+        margin: 0;
+        font-weight: 600;
+        width: 5%;
+        letter-spacing: 2px;
+    }
+    .section-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0 5px;
+    }
+    .service-div{
+        flex-direction: column;
+        padding: 0 150px;
+
+    }
+    .service-div-2{
+        flex-direction: column-reverse;
+        padding: 0 150px;
+
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+    }
+    .service-div p{
+        font-size: 20px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+        // border: 1px solid red;
+    
+    }
+    .service-div-2 p{
+        font-size: 20px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+    }
+    }
+    
+  @media(max-width:1081px) {
+
+    .ekin-title{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        margin-left: 0px;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .service-title{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 38.4px;
+        margin: 0;
+        font-weight: 600;
+        width: 5%;
+        letter-spacing: 2px;
+    }
+    .section-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0 5px;
+    }
+    .service-div{
+        flex-direction: column;
+        padding: 0 150px;
+
+    }
+    .service-div-2{
+        flex-direction: column-reverse;
+        padding: 0 150px;
+
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+    }
+    .service-div p{
+        font-size: 20px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+        // border: 1px solid red;
+    
+    }
+    .service-div-2 p{
+        font-size: 20px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+    }
+    
+    }
+    
+  @media(max-width:1025px) {
+    .ekin-title{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        margin-left: 0px;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .service-title{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 38.4px;
+        margin: 0;
+        font-weight: 600;
+        width: 5%;
+        letter-spacing: 2px;
+    }
+    .section-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0 5px;
+    }
+    .service-div{
+        flex-direction: column;
+        padding: 0 100px;
+
+    }
+    .service-div-2{
+        flex-direction: column-reverse;
+        padding: 0 100px;
+
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+    }
+    .service-div p{
+        font-size: 20px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+        // border: 1px solid red;
+    
+    }
+    .service-div-2 p{
+        font-size: 20px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+    }
+    }
+    
+  @media(max-width:948px) {
+    .ekin-title{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        margin-left: 0px;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .service-title{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 38.4px;
+        margin: 0;
+        font-weight: 600;
+        width: 5%;
+        letter-spacing: 2px;
+    }
+    .section-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0 5px;
+    }
+    .service-div{
+        flex-direction: column;
+        padding: 0 100px;
+
+    }
+    .service-div-2{
+        flex-direction: column-reverse;
+        padding: 0 100px;
+
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+    }
+    .service-div p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+        // border: 1px solid red;
+    
+    }
+    .service-div-2 p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+    }
+    }
+    
+  @media(max-width:836px) {
+    .ekin-title{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        margin-left: 0px;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .service-title{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 38.4px;
+        margin: 0;
+        font-weight: 600;
+        width: 5%;
+        letter-spacing: 2px;
+    }
+    .section-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0 5px;
+    }
+    .service-div{
+        flex-direction: column;
+        padding: 0 50px;
+
+    }
+    .service-div-2{
+        flex-direction: column-reverse;
+        padding: 0 50px;
+
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+    }
+    .service-div p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+        // border: 1px solid red;
+    
+    }
+    .service-div-2 p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+    }
+    }
+    
+  @media(max-width:751px) {
+    .ekin-title{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        margin-left: 0px;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .service-title{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 38.4px;
+        margin: 0;
+        font-weight: 600;
+        width: 5%;
+        letter-spacing: 2px;
+    }
+    .section-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0 5px;
+    }
+    .service-div{
+        flex-direction: column;
+        padding: 0 50px;
+
+    }
+    .service-div-2{
+        flex-direction: column-reverse;
+        padding: 0 50px;
+
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+    }
+    .service-div p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+        // border: 1px solid red;
+    
+    }
+    .service-div-2 p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+    }
+    }
+    
+  @media(max-width:641px) {
+    .ekin-title{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        margin-left: 0px;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .service-title{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 38.4px;
+        margin: 0;
+        font-weight: 600;
+        width: 5%;
+        letter-spacing: 2px;
+    }
+    .section-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0 5px;
+    }
+    .service-div{
+        flex-direction: column;
+        padding: 0 20px;
+
+    }
+    .service-div-2{
+        flex-direction: column-reverse;
+        padding: 0 20px;
+
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+    }
+    .service-div p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+        // border: 1px solid red;
+    
+    }
+    .service-div-2 p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+    }
+    }
+    
+  @media(max-width:471px) {
+    .ekin-title{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        margin-left: 0px;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .service-title{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 38.4px;
+        margin: 0;
+        font-weight: 600;
+        width: 5%;
+        letter-spacing: 2px;
+    }
+    .section-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0 5px;
+    }
+    .service-div{
+        flex-direction: column;
+        padding: 0 20px;
+
+    }
+    .service-div-2{
+        flex-direction: column-reverse;
+        padding: 0 20px;
+
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+    }
+    .service-div p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+        // border: 1px solid red;
+    
+    }
+    .service-div-2 p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+    }
+    }
+    
+  @media(max-width:426px) {
+    .ekin-title{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        margin-left: 0px;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .service-title{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 38.4px;
+        margin: 0;
+        font-weight: 600;
+        width: 5%;
+        letter-spacing: 2px;
+    }
+    .section-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0 5px;
     }
     .service-div{
         flex-direction: column;
@@ -99,6 +646,205 @@
     }
     .service-img{
         width: 100%;
-        height: 40vh;
+        height: 100%;
     }
-}
+    .service-div p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+        // border: 1px solid red;
+    
+    }
+    .service-div-2 p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+    }
+    }
+    
+  @media(max-width:376px) {
+    .ekin-title{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        margin-left: 0px;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .service-title{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 38.4px;
+        margin: 0;
+        font-weight: 600;
+        width: 5%;
+        letter-spacing: 2px;
+    }
+    .section-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0 5px;
+    }
+    .service-div{
+        flex-direction: column;
+    }
+    .service-div-2{
+        flex-direction: column-reverse;
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+    }
+    .service-div p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+        // border: 1px solid red;
+    
+    }
+    .service-div-2 p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+    }
+    }
+    
+  @media(max-width:321px) {
+    .ekin-title{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        margin-left: 0px;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .service-title{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 38.4px;
+        margin: 0;
+        font-weight: 600;
+        width: 5%;
+        letter-spacing: 2px;
+    }
+    .section-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0 5px;
+    }
+    .service-div{
+        flex-direction: column;
+    }
+    .service-div-2{
+        flex-direction: column-reverse;
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+    }
+    .service-div p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+        // border: 1px solid red;
+    
+    }
+    .service-div-2 p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+    }
+    }
+    
+  @media(max-width:281px) {
+    .ekin-title{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        margin-left: 0px;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .service-title{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 38.4px;
+        margin: 0;
+        font-weight: 600;
+        width: 5%;
+        letter-spacing: 2px;
+    }
+    .section-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0 5px;
+    }
+    .service-div{
+        flex-direction: column;
+    }
+    .service-div-2{
+        flex-direction: column-reverse;
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+    }
+    .service-div p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+        // border: 1px solid red;
+    
+    }
+    .service-div-2 p{
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 25.2px;
+        font-weight: 400;
+        width: 100%;
+    }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

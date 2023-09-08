@@ -28,8 +28,10 @@ const Xidmet = () => {
           <br />
            <b>Makina Qəlibi Qurğuları Ehtiyat Hissələrinin Təmini Və Servis</b>
          </li>
-        </ul>    
+        </ul>   
+        <div className='serv-img-div'>
         <img className='xidmet-img' src={servis} alt="" /> 
+        </div> 
         </div>
            <PRODUCTS/>
        </div>

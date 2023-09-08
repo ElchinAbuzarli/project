@@ -20,6 +20,7 @@
     align-items: center;
     transition: 0.5s;
     color: #A3A3A3;
+    object-fit: contain;
     // z-index: -1;
 
 }
@@ -28,6 +29,7 @@
     width: 100%;
     border-radius: 10px;
     object-fit: contain;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +37,6 @@
 }
 .prod-name{
     display: flex;
-    // margin: 0 auto;
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;

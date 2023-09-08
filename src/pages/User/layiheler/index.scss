@@ -297,6 +297,7 @@
         width: 40rem;
         display: flex;
         align-items: center;
+        object-fit: contain;
     }
 
     #project-image-1,#project-image-3,#project-image-5,#project-image-7{
@@ -788,7 +789,9 @@
         object-fit: contain;
         // color: black;
     }
-
+    #project-image-1{
+        width: 100%;
+    }
     .project-content  {
         object-fit: contain;
         width:90%;
@@ -860,7 +863,9 @@
         object-fit: contain;
         // color: black;
     }
-
+    #project-image-1{
+        width: 100%;
+    }
     .project-content  {
         object-fit: contain;
         width:90%;
@@ -931,6 +936,9 @@
         justify-content: center;
         object-fit: contain;
         // color: black;
+    }
+    #project-image-1{
+        width: 100%;
     }
 
     .project-content  {
@@ -1037,6 +1045,9 @@
     .project-image{
         width: 100%;
     }
+    #project-image-1{
+        width: 100%;
+    }
 
     .projects-content  p{
         font-size: 16px;
@@ -1106,6 +1117,9 @@
     }
 
     .project-image{
+        width: 100%;
+    }
+    #project-image-1{
         width: 100%;
     }
 

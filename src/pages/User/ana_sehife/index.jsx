@@ -61,7 +61,7 @@ const Home = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[EffectFade,  Pagination]}
+        modules={[Autoplay, EffectFade,  Pagination]}
         className="mySwiper"
       >
         {/* SLIDE 1 */}
@@ -101,8 +101,8 @@ const Home = () => {
           </div>
           
           <div className='swiper-div-2'>
-          <img  src={image2} alt="" />
-          <img  src={EkinLogo} alt="" />
+          <img className='ekin-makina-swp' src={image2} alt="" />
+          <img className='ekin-logo-swp'  src={EkinLogo} alt="" />
           </div>
         </SwiperSlide>
 
@@ -206,41 +206,36 @@ const Home = () => {
       {/* INFO */}
       <div className='ltech-info'>
 
-      <Grid className='grid' container spacing={{ xs: 12, sm:6, md:4, lg:3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+      <Grid className='grid' container spacing={{ xs: 12, sm:6, md:4, lg:3 }}>
      
-       <Grid item xs={3}>
+       <Grid item lg={3}>
        <div className='info-content'>
         <FontAwesomeIcon className='fa-info' icon={faSitemap}/> 
         <h3 className='info-title'>MÜTƏXƏSSİS HEYƏTİ</h3>
-        <p className='info-text'>LALETECH MMC Expert 4 mühəndis və 10 texniki xidmət personalı ilə
-        <br />
-       xidmət göstərir.</p>
+        <p className='info-text'>LALETECH MMC Expert 4 mühəndis və 10 texniki xidmət personalı ilə xidmət göstərir.</p>
         </div>
        </Grid>
 
-       <Grid item xs={3}>
+       <Grid item lg={3}>
          <div className='info-content'>
            <FontAwesomeIcon className='fa-info' icon={faWrench}/> 
            <h3 className='info-title'>TEXNİKİ SERVİS</h3>
-           <p className='info-text'>LALETCH MMC təcrübəli  mütəxəssis heyəti ilə  24 saat aktiv texniki, mobil xidmət
-           <br />
-           göstərə bilər.</p>
+           <p className='info-text'>LALETCH MMC təcrübəli  mütəxəssis heyəti ilə  24 saat aktiv texniki, mobil xidmət göstərə bilər.</p>
          </div>
        </Grid>
 
-       <Grid item xs={3}>
+       <Grid item lg={3}>
          <div className='info-content'>
            <FontAwesomeIcon className='fa-info' icon={faQrcode}/> 
-           <h3 className='info-title'style={{'textAlign':'center'}}>STOKTAN MƏHSUL
-           TƏSLİMİ</h3>
+           <h3 className='info-title'style={{'textAlign':'center'}}>STOKTAN MƏHSUL TƏSLİMİ</h3>
            <p className='info-text'>LALETECH MMC inkişaf edən və dəyişən güclü məhsul çeşidi sayəsində məhsulları anbardan təhvil verə bilir.</p>
          </div>
        </Grid>  
 
-       <Grid item xs={3}>
+       <Grid item lg={3}>
          <div className='info-content'>
            <FontAwesomeIcon className='fa-info' icon={faGears}/> 
-           <h3 className='info-title'style={{'textAlign':'center'}}>KÖMƏKÇİ QURĞULARIN TƏMİNİ</h3>
+           <h3 className='info-title'style={{'textAlign':'center'}}>KÖMƏKÇİ QURĞULARIN  TƏMİNİ</h3>
            <p className='info-text'>LALETECH MMC idxal etdiyi bütün makina qrupları üçün böyük ehtiyat hissələri ehtiyatına malikdir.</p>
          </div>
        </Grid>

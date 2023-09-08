@@ -1489,7 +1489,95 @@
     }
 }
 
-
+@media(max-width:281px){
+    .contact-section{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .contact_us{
+        background: linear-gradient( #0c41be, #000046); 
+        border-radius: 30px;
+        width: 100% ;
+        height: 65vh;
+        display: flex;
+        object-fit: contain;
+    }
+    .contact-text{
+        text-align: start;
+    }
+    .contact_us ul li{
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 40px;
+        font-family: Roboto;
+        font-size: 12px;
+    }
+    .contact_us h5{
+        text-align: center;
+        font-family: Roboto;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+        font-weight: 600;
+    }
+    .faIcon{
+        font-size: 20px;
+        // line-height: 50px;
+        color: #08256a;
+        background-color: white;
+        border-radius: 50%;
+        padding: 15px;
+        transition: 0.5s;
+    
+    }
+    .faBadge{
+        font-size: 20px;
+        line-height: 20px;
+        color: #08256a;
+        background-color: white;
+        border-radius: 50%;
+        padding: 15px 20px;
+        transition: 0.5s;
+    }
+    .form{
+        width: 100%;
+        flex-direction: column;
+    }
+    .form-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-title{
+        font-family: Roboto;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        margin: 0 0 15px;
+        text-align: center;
+    }
+    .line{
+        border-bottom: 4px solid #0c41be;
+        border-radius: 10px;
+        width: 6rem;
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+    .form-content{
+        margin-top: 50px;
+        color:#565656;
+        font-family: Roboto;
+        font-size: 17px;
+        line-height: 25px;
+        letter-spacing: 0.2px;
+        font-weight: 700;
+        width: 90%;
+        text-align: center;
+    }
+}
 
 
 

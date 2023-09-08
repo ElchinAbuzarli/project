@@ -82,6 +82,21 @@
         // margin-left: 100px;
         margin-top: 100px;
     }
+    .atlas-card{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 19rem;
+        height: 45vh;
+        border-radius: 30px;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        color: #A3A3A3;
+    
+    }
 }
 // SMARTPHONES
 

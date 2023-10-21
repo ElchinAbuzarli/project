@@ -21,6 +21,7 @@ import Karaduman from './images/karadumanbg.png'
 import SeriLogo from './images/serimakinabg.png'
 import Soley from './images/soley-1.jpg'
 import LALETECH from './images/Logo.png'
+import Gear from './images/gear.png'
 
 
 
@@ -259,7 +260,8 @@ const Home = () => {
       </div>
         </div>
 
-      <div className='map-content'>
+        <div className='main-map'>
+        <div className='map-content'>
         <h1 className='map-title' style={{color:'black'}}>QURULAN AVADANLIQLARDAN BƏZİLƏRİ</h1>
         <div>
           <h1 className='pro-titles'>BAKI</h1>
@@ -335,9 +337,9 @@ const Home = () => {
           <li> XAMMAL VƏ ƏLAVƏ MƏHSULLARIN SATIŞI və.s </li>
         </ul>
         </div>
-
       </div>
-
+        {/* <img className='gear' src={Gear} alt="" /> */}
+        </div>
       </div>
 
     </section>

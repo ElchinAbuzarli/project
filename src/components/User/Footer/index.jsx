@@ -11,7 +11,8 @@ import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-
 
 const FOOTER = () => {
   return (
-    <section className='footer'>
+    <section className='main-foot' >
+      <div className='footer'>
       <div className='contact-foot'>
         <h3 className='contact_title'>Əlaqə Məlumatları</h3>
         <ul className='contact-txt'>
@@ -84,7 +85,13 @@ const FOOTER = () => {
         Biz LALETECH-MMC şirkəti olaraq Layihələndirmə,müasir texnologiyanın araşdırılması, qurulması, istehsal prosesinin düzgün idarə olunması, Xammal təminatı və servis həyata Keçirməkdəyik.
         </p>
       </div>
+
+      </div>
+      <div className='copyright'>
+          <p className='copyright-text'>Copyright © 2023 Laletech MMC. Created by <a style={{color:'red'}} href="https://www.linkedin.com/in/elchin-abuzarli-6769b427a/" target="_blank">Elchin Abuzarli</a></p>
+        </div>
     </section>
+
   )
 }
 

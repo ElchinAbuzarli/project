@@ -101,6 +101,23 @@
 color: white;
 }
 
+.copyright{
+    background-color: #222222;
+    width: 100%;
+    text-align: center;
+    object-fit: contain;
+}
+.copyright-text{
+color: #777777;
+font-family: Roboto;
+font-size: 14px;
+line-height: 27.3px;
+font-weight: 400;
+padding: 5px 0;
+
+
+}
+
 
 // RESPONSIVES
 //  DESTKOP && LAPTOPS
@@ -159,6 +176,7 @@ color: white;
     .footLink{
         font-size: 30px;
         line-height: 40px;
+
     }
 
     .foot-about-content{
@@ -168,7 +186,6 @@ color: white;
         font-weight: 400;
         color:white;
         line-height: 45px;
-        
         }
 }
 

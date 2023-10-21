@@ -147,6 +147,17 @@ justify-content: space-between;
    display: flex;
    flex-direction: column;
  }
+ .main-map{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  object-fit: contain;
+ }
+ .gear{
+  object-fit: contain;
+  display: flex;
+  justify-content: flex-end;
+ }
  .map-content{
    width: 70%;
  }

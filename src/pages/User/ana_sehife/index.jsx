@@ -338,7 +338,7 @@ const Home = () => {
         </ul>
         </div>
       </div>
-        {/* <img className='gear' src={Gear} alt="" /> */}
+        <img className='gear' src={Gear} alt="" />
         </div>
       </div>
 

@@ -1,89 +1,89 @@
 
 
 .slide-title{
-    width: 100px;
-    font-size: 43px;
-    line-height: 53px;
-    font-family: Roboto;
-    font-weight: 700;
-    padding-bottom: 20px;
+  width: 100px;
+  font-size: 43px;
+  line-height: 53px;
+  font-family: Roboto;
+  font-weight: 700;
+  padding-bottom: 20px;
 }
 
 .ltech-info{
-    width: 100%;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    padding-left:100px;
-    padding-right: 100px;
-    align-items: center;
-    margin-bottom: 100px;
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  padding-left:100px;
+  padding-right: 100px;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
 .fa-info{
-    font-size: 60px;
-    line-height: 50px;
-    color: #0c41be;
-    background-color: white;
-    border-radius: 50%;
-    padding: 25px;
-    transition: 0.5s;
+  font-size: 60px;
+  line-height: 50px;
+  color: #0c41be;
+  background-color: white;
+  border-radius: 50%;
+  padding: 25px;
+  transition: 0.5s;
 }
 
 .info-title{
-    font-family: Roboto;
-    font-size: 18px;
-    margin: 25px 0 0;
-    font-weight: 600;
-    margin-bottom: 20px;
+  font-family: Roboto;
+  font-size: 18px;
+  margin: 25px 0 0;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .info-content{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 text-align: center;
 width: 70%;
 }
 
 .grid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .slider-div{
-    display: flex;
-    justify-content: space-around;
-    // align-items: center;
+  display: flex;
+  justify-content: space-around;
+  // align-items: center;
 }
 .map{
-    display: flex;
-    flex-direction: column;
-    gap: 70px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
 }
 .map-title{
-    text-align: center;
-    font-family: Roboto;
-    color: #0C41BE;
-    font-size: 22px;
-    
+  text-align: center;
+  font-family: Roboto;
+  color: #0C41BE;
+  font-size: 22px;
+  
 }
 .map-image{
-    width: 100%;
-    object-fit: contain;
+  width: 100%;
+  object-fit: contain;
 }
 .map-content{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 30%;
-    font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 30%;
+  font-family: Roboto;
 }
 .map-div{
 display: flex;
@@ -91,198 +91,138 @@ flex-direction: column;
 justify-content: space-between;
 }
 .map-list{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    line-height: 25px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 25px;
+}
+.main-map{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .map-parent{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.gear{
+  width: 50%;
+object-fit: contain;
 }
 
-    /* RESPONSIVES */
-    /* DESTKOP && LAPTOPS */
-      
-  @media(max-width:2561px) {
-   // MAP
- .map-title{
-  text-align: center;
-  font-family: Roboto;
-  color: #0C41BE;
-  font-size: 28px;
-  line-height: 42px;
-  
+  /* RESPONSIVES */
+  /* DESTKOP && LAPTOPS */
+    
+@media(max-width:2561px) {
+ // MAP
+.map-title{
+text-align: center;
+font-family: Roboto;
+color: #0C41BE;
+font-size: 28px;
+line-height: 42px;
+
 }
 
-                 
+               
 .map-image{
-  width: 115%;
-  object-fit: contain;
+width: 115%;
+object-fit: contain;
 }
 .map-div{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin: 50px 0;
+gap: 50px;
+}
+  }
+    
+@media(max-width:1921px) { 
+// MAP
+.map-title{
+ text-align: center;
+ font-family: Roboto;
+ color: #0C41BE;
+ font-size: 28px;
+ line-height: 42px;
+ 
+}
+.map-parent{
  display: flex;
  flex-direction: column;
- justify-content: space-between;
- margin: 50px 0;
- gap: 50px;
- }
-    }
-      
-  @media(max-width:1921px) { 
- // MAP
- .map-title{
-   text-align: center;
-   font-family: Roboto;
-   color: #0C41BE;
-   font-size: 28px;
-   line-height: 42px;
-   
- }
- .map-parent{
-   display: flex;
-   flex-direction: column;
- }
- .main-map{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  object-fit: contain;
- }
- .gear{
-  object-fit: contain;
-  display: flex;
-  justify-content: flex-end;
- }
- .map-content{
-   width: 70%;
- }
-                  
- .map-image{
-   width: 100%;
-   object-fit: contain;
- }
- .map-div{
+}
+.main-map{
+display: flex;
+flex-direction: row;
+align-items: center;
+object-fit: contain;
+}
+.gear{
+object-fit: contain;
+display: flex;
+justify-content: flex-end;
+}
+.map-content{
+ width: 70%;
+}
+                
+.map-image{
+ width: 100%;
+ object-fit: contain;
+}
+.map-div{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin: 50px 0;
+gap: 50px;
+}
+  }
+
+    /* SMARTPHONES */
+@media(max-width:1441px) {
+  .map-title{
+    text-align: center;
+    font-family: Roboto;
+    color: #0C41BE;
+    font-size: 25px;
+    
+}
+.map-image{
+    width: 100%;
+    object-fit: contain;
+}
+.map-div{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 50px 0;
-  gap: 50px;
   }
-    }
+  }
   
-      /* SMARTPHONES */
-  @media(max-width:1441px) {
-    .map-title{
-      text-align: center;
-      font-family: Roboto;
-      color: #0C41BE;
-      font-size: 25px;
-      
-  }
-  .map-image{
-      width: 100%;
-      object-fit: contain;
-  }
-  .map-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    }
-    }
+@media(max-width:1242px) {
+  .map-title{
+    text-align: center;
+    font-family: Roboto;
+    color: #0C41BE;
+    font-size: 25px;
     
-  @media(max-width:1242px) {
-    .map-title{
-      text-align: center;
-      font-family: Roboto;
-      color: #0C41BE;
-      font-size: 25px;
-      
+}
+.map-image{
+    width: 100%;
+    object-fit: contain;
+}
+.map-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   }
-  .map-image{
-      width: 100%;
-      object-fit: contain;
   }
-  .map-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    }
-    }
-    
-  @media(max-width:1081px) {
-                    // INFO
-                    .ltech-info{
-                      width: 100%;
-                      margin-top: 100px;
-                      display: flex;
-                      justify-content: center;
-                      padding-left:30%;
-                      padding-right: 30%;
-                      align-items: center;
-                      margin-bottom: 100px;
-                  }
-                  
-                  .fa-info{
-                      font-size: 60px;
-                      line-height: 50px;
-                      color: #0c41be;
-                      background-color: white;
-                      border-radius: 50%;
-                      padding: 25px;
-                      transition: 0.5s;
-                  }
-                  
-                  .info-title{
-                      font-family: Roboto;
-                      font-size: 24px;
-                      margin: 25px 0 0;
-                      font-weight: 600;
-                      margin-bottom: 20px;
-                  }
-                  
-                  .info-content{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    text-align: center;
-                    width: 100%;
-                    font-size: 20px;
-                  }
-                
-                // MAP
-                .map-title{
-                  text-align: center;
-                  font-family: Roboto;
-                  color: #0C41BE;
-                  font-size: 28px;
-                  line-height: 42px;
-                  
-                }
-                .map-parent{
-                  display: flex;
-                  flex-direction: column;
-                }
-                .map-content{
-                  width: 70%;
-                }
-                  
-                .map-image{
-                  width: 100%;
-                  object-fit: contain;
-                }
-                .map-div{
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: space-between;
-                  }
-    }
-    
-  @media(max-width:1025px) {
+  
+@media(max-width:1081px) {
                   // INFO
                   .ltech-info{
                     width: 100%;
@@ -349,9 +289,9 @@ justify-content: space-between;
                 flex-direction: column;
                 justify-content: space-between;
                 }
-    }
-    
-  @media(max-width:948px) {
+  }
+  
+@media(max-width:1025px) {
                 // INFO
                 .ltech-info{
                   width: 100%;
@@ -376,7 +316,7 @@ justify-content: space-between;
               
               .info-title{
                   font-family: Roboto;
-                  font-size: 18px;
+                  font-size: 24px;
                   margin: 25px 0 0;
                   font-weight: 600;
                   margin-bottom: 20px;
@@ -389,7 +329,7 @@ justify-content: space-between;
                 align-items: center;
                 text-align: center;
                 width: 100%;
-                font-size: 14px;
+                font-size: 20px;
               }
             
             // MAP
@@ -397,8 +337,8 @@ justify-content: space-between;
               text-align: center;
               font-family: Roboto;
               color: #0C41BE;
-              font-size: 22px;
-              line-height: 32px;
+              font-size: 28px;
+              line-height: 42px;
               
             }
             .map-parent{
@@ -418,147 +358,150 @@ justify-content: space-between;
               flex-direction: column;
               justify-content: space-between;
               }
-    }
-    
-  @media(max-width:836px) {
-            // INFO
-            .ltech-info{
-              width: 100%;
-              margin-top: 100px;
+  }
+  
+@media(max-width:948px) {
+              // INFO
+              .ltech-info{
+                width: 100%;
+                margin-top: 100px;
+                display: flex;
+                justify-content: center;
+                padding-left:30%;
+                padding-right: 30%;
+                align-items: center;
+                margin-bottom: 100px;
+            }
+            
+            .fa-info{
+                font-size: 60px;
+                line-height: 50px;
+                color: #0c41be;
+                background-color: white;
+                border-radius: 50%;
+                padding: 25px;
+                transition: 0.5s;
+            }
+            
+            .info-title{
+                font-family: Roboto;
+                font-size: 18px;
+                margin: 25px 0 0;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+            
+            .info-content{
               display: flex;
+              flex-direction: column;
               justify-content: center;
-              padding-left:30%;
-              padding-right: 30%;
               align-items: center;
-              margin-bottom: 100px;
-          }
+              text-align: center;
+              width: 100%;
+              font-size: 14px;
+            }
           
-          .fa-info{
-              font-size: 60px;
-              line-height: 50px;
-              color: #0c41be;
-              background-color: white;
-              border-radius: 50%;
-              padding: 25px;
-              transition: 0.5s;
+          // MAP
+          .map-title{
+            text-align: center;
+            font-family: Roboto;
+            color: #0C41BE;
+            font-size: 22px;
+            line-height: 32px;
+            
           }
-          
-          .info-title{
-              font-family: Roboto;
-              font-size: 18px;
-              margin: 25px 0 0;
-              font-weight: 600;
-              margin-bottom: 20px;
-          }
-          
-          .info-content{
+          .map-parent{
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+          }
+          .map-content{
+            width: 70%;
+          }
+            
+          .map-image{
             width: 100%;
-            font-size: 14px;
+            object-fit: contain;
           }
-        
-        // MAP
-        .map-title{
-          text-align: center;
-          font-family: Roboto;
-          color: #0C41BE;
-          font-size: 18px;
-          line-height: 32px;
-          
-        }
-        .map-parent{
-          display: flex;
-          flex-direction: column;
-        }
-        .map-content{
-          width: 70%;
-        }
-          
-        .map-image{
-          width: 100%;
-          object-fit: contain;
-        }
-        .map-div{
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          }
-    }
-    
-  @media(max-width:751px) {
-            // INFO
-            .ltech-info{
-              width: 100%;
-              margin-top: 100px;
-              display: flex;
-              justify-content: center;
-              padding-left:100px;
-              padding-right: 100px;
-              align-items: center;
-              margin-bottom: 100px;
-          }
-          
-          .fa-info{
-              font-size: 60px;
-              line-height: 50px;
-              color: #0c41be;
-              background-color: white;
-              border-radius: 50%;
-              padding: 25px;
-              transition: 0.5s;
-          }
-          
-          .info-title{
-              font-family: Roboto;
-              font-size: 18px;
-              margin: 25px 0 0;
-              font-weight: 600;
-              margin-bottom: 20px;
-          }
-          
-          .info-content{
+          .map-div{
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
+            }
+  }
+  
+@media(max-width:836px) {
+          // INFO
+          .ltech-info{
+            width: 100%;
+            margin-top: 100px;
+            display: flex;
             justify-content: center;
+            padding-left:30%;
+            padding-right: 30%;
             align-items: center;
-            text-align: center;
-            width: 80%;
-            font-size: 14px;
-          }
+            margin-bottom: 100px;
+        }
         
-        // MAP
-        .map-title{
+        .fa-info{
+            font-size: 60px;
+            line-height: 50px;
+            color: #0c41be;
+            background-color: white;
+            border-radius: 50%;
+            padding: 25px;
+            transition: 0.5s;
+        }
+        
+        .info-title{
+            font-family: Roboto;
+            font-size: 18px;
+            margin: 25px 0 0;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .info-content{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
           text-align: center;
-          font-family: Roboto;
-          color: #0C41BE;
-          font-size: 18px;
-          line-height: 32px;
-          
-        }
-        .map-parent{
-          display: flex;
-          flex-direction: column;
-        }
-        .map-content{
-          width: 70%;
-        }
-          
-        .map-image{
           width: 100%;
-          object-fit: contain;
+          font-size: 14px;
         }
-        .map-div{
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          }
-    }
-    
-  @media(max-width:641px) {
+      
+      // MAP
+      .map-title{
+        text-align: center;
+        font-family: Roboto;
+        color: #0C41BE;
+        font-size: 18px;
+        line-height: 32px;
+        
+      }
+      .map-parent{
+        display: flex;
+        flex-direction: column;
+      }
+      .map-content{
+        width: 70%;
+      }
+        
+      .map-image{
+        width: 100%;
+        object-fit: contain;
+      }
+      .map-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
+  }
+  
+@media(max-width:751px) {
+  .gear{
+    display: none;
+  }
           // INFO
           .ltech-info{
             width: 100%;
@@ -613,6 +556,7 @@ justify-content: space-between;
         flex-direction: column;
       }
       .map-content{
+        margin:  0 auto;
         width: 70%;
       }
         
@@ -625,78 +569,82 @@ justify-content: space-between;
         flex-direction: column;
         justify-content: space-between;
         }
-    }
-    
-  @media(max-width:471px) {
-          // INFO
-          .ltech-info{
-            width: 100%;
-            margin-top: 100px;
-            display: flex;
-            justify-content: center;
-            padding-left:100px;
-            padding-right: 100px;
-            align-items: center;
-            margin-bottom: 100px;
-        }
-        
-        .fa-info{
-            font-size: 60px;
-            line-height: 50px;
-            color: #0c41be;
-            background-color: white;
-            border-radius: 50%;
-            padding: 25px;
-            transition: 0.5s;
-        }
-        
-        .info-title{
-            font-family: Roboto;
-            font-size: 18px;
-            margin: 25px 0 0;
-            font-weight: 600;
-            margin-bottom: 20px;
-        }
-        
-        .info-content{
+  }
+  
+@media(max-width:641px) {
+  .gear{
+    display: none;
+  }
+        // INFO
+        .ltech-info{
+          width: 100%;
+          margin-top: 100px;
           display: flex;
-          flex-direction: column;
           justify-content: center;
+          padding-left:100px;
+          padding-right: 100px;
           align-items: center;
-          text-align: center;
-          width: 95%;
-          font-size: 14px;
-        }
+          margin-bottom: 100px;
+      }
       
-      // MAP
-      .map-title{
+      .fa-info{
+          font-size: 60px;
+          line-height: 50px;
+          color: #0c41be;
+          background-color: white;
+          border-radius: 50%;
+          padding: 25px;
+          transition: 0.5s;
+      }
+      
+      .info-title{
+          font-family: Roboto;
+          font-size: 18px;
+          margin: 25px 0 0;
+          font-weight: 600;
+          margin-bottom: 20px;
+      }
+      
+      .info-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        font-family: Roboto;
-        color: #0C41BE;
-        font-size: 18px;
-        line-height: 32px;
-        
+        width: 80%;
+        font-size: 14px;
       }
-      .map-parent{
-        display: flex;
-        flex-direction: column;
-      }
-      .map-content{
-        width: 70%;
-      }
-        
-      .map-image{
-        width: 100%;
-        object-fit: contain;
-      }
-      .map-div{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        }
-    }
     
-  @media(max-width:426px) {
+    // MAP
+    .map-title{
+      text-align: center;
+      font-family: Roboto;
+      color: #0C41BE;
+      font-size: 18px;
+      line-height: 32px;
+      
+    }
+    .map-parent{
+      display: flex;
+      flex-direction: column;
+    }
+    .map-content{
+      width: 70%;
+      margin:  0 auto;
+    }
+      
+    .map-image{
+      width: 100%;
+      object-fit: contain;
+    }
+    .map-div{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      }
+  }
+  
+@media(max-width:471px) {
         // INFO
         .ltech-info{
           width: 100%;
@@ -751,6 +699,7 @@ justify-content: space-between;
       flex-direction: column;
     }
     .map-content{
+      margin:  0 auto;
       width: 70%;
     }
       
@@ -763,78 +712,85 @@ justify-content: space-between;
       flex-direction: column;
       justify-content: space-between;
       }
-    }
-    
-  @media(max-width:376px) {
-        // INFO
-        .ltech-info{
-          width: 100%;
-          margin-top: 100px;
-          display: flex;
-          justify-content: center;
-          padding-left:0;
-          padding-right: 0;
-          align-items: center;
-          margin-bottom: 100px;
-      }
-      
-      .fa-info{
-          font-size: 60px;
-          line-height: 50px;
-          color: #0c41be;
-          background-color: white;
-          border-radius: 50%;
-          padding: 25px;
-          transition: 0.5s;
-      }
-      
-      .info-title{
-          font-family: Roboto;
-          font-size: 18px;
-          margin: 25px 0 0;
-          font-weight: 600;
-          margin-bottom: 20px;
-      }
-      
-      .info-content{
+  }
+  
+@media(max-width:426px) {
+  .gear{
+    display: none;
+  }
+      // INFO
+      .ltech-info{
+        width: 100%;
+        margin-top: 100px;
         display: flex;
-        flex-direction: column;
         justify-content: center;
+        padding-left:100px;
+        padding-right: 100px;
         align-items: center;
-        text-align: center;
-        width: 95%;
-        font-size: 14px;
-      }
+        margin-bottom: 100px;
+    }
     
-    // MAP
-    .map-title{
+    .fa-info{
+        font-size: 60px;
+        line-height: 50px;
+        color: #0c41be;
+        background-color: white;
+        border-radius: 50%;
+        padding: 25px;
+        transition: 0.5s;
+    }
+    
+    .info-title{
+        font-family: Roboto;
+        font-size: 18px;
+        margin: 25px 0 0;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    
+    .info-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
-      font-family: Roboto;
-      color: #0C41BE;
-      font-size: 18px;
-      line-height: 32px;
-      
+      width: 95%;
+      font-size: 14px;
     }
-    .map-parent{
-      display: flex;
-      flex-direction: column;
-    }
-    .map-content{
-      width: 70%;
-    }
-      
-    .map-image{
-      width: 100%;
-      object-fit: contain;
-    }
-    .map-div{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      }
-    }
+  
+  // MAP
+  .map-title{
+    text-align: center;
+    font-family: Roboto;
+    color: #0C41BE;
+    font-size: 18px;
+    line-height: 32px;
     
-  @media(max-width:321px) {
+  }
+  .map-parent{
+    display: flex;
+    flex-direction: column;
+  }
+  .map-content{
+    margin: 0 auto;
+    width: 70%;
+  }
+    
+  .map-image{
+    width: 100%;
+    object-fit: contain;
+  }
+  .map-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+  }
+  
+@media(max-width:376px) {
+  .gear{
+    display: none;
+  }
       // INFO
       .ltech-info{
         width: 100%;
@@ -890,6 +846,8 @@ justify-content: space-between;
   }
   .map-content{
     width: 70%;
+    margin:  0 auto;
+
   }
     
   .map-image{
@@ -901,9 +859,12 @@ justify-content: space-between;
     flex-direction: column;
     justify-content: space-between;
     }
-    }
-    
-  @media(max-width:281px) {
+  }
+  
+@media(max-width:321px) {
+  .gear{
+    display: none;
+  }
     // INFO
     .ltech-info{
       width: 100%;
@@ -949,7 +910,7 @@ justify-content: space-between;
   text-align: center;
   font-family: Roboto;
   color: #0C41BE;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 32px;
   
 }
@@ -958,6 +919,7 @@ justify-content: space-between;
   flex-direction: column;
 }
 .map-content{
+  margin:  0 auto;
   width: 70%;
 }
   
@@ -970,10 +932,82 @@ justify-content: space-between;
   flex-direction: column;
   justify-content: space-between;
   }
-
-    }
-    
+  }
   
+@media(max-width:281px) {
+  // INFO
+  .ltech-info{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-left:0;
+    padding-right: 0;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.fa-info{
+    font-size: 60px;
+    line-height: 50px;
+    color: #0c41be;
+    background-color: white;
+    border-radius: 50%;
+    padding: 25px;
+    transition: 0.5s;
+}
+
+.info-title{
+    font-family: Roboto;
+    font-size: 18px;
+    margin: 25px 0 0;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.info-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+  font-size: 14px;
+}
+
+// MAP
+.map-title{
+text-align: center;
+font-family: Roboto;
+color: #0C41BE;
+font-size: 16px;
+line-height: 32px;
+
+}
+.map-parent{
+display: flex;
+flex-direction: column;
+}
+.map-content{
+  margin:  0 auto;
+width: 70%;
+}
+
+.map-image{
+width: 100%;
+object-fit: contain;
+}
+.map-div{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.gear{
+  display: none;
+}
+  }
+  
+
 
 
 

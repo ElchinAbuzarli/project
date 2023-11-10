@@ -10,10 +10,14 @@ import { faBars, faEnvelope, faLocationDot, faPhone, faXmark, } from '@fortaweso
 import LALETECH from './images/Logo.png'
 import LALETECH_WHITE from './images/whiteLogo.png'
 
-import { useState } from 'react';
+import { useState,useRef } from 'react';
 
 const USERNAVBAR = () => {
-  const [isMobile, setIsMobile]=useState(false)
+  const navRef = useRef()
+
+  const showNavbar = ()=>{
+    navRef.current.classList.toggle("responsive_nav");
+  }
   return (
     <>
       {/* NAVBAR HEADING */}
@@ -48,51 +52,52 @@ const USERNAVBAR = () => {
 
       </div>
 
-      <div className='nav_main'>
-                {/* LOGO */}
-                <div className='main-logo-img' > 
-                <Link to='/'><img className='logo' src={LALETECH_WHITE} alt="LALETECH" /></Link>
-                </div>
-        {/* MENU */}
-        {/* COMPONENTS */}
-          <ul className={isMobile? "nav_links_mobile":"nav_links"}
-          onClick={()=> setIsMobile(false)}
-          >
+  {/* NAV MAIN */}
+  <header style={{zIndex:'999'}}>
+        <Link to='/'><img className='logos' src={LALETECH_WHITE} alt="LALETECH" /></Link>
+        <nav ref={navRef}>
+        <img className='logos2' src={LALETECH_WHITE} alt="LALETECH" />
+
+        <ul className='nav-list' onClick={()=>window.scrollTo(0, 0)}>
             <li>
-              <Link onClick={()=>window.scrollTo(0, 0)}  className='link' to='/'>Ana Səhifə</Link>
+              <Link onClick={showNavbar}  className='link' to='/'>Ana Səhifə</Link>
             </li>
             <li>
-              <Link onClick={()=>window.scrollTo(0, 0)}  className='link' to='/about'>Haqqımızda</Link>
+              <Link onClick={showNavbar}  className='link' to='/about'>Haqqımızda</Link>
             </li>
             <li>
-              <Link onClick={()=>window.scrollTo(0, 0)}  className='link' to='/references'>Referanslar</Link>
+              <Link onClick={showNavbar}  className='link' to='/references'>Referanslar</Link>
             </li>
             <li>
-              <Link onClick={()=>window.scrollTo(0, 0)}  className='link' to='/service'>Servis</Link>
+              <Link onClick={showNavbar}  className='link' to='/service'>Servis</Link>
+            </li>
+
+            <li>
+              <Link onClick={showNavbar}  className='link' to='/xidmet'>Xidmətlər</Link>
             </li>
             <li>
-              <Link onClick={()=>window.scrollTo(0, 0)}  className='link' to='/xidmet'>Xidmətlər</Link>
+              <Link onClick={showNavbar}  className='link' id='product' to='/products/ekin-makina'>Məhsullar</Link>
             </li>
             <li>
-              <Link onClick={()=>window.scrollTo(0, 0)}  className='link' id='product' to='/products/ekin-makina'>Məhsullar</Link>
+              <Link onClick={showNavbar}  className='link' to='projects'>Layihələr</Link>
             </li>
             <li>
-              <Link onClick={()=>window.scrollTo(0, 0)}  className='link' to='projects'>Layihələr</Link>
-            </li>
-            <li>
-              <Link onClick={()=>window.scrollTo(0, 0)}  className='link' to='contact'>Əlaqə</Link>
+              <Link onClick={showNavbar}  className='link' to='contact'>Əlaqə</Link>
             </li>
           </ul>
-          <button className='mobile_menu_icon'
-          onClick={()=>setIsMobile(!isMobile)}
-          >
-            { isMobile? (<FontAwesomeIcon icon={faXmark} />):(<FontAwesomeIcon icon={faBars} />) }
-            </button>
-            <div className='cont-2'>
-          <a className='social' href="https://www.facebook.com/profile.php?id=100094357220772&mibextid=ZbWKwL"><FacebookIcon style={{'color':'#A3A8B2'}}/></a>
-          <a className='social' href="https://instagram.com/laletech.mmc?igshid=MzRlODBiNWFlZA=="><InstagramIcon  style={{"color":'#A3A8B2'}}/></a>
-        </div>
-      </div>
+          <div className='social-div'>
+          <a className='social' target='_blank' href="https://www.facebook.com/profile.php?id=100094357220772&mibextid=ZbWKwL"><FacebookIcon style={{'color':'#A3A8B2'}}/></a>
+          <a className='social' target='_blank' href="https://instagram.com/laletech.mmc?igshid=MzRlODBiNWFlZA=="><InstagramIcon  style={{"color":'#A3A8B2'}}/></a>
+          </div>
+
+          <button className='nav-btn nav-close-btn' onClick={showNavbar}>
+            <FontAwesomeIcon icon={faXmark} />
+          </button>
+        </nav>
+        <button className='nav-btn' onClick={showNavbar}>
+          <FontAwesomeIcon icon={faBars} />
+        </button>
+      </header>
     </ >
   )
 }

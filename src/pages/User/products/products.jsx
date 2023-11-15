@@ -24,7 +24,7 @@ const PRODUCTS = () => {
           <Link onClick={()=>window.scrollTo(0, 0)} className='dropLink' to='/products/aweta'>AWETA | Çeşidləmə Makina</Link>
       </li>
       <li>
-          <Link onClick={()=>window.scrollTo(0, 0)} className='dropLink' to='/prducts/ceylift'> CEYLIFT | Avtokar və ElektroKar</Link>
+          <Link onClick={()=>window.scrollTo(0, 0)} className='dropLink' to='/products/ceylift'> CEYLIFT | Avtokar və ElektroKar</Link>
       </li>
       <li>
         <Link onClick={()=>window.scrollTo(0, 0)} className='dropLink' to='/products/karaduman-kalip'>KARADUMAN KALIP | Plastik yeşik qəlibləri</Link>

@@ -85,18 +85,19 @@ const USERNAVBAR = () => {
               <Link onClick={showNavbar}  className='link' to='contact'>Əlaqə</Link>
             </li>
           </ul>
-          <div className='social-div'>
-          <a className='social' target='_blank' href="https://www.facebook.com/profile.php?id=100094357220772&mibextid=ZbWKwL"><FacebookIcon style={{'color':'#A3A8B2'}}/></a>
-          <a className='social' target='_blank' href="https://instagram.com/laletech.mmc?igshid=MzRlODBiNWFlZA=="><InstagramIcon  style={{"color":'#A3A8B2'}}/></a>
-          </div>
 
           <button className='nav-btn nav-close-btn' onClick={showNavbar}>
             <FontAwesomeIcon icon={faXmark} />
           </button>
         </nav>
+        <div className='social-div'>
+          <a className='social' target='_blank' href="https://www.facebook.com/profile.php?id=100094357220772&mibextid=ZbWKwL"><FacebookIcon className='fbicon' style={{fontSize:'30px', marginRight:'5px'}}/></a>
+          <a className='social' target='_blank' href="https://instagram.com/laletech.mmc?igshid=MzRlODBiNWFlZA=="><InstagramIcon className='inicon' style={{fontSize:'30px'}}/></a>
+          </div>
         <button className='nav-btn' onClick={showNavbar}>
           <FontAwesomeIcon icon={faBars} />
         </button>
+        
       </header>
     </ >
   )

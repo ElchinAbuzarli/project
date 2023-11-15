@@ -17,13 +17,14 @@ section .title{
     // linear-gradient(rgba(46, 138, 251, 0.664), rgba(46, 138, 251, 0.664), rgba(46, 138, 251, 0.667), rgba(46, 138, 251, 0.667)),
 }
 .main-dir{
-    font-size: 25px !important;
+    font-size: 25px;
     margin-top: 15px;
 }
 .direction{
     margin-top: 10px;
 }
 .bizkimik{
+    font-size: 50px;
     display: flex;
     margin-left: 10rem;
     font-size: 20px;
@@ -50,11 +51,10 @@ p{
     flex-direction: column;
     gap: 5px;
     flex-wrap: wrap;
-    width: 25rem;
 }
 .about-title{
 letter-spacing: 2px;
-font-size: 66px !important;
+font-size: 66px ;
 font-family: Oswald;
 letter-spacing: 8px;
 font-weight: 700;
@@ -64,63 +64,17 @@ color:darkblue;
 .about{
     margin-top: 100px;
 }
-
-
+.bizkimik{
+    font-size: 50px;
+    display: flex;
+    margin-left: 10rem;
+}
 
 
 // RESPONSIVE DESIGN
-
-@media (max-width: 2561px){
-    section .title{
-        width: 100%;
-        padding: 60px 0;
-        margin-bottom: 30px;
-    }
-    .about-title{
-        letter-spacing: 2px;
-        font-size: 100px;
-        font-family: Oswald;
-        letter-spacing: 15px;
-        font-weight: 700;
-        color:darkblue;
-        text-align: center;
-
-
-        }
-
-    // BIZ KIMIK
-    .bizkimik{
-        display: flex;
-        margin-left: 27rem;
-        font-size: 80px;
-    }
-    .about{
-        object-fit: contain;
-        align-items: center;
-        justify-content: space-around;
-        gap: 100px;
-        font-size: 25px;
-
-
-    }
-    .about-content{
-        width: 50%;
-        padding: 0 5px;
-        line-height: 40px;
-
-    }
-    .about-list :last-child{
-        width: 20rem;
-    }
-    .main-dir{
-        font-size: 30px;
-        margin-top: 15px;
-    }
-   }
-    
-@media(max-width:1441px){
+/* SMARTPHONES */
+  @media(max-width:1441px){
         section .title{
-        background-image:url('./images/woodentable.jpg');
         background-color: #08256a ;
         background-size: cover;
         background-position: center center;
@@ -146,7 +100,6 @@ color:darkblue;
     // BIZ KIMIK
     .bizkimik{
         display: flex;
-        margin-left: 13rem;
         font-size: 60px;
     }
     .about{
@@ -160,7 +113,7 @@ color:darkblue;
         padding: 0 5px;
     }
     .about-list :last-child{
-        width: 15rem;
+        width: 100%;
     }
     .main-dir{
         font-size: 15px;
@@ -168,9 +121,57 @@ color:darkblue;
     }
     }
     
-@media(max-width:1025px){
+ @media(max-width:1025px){
+        section .title{
+            background-color: #08256a ;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+            width: 100%;
+            padding: 60px 0;
+            margin-bottom: 30px;
+        }
+        .about-title{
+            letter-spacing: 2px;
+            font-size: 70px;
+            font-family: Oswald;
+            letter-spacing: 10px;
+            font-weight: 700;
+            color:darkblue;
+            }
+    
+        // BIZ KIMIK
+        .bizkimik{
+            display: flex;
+            font-size: 60px;
+        }
+        .about{
+            object-fit: contain;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            font-size: 16px;
+    
+        }
+        .about-content{
+            padding: 0 20px;
+        }
+        .about-list :last-child{
+            width: 100%;
+        }
+        .main-dir{
+            font-size: 15px;
+            margin-top: 15px;
+        }
+    }
+    
+  @media(max-width:836px){
     section .title{
-        background-image:url('./images/woodentable.jpg');
         background-color: #08256a ;
         background-size: cover;
         background-position: center center;
@@ -197,48 +198,100 @@ color:darkblue;
     .bizkimik{
         display: flex;
         margin-left: 4rem;
+        font-size: 50px;
+    }
+    .about{
+        object-fit: contain;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        font-size: 16px;
+
+    }
+    .about-content{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .about-list :last-child{
+        width: 100%;
+    }
+    .main-dir{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    }
+    
+  @media(max-width:769px){
+        section .title{
+            background-color: #08256a ;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+            width: 100%;
+            padding: 60px 0;
+            margin-bottom: 30px;
+        }
+        .about-title{
+            letter-spacing: 2px;
+            font-size: 70px;
+            font-family: Oswald;
+            letter-spacing: 10px;
+            font-weight: 700;
+            color:darkblue;
+            }
+    
+        // BIZ KIMIK
+        .bizkimik{
+            display: flex;
+            margin-left: 4rem;
+            font-size: 50px;
+        }
+        .about{
+            object-fit: contain;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            font-size: 16px;
+    
+        }
+        .about-content{
+            width: 100%;
+            padding: 0 20px;
+        }
+        .about-list :last-child{
+            width: 100%;
+        }
+        .main-dir{
+            font-size: 15px;
+            margin-top: 15px;
+        }
+    }
+    
+  @media(max-width:471px){
+    section .title{
+        background-color: #08256a ;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        width: 100%;
+        padding: 60px 0;
+        margin-bottom: 30px;
+    }
+    .about-title{
+        letter-spacing: 2px;
         font-size: 60px;
-    }
-    .about{
-        object-fit: contain;
-        align-items: center;
-        justify-content: center;
-        gap: 100px;
-        font-size: 16px;
-
-    }
-    .about-content{
-        // width: 100%;
-        padding: 0 20px;
-    }
-    .about-list :last-child{
-        width: 15rem;
-    }
-    .main-dir{
-        font-size: 15px;
-        margin-top: 15px;
-    }
-    }
-    
-@media(max-width:769px){
-    section .title{
-        background-image:url('./images/woodentable.jpg');
-        background-color: #08256a ;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
-        width: 100%;
-        padding: 60px 0;
-        margin-bottom: 30px;
-    }
-    .about-title{
-        letter-spacing: 2px;
-        font-size: 70px;
         font-family: Oswald;
         letter-spacing: 10px;
         font-weight: 700;
@@ -248,7 +301,6 @@ color:darkblue;
     // BIZ KIMIK
     .bizkimik{
         display: flex;
-        margin-left: 4rem;
         font-size: 50px;
     }
     .about{
@@ -265,169 +317,214 @@ color:darkblue;
         padding: 0 20px;
     }
     .about-list :last-child{
-        width: 15rem;
+        width: 100%;
     }
     .main-dir{
         font-size: 15px;
         margin-top: 15px;
     }
+  
     }
     
-@media(max-width:426px){
-    section .title{
-        background-image:url('./images/woodentable.jpg');
-        background-color: #08256a ;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
-        width: 100%;
-        padding: 60px 0;
-        margin-bottom: 30px;
-    }
-    .about-title{
-        letter-spacing: 2px;
-        font-size: 50px;
-        font-family: Oswald;
-        letter-spacing: 10px;
-        font-weight: 700;
-        color:darkblue;
+  @media(max-width:426px){
+        section .title{
+            background-color: #08256a ;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+            width: 100%;
+            padding: 60px 0;
+            margin-bottom: 30px;
         }
-
-    // BIZ KIMIK
-    .bizkimik{
-        display: flex;
-        margin-left: 4rem;
-        font-size: 50px;
-    }
-    .about{
-        object-fit: contain;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 100px;
-        font-size: 16px;
-
-    }
-    .about-content{
-        width: 100%;
-        padding: 0 20px;
-    }
-    .about-list :last-child{
-        width: 15rem;
-    }
-    .main-dir{
-        font-size: 15px;
-        margin-top: 15px;
-    }
+        .about-title{
+            letter-spacing: 2px;
+            font-size: 50px;
+            font-family: Oswald;
+            letter-spacing: 10px;
+            font-weight: 700;
+            color:darkblue;
+            }
+    
+        // BIZ KIMIK
+        .bizkimik{
+            display: flex;
+            font-size: 50px;
+        }
+        .about{
+            object-fit: contain;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            font-size: 16px;
+    
+        }
+        .about-content{
+            width: 100%;
+            padding: 0 20px;
+        }
+        .about-list :last-child{
+            width: 100%;
+        }
+        .main-dir{
+            font-size: 15px;
+            margin-top: 15px;
+        }
     }
     
-@media(max-width:376px){
-    section .title{
-        background-image:url('./images/woodentable.jpg');
-        background-color: #08256a ;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        display: flex;
-        color: white;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
-        width: 100%;
-        padding: 60px 0;
-        margin-bottom: 30px;
-    }
-    .about-title{
-        letter-spacing: 2px;
-        font-size: 50px;
-        font-family: Oswald;
-        letter-spacing: 10px;
-        font-weight: 700;
-        color:darkblue;
+  @media(max-width:376px){
+        section .title{
+            background-color: #08256a ;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            color: white;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+            width: 100%;
+            padding: 60px 0;
+            margin-bottom: 30px;
         }
-
-    // BIZ KIMIK
-    .bizkimik{
-        display: flex;
-        margin-left: 4rem;
-        font-size: 50px;
-    }
-    .about{
-        object-fit: contain;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 100px;
-        font-size: 16px;
-
-    }
-    .about-content{
-        width: 100%;
-        padding: 0 20px;
-    }
-    .about-list :last-child{
-        width: 15rem;
-    }
-    .main-dir{
-        font-size: 15px;
-        margin-top: 15px;
-    }
+        .about-title{
+            letter-spacing: 2px;
+            font-size: 50px;
+            font-family: Oswald;
+            letter-spacing: 10px;
+            font-weight: 700;
+            color:darkblue;
+            }
+    
+        // BIZ KIMIK
+        .bizkimik{
+            display: flex;
+            font-size: 50px;
+        }
+        .about{
+            object-fit: contain;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            font-size: 16px;
+    
+        }
+        .about-content{
+            width: 100%;
+            padding: 0 20px;
+        }
+        .about-list :last-child{
+            width: 100%;
+        }
+        .main-dir{
+            font-size: 15px;
+            margin-top: 15px;
+        }
     }
     
-@media(max-width:320px){
+  @media(max-width:321px){
 
-    // ABOUT PAGE TITLE
-    section .title{
-        background-image:url('./images/woodentable.jpg');
-        background-color: #08256a ;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        display: flex;
-        color: white;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
-        width: 100%;
-        padding: 60px 0;
-        margin-bottom: 30px;
-    }
-    .about-title{
-        letter-spacing: 2px;
-        font-size: 40px;
-        font-family: Oswald;
-        letter-spacing: 8px;
-        font-weight: 700;
-        color:darkblue;
+        // ABOUT PAGE TITLE
+        section .title{
+            background-color: #08256a ;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            color: white;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+            width: 100%;
+            padding: 60px 0;
+            margin-bottom: 30px;
         }
-
-    // BIZ KIMIK
-    .bizkimik{
-        display: flex;
-        margin-left: 2rem;
-        font-size: 40px;
+        .about-title{
+            letter-spacing: 2px;
+            font-size: 50px;
+            font-family: Oswald;
+            letter-spacing: 5px;
+            font-weight: 700;
+            color:darkblue;
+            }
+    
+        // BIZ KIMIK
+        .bizkimik{
+            display: flex;
+            font-size: 40px;
+        }
+        .about{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            font-size: 16px;
+            width: 100%;
+        }
+        .about-content{
+            width: 100%;
+            padding: 0 20px;
+        }
+        .about-list :last-child{
+            width:100%;
+        }
+    
     }
-    .about{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 100px;
-        font-size: 16px;
-        width: 100%;
+    
+  @media(max-width:281px){
+          // ABOUT PAGE TITLE
+          section .title{
+            background-color: #08256a ;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            color: white;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+            width: 100%;
+            padding: 60px 0;
+            margin-bottom: 30px;
+        }
+        .about-title{
+            letter-spacing: 2px;
+            font-size: 40px;
+            font-family: Oswald;
+            letter-spacing: 5px;
+            font-weight: 700;
+            color:darkblue;
+            }
+    
+        // BIZ KIMIK
+        .bizkimik{
+            display: flex;
+            font-size: 40px;
+        }
+        .about{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            font-size: 16px;
+            width: 100%;
+        }
+        .about-content{
+            width: 90%;
+            padding:0;
+        }
+        .about-list :last-child{
+            width:100%;
+        }
     }
-    .about-content{
-        width: 100%;
-        padding: 0 20px;
-    }
-    .about-list :last-child{
-        width: 15rem;
-    }
-
-    }
+    
+    

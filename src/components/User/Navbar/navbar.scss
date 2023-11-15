@@ -41,6 +41,23 @@
     // color:#A3A8B2 ;
     font-size: 19.2px;
 }
+
+.fbicon{
+    color: white;
+    font-size: 30px;
+}
+.inicon{
+    color: white;
+    font-size: 30px;
+}
+.fbicon:hover{
+    color: skyblue;
+    transition: 0.5s ease-in-out;
+}
+.inicon:hover{
+    color: orangered;
+    transition: 0.5s ease-in-out;
+}
 .icon-div{
     border: 1px solid #08256a;
     border-radius: 50%;

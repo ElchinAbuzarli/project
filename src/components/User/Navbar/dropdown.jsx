@@ -23,7 +23,7 @@ const DropDownProduct = () => {
             <Link className='dropLink' to='cesitleme-makina'>Çeşidləmə Makina</Link>
         </li>
         <li>
-            <Link className='dropLink' to='avtokar-elektrokar'>Avtokar ElektroKar</Link>
+            <Link className='dropLink' to='/products/ceylift'>Avtokar ElektroKar</Link>
         </li>
         <li>
             <Link className='dropLink' to='yapisqan'>Karton Yapışqanı</Link>

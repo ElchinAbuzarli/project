@@ -7,11 +7,27 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { Button } from '@mui/material';
 
 
 const FOOTER = () => {
   return (
     <section className='main-foot' >
+      <div className='contact-us-foot'>
+      <div className='contact-us-foot-main'>
+        <div className='contact-us-contact'>
+        <div><FontAwesomeIcon className='phoneIcon' icon={faPhone}/><a style={{color:'white'}}></a></div>
+        <div className='contact-us-foot-content'>
+          <div><h4 className='foot-content-h4'>Suallarınız üçün Bizimlə Əlaqə Saxlayın.</h4></div>
+          <div className='foot-content-text'>Ən qısa zamanda mütəxəssis komandamızla sizə dəstək olaq.</div>
+        </div>
+        </div>
+        <div>
+        <Link onClick={()=>window.scrollTo(0, 0)} className='foot-content-link' to='contact'>Əlaqə</Link>
+
+        </div>
+      </div>
+      </div>
       <div className='footer'>
       <div className='contact-foot'>
         <h3 className='contact_title'>Əlaqə Məlumatları</h3>

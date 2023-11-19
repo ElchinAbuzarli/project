@@ -15,6 +15,68 @@
     object-fit: cover;
 }
 
+
+
+
+.contact-us-foot{
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contact-us-foot-main{
+    padding: 30px 0;
+}
+
+.phoneIcon{
+    font-size: 30px;
+    padding: 20px;
+    line-height: 60px;
+    border: 1px solid ;
+    border-radius: 50%;
+}
+.foot-content-h4{
+font-size: 22px;
+line-height: 30px;
+letter-spacing: 0.5px;
+font-weight: 600;
+font-family: Roboto;
+}
+.foot-content-text{
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.2px;
+    font-weight: 300;
+    font-family: Roboto;
+
+}
+.contact-us-contact{
+    display: flex;
+    gap: 20px;
+}
+.contact-us-foot-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.contact-us-foot-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot-content-link{
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    padding: 14px 100px;
+    font-weight: 500;
+    font-family: Roboto;
+}
+
+
 .contact-txt{
     // object-fit: contain;
 
@@ -425,6 +487,41 @@ padding: 5px 0;
         line-height: 30px;
 
     }
+                        // foot adding
+                        .contact-us-foot-main{
+                            flex-direction: column;
+                            gap: 50px;
+                        }
+                        .phoneIcon{
+                            font-size: 26px;
+                            padding: 20px;
+                            line-height: 60px;
+                            border: 1px solid ;
+                            border-radius: 50%;
+                        }
+                        .foot-content-h4{
+                        font-size: 22px;
+                        line-height: 30px;
+                        letter-spacing: 0.5px;
+                        font-weight: 600;
+                        font-family: Roboto;
+                        }
+                        .foot-content-text{
+                            font-size: 18px;
+                            line-height: 29px;
+                            letter-spacing: 0.2px;
+                            font-weight: 300;
+                            font-family: Roboto;
+                        
+                        }
+                        .contact-us-foot-content{
+                            flex-direction: column;
+                            gap: 20px;
+                        }
+                        .foot-content-link{
+                            font-size: 19px;
+                            padding: 14px 260px;
+                        }
 }
 
 @media(max-width:769px){
@@ -465,6 +562,44 @@ padding: 5px 0;
         line-height: 30px;
 
     }
+                        // foot adding
+                        .contact-us-foot-main{
+                            flex-direction: column;
+                            gap: 50px;
+                        }
+                        .phoneIcon{
+                            font-size: 26px;
+                            padding: 20px;
+                            line-height: 60px;
+                            border: 1px solid ;
+                            border-radius: 50%;
+                        }
+                        .foot-content-h4{
+                        font-size: 22px;
+                        line-height: 30px;
+                        letter-spacing: 0.5px;
+                        font-weight: 600;
+                        font-family: Roboto;
+                        }
+                        .foot-content-text{
+                            font-size: 18px;
+                            line-height: 29px;
+                            letter-spacing: 0.2px;
+                            font-weight: 300;
+                            font-family: Roboto;
+                        
+                        }
+                        .contact-us-foot-content{
+                            flex-direction: column;
+                            gap: 20px;
+                        }
+                        .foot-content-link{
+                            font-size: 19px;
+                            padding: 14px 260px;
+                        }
+    
+
+    
 }
 
 
@@ -506,6 +641,43 @@ padding: 5px 0;
         line-height: 30px;
 
     }
+
+
+                    // foot adding
+                    .contact-us-foot-main{
+                        flex-direction: column;
+                        gap: 50px;
+                    }
+                    .phoneIcon{
+                        font-size: 26px;
+                        padding: 20px;
+                        line-height: 60px;
+                        border: 1px solid ;
+                        border-radius: 50%;
+                    }
+                    .foot-content-h4{
+                    font-size: 22px;
+                    line-height: 30px;
+                    letter-spacing: 0.5px;
+                    font-weight: 600;
+                    font-family: Roboto;
+                    }
+                    .foot-content-text{
+                        font-size: 18px;
+                        line-height: 29px;
+                        letter-spacing: 0.2px;
+                        font-weight: 300;
+                        font-family: Roboto;
+                    
+                    }
+                    .contact-us-foot-content{
+                        flex-direction: column;
+                        gap: 20px;
+                    }
+                    .foot-content-link{
+                        font-size: 19px;
+                        padding: 14px 260px;
+                    }
 }
 
 @media(max-width:641px) {
@@ -546,6 +718,41 @@ padding: 5px 0;
         line-height: 30px;
 
     }
+                // foot adding
+                .contact-us-foot-main{
+                    flex-direction: column;
+                    gap: 50px;
+                }
+                .phoneIcon{
+                    font-size: 26px;
+                    padding: 20px;
+                    line-height: 60px;
+                    border: 1px solid ;
+                    border-radius: 50%;
+                }
+                .foot-content-h4{
+                font-size: 22px;
+                line-height: 30px;
+                letter-spacing: 0.5px;
+                font-weight: 600;
+                font-family: Roboto;
+                }
+                .foot-content-text{
+                    font-size: 18px;
+                    line-height: 29px;
+                    letter-spacing: 0.2px;
+                    font-weight: 300;
+                    font-family: Roboto;
+                
+                }
+                .contact-us-foot-content{
+                    flex-direction: column;
+                    gap: 20px;
+                }
+                .foot-content-link{
+                    font-size: 17px;
+                    padding: 14px 220px;
+                }
 }
 
 @media(max-width:471px){
@@ -586,6 +793,41 @@ padding: 5px 0;
         line-height: 30px;
 
     }
+            // foot adding
+            .contact-us-foot-main{
+                flex-direction: column;
+                gap: 50px;
+            }
+            .phoneIcon{
+                font-size: 24px;
+                padding: 20px;
+                line-height: 60px;
+                border: 1px solid ;
+                border-radius: 50%;
+            }
+            .foot-content-h4{
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+            font-family: Roboto;
+            }
+            .foot-content-text{
+                font-size: 16px;
+                line-height: 29px;
+                letter-spacing: 0.2px;
+                font-weight: 300;
+                font-family: Roboto;
+            
+            }
+            .contact-us-foot-content{
+                flex-direction: column;
+                gap: 20px;
+            }
+            .foot-content-link{
+                font-size: 17px;
+                padding: 14px 180px;
+            }
 }
 
 @media(max-width:426px){
@@ -626,6 +868,42 @@ padding: 5px 0;
         line-height: 30px;
 
     }
+
+        // foot adding
+        .contact-us-foot-main{
+            flex-direction: column;
+            gap: 50px;
+        }
+        .phoneIcon{
+            font-size: 20px;
+            padding: 20px;
+            line-height: 60px;
+            border: 1px solid ;
+            border-radius: 50%;
+        }
+        .foot-content-h4{
+        font-size: 19px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        font-family: Roboto;
+        }
+        .foot-content-text{
+            font-size: 16px;
+            line-height: 29px;
+            letter-spacing: 0.2px;
+            font-weight: 300;
+            font-family: Roboto;
+        
+        }
+        .contact-us-foot-content{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .foot-content-link{
+            font-size: 17px;
+            padding: 14px 160px;
+        }
 }
 
 @media(max-width:376px){
@@ -666,6 +944,43 @@ padding: 5px 0;
         line-height: 30px;
 
     }
+
+    // foot adding
+    .contact-us-foot-main{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .phoneIcon{
+        font-size: 20px;
+        padding: 20px;
+        line-height: 60px;
+        border: 1px solid ;
+        border-radius: 50%;
+    }
+    .foot-content-h4{
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-family: Roboto;
+    }
+    .foot-content-text{
+        font-size: 16px;
+        line-height: 29px;
+        letter-spacing: 0.2px;
+        font-weight: 300;
+        font-family: Roboto;
+    
+    }
+    .contact-us-foot-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .foot-content-link{
+        font-size: 17px;
+        padding: 14px 140px;
+    }
+
 }
 
 @media(max-width:321px){
@@ -706,6 +1021,42 @@ padding: 5px 0;
     .foot-about-content{
         line-height: 30px;
 
+    }
+    
+    // foot adding
+    .contact-us-foot-main{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .phoneIcon{
+        font-size: 20px;
+        padding: 20px;
+        line-height: 60px;
+        border: 1px solid ;
+        border-radius: 50%;
+    }
+    .foot-content-h4{
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-family: Roboto;
+    }
+    .foot-content-text{
+        font-size: 14px;
+        line-height: 29px;
+        letter-spacing: 0.2px;
+        font-weight: 300;
+        font-family: Roboto;
+    
+    }
+    .contact-us-foot-content{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .foot-content-link{
+        font-size: 15px;
+        padding: 14px 120px;
     }
 }
 

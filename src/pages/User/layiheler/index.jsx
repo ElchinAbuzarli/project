@@ -10,6 +10,8 @@ import Fiber from  './images/Fiber.jpg'
 import Serur from './images/serur.jpg'
 import Miran from './images/miran.jpg'
 import Siyezen from './images/siyezen.png'
+import Aweta from './assets/Aweta.mp4'
+import Ekin from './assets/Ekin.mp4'
 const Projects = () => {
   return (
     <section>
@@ -82,6 +84,27 @@ const Projects = () => {
             <h4 className='projects-title'>AZERSUN HOLDING MMC</h4>
             <h1>ÇÖRƏK ZAVODU</h1>
             <p>Azərbaycanda <b>Azersun Holding MMC</b> şirkətində dünya standartlarına cavab verən <b> Çörək Zavodunu </b> uğurla Çalışdıraraq təhvil verdik</p>
+          </div>
+        </div>
+
+                {/* PROJECT VIDEO */}
+                <div className='projects' id='project-4'>
+          <div className='projects-content'>
+            <h4> GRAND GARDEN</h4>
+            <h1>Aweta Çeşidləmə Makinası</h1>
+            <p>LALETECH MMC şirkəti olaraq qubada 3-cü layihəmizi həyata keçirdik qeyd edək ki <b>AWETA</b> demək olarki bütün məhsullar üçün çeşidləmə gücünə malikdir</p>
+          </div>
+          <div> <video className='project-image' id='project-image-4' src={Aweta} controls autoPlay loop muted /></div>
+        </div>
+
+
+                {/* PROJECT VIDEO */}
+                <div className='projects' id='project-5'>
+                <div> <video className='project-image' id='project-image-7' src={Ekin} controls autoPlay loop muted /></div>
+          <div className='projects-content'>
+            <h4 className='projects-title'>ŞƏMKİR</h4>
+            <h1>FIZIKI ŞƏXS</h1>
+            <p>Şəmkirdə dünya standartlarına cavab verən <b> EKİN MAKİNAMIZI </b> uğurla Çalışdıraraq təhvil verdik</p>
           </div>
         </div>
 

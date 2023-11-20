@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.social-div-responsive{
+    display: none;
+}
 
 // NAVBAR HEADING
 .nav_head{
@@ -130,7 +132,12 @@ header .nav-btn{
     display: none;
 }
 @media (max-width: 1024px){
-
+    .social-div{
+       display: none; 
+    }
+    .social-div-responsive{
+        display: flex;
+    }
     .logos{
         width:150px;
         object-fit: contain;        

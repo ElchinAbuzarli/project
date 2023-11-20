@@ -54,8 +54,13 @@ const USERNAVBAR = () => {
 
   {/* NAV MAIN */}
   <header style={{zIndex:'999'}}>
+  <div className='social-div-responsive'>
+          <a className='social' target='_blank' href="https://www.facebook.com/profile.php?id=100094357220772&mibextid=ZbWKwL"><FacebookIcon className='fbicon' style={{fontSize:'30px', marginRight:'5px'}}/></a>
+          <a className='social' target='_blank' href="https://instagram.com/laletech.mmc?igshid=MzRlODBiNWFlZA=="><InstagramIcon className='inicon' style={{fontSize:'30px'}}/></a>
+          </div>
         <Link to='/'><img className='logos' src={LALETECH_WHITE} alt="LALETECH" /></Link>
         <nav ref={navRef}>
+          
         <img className='logos2' src={LALETECH_WHITE} alt="LALETECH" />
 
         <ul className='nav-list' onClick={()=>window.scrollTo(0, 0)}>

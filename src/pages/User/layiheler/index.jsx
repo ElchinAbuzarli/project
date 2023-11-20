@@ -5,6 +5,11 @@ import CennetAqro from './images/banan.png'
 import Bio from './images/biommc.jpg'
 import TovuzAqro from './images/TovuzAqropark.jpg'
 import Naxcivan from './images/naxcivan.png'
+import Azersun from './images/azersun.png'
+import Fiber from  './images/Fiber.jpg'
+import Serur from './images/serur.jpg'
+import Miran from './images/miran.jpg'
+import Siyezen from './images/siyezen.png'
 const Projects = () => {
   return (
     <section>
@@ -70,9 +75,47 @@ const Projects = () => {
         </div>
 
 
+        {/* PROJECT 5 */}
+        <div className='projects' id='project-5'>
+          <div><img className='project-image' id='project-image-7' src={Azersun} alt="REGİONAL SOYUQ ANBARLAR" /></div>
+          <div className='projects-content'>
+            <h4 className='projects-title'>AZERSUN HOLDING MMC</h4>
+            <h1>ÇÖRƏK ZAVODU</h1>
+            <p>Azərbaycanda <b>Azersun Holding MMC</b> şirkətində dünya standartlarına cavab verən <b> Çörək Zavodunu </b> uğurla Çalışdıraraq təhvil verdik</p>
+          </div>
+        </div>
 
+        {/* PROJECT 6 */}
+        <div className='projects' id='project-6'>
+          <div className='projects-content'>
+            <h4> FIBER KARTON MMC</h4>
+            <h1>Viol,Karton qutu və Köşəbənd Avadanlığının Qurulması</h1>
+            <p> Azərbaycanda <b>FIBER KARTON MMC</b> şirkətində dünya standartlarına cavab verən <b> Viol | Karton qutu  və Köşəbənd</b> Makinasını uğurla Çalışdıraraq təhvil verdik</p>
+          </div>
+          <div> <img className='project-image' id='project-image-4' src={Fiber} alt="" /></div>
+        </div>
 
-        {/* PROJECT 7 */}
+                {/* PROJECT 7 */}
+                <div className='projects' id='project-5'>
+          <div><img className='project-image' id='project-image-7' src={Serur} alt="REGİONAL SOYUQ ANBARLAR" /></div>
+          <div className='projects-content'>
+            <h4 className='projects-title'>Şərur 3 MMC</h4>
+            <h1>Karton qutu və Kağız Klok makinasının qurulması</h1>
+            <p>Azərbaycanda <b>Şərur 3 MMC</b> şirkətində dünya standartlarına cavab verən <b> Karton qutu və Kağız Klok makinasını </b> uğurla Çalışdıraraq təhvil verdik</p>
+          </div>
+        </div>
+
+        {/* PROJECT 8 */}
+        <div className='projects' id='project-6'>
+          <div className='projects-content'>
+            <h4>MİRAN 19 ÇİYƏLƏK ŞİRKƏTİ</h4>
+            <h1>Plastik yeşik makinasının Qurulması </h1>
+            <p> Azərbaycanda <b>MİRAN 19</b> şirkətində dünya standartlarına cavab verən <b> Plastik yeşik</b> Makinasını uğurla Çalışdıraraq təhvil verdik</p>
+          </div>
+          <div> <img className='project-image' id='project-image-4' src={Miran} alt="" /></div>
+        </div>
+
+        {/* PROJECT 9 */}
         <div className='projects' id='project-7'>
           <div><img className='project-image' id='project-image-7' src={Naxcivan} alt="REGİONAL SOYUQ ANBARLAR" /></div>
           <div className='projects-content'>
@@ -81,6 +124,16 @@ const Projects = () => {
               SOYUQ ANBARLAR</h1>
             <p>Azərbaycanda <b>NAXÇIVANDA</b> dünya standartlarına cavab verən <b> SOYUDUCULARI </b> uğurla Çalışdıraraq təhvil verdik</p>
           </div>
+        </div>
+
+                {/* PROJECT 10 */}
+                <div className='projects' id='project-6'>
+          <div className='projects-content'>
+            <h4>SIYƏZƏN BROYLER ASC</h4>
+            <h1>Toyuq Kəsimxanası </h1>
+            <p> Azərbaycanda <b>Siyəzən Broyler</b> şirkətində dünya standartlarına cavab verən <b> TOYUQ KƏSİMXANASINI</b> uğurla təhvil verdik</p>
+          </div>
+          <div> <img className='project-image' id='project-image-4' src={Siyezen} alt="" /></div>
         </div>
 
        </div>

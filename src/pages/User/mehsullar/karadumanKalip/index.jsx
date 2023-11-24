@@ -4,14 +4,24 @@ import './index.scss'
 import karaduman from '../images/karadumanbg.png'
 import { useEffect, useState } from 'react'
 import { getAllKaradumanProducts } from '../../../../api/karadumanRequests'
+import HashLoader from 'react-spinners/HashLoader'
 
 const KaradumanKalip = () => {
   const [karadumanProducts,setKaradumanProducts]=useState()
-  useEffect(()=>{
-    getAllKaradumanProducts().then(res=>{
-      setKaradumanProducts(res);
-    })
-  },[setKaradumanProducts])
+  const [loading, setLoading] = useState(true); // Introduce loading state
+
+  useEffect(() => {
+    // Set loading to true when starting to fetch data
+    setLoading(true);
+    getAllKaradumanProducts()
+      .then((res) => {
+        setKaradumanProducts(res);
+      })
+      .finally(() => {
+        // Set loading to false when data fetching is complete
+        setLoading(false);
+      });
+  }, [setKaradumanProducts]);
 
   return (
     <section>
@@ -19,27 +29,37 @@ const KaradumanKalip = () => {
 
       <img style={{marginBottom:'100px' ,marginTop:'100px'}} className='karaduman-logo' src={karaduman} alt="" />
       
-      <div className='all-products' style={{marginBottom:'100px'}}>
-        <Grid className='grid' container spacing={{ xs: 12, sm:6, md:4, lg:3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-          {karadumanProducts && karadumanProducts.map((karadumanProduct)=>{
-            return  <Grid key={karadumanProduct._id} item lg={3}>
-          <a href={karadumanProduct.link}>
-          <div className='ekin-card'>
-            {/* <div className='ekin-child'>
-              <p> <span> 30 </span>ORION</p>
-              <p>yatay injeksion makinalari</p>
-            </div> */}
-            <img className='ekin-prod' src={karadumanProduct.imageURL} alt="" />
-            <p className='prod-name'><b>{karadumanProduct.name}</b></p>
-          </div>
-          </a>
-         </Grid>
-         })}
-        </Grid>
-      </div>
-
+      {loading ? (
+                <HashLoader
+                className='loading'
+                color={"#5DDAC9"}
+                loading={loading}
+                size={150}
+                aria-label="Loading Spinner"
+                data-testid="loader"
+              />
+      ) : (
+        <div className='all-products' style={{ marginBottom: '100px' }}>
+          <Grid className='grid' container spacing={{ xs: 12, sm: 6, md: 4, lg: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+            {karadumanProducts &&
+              karadumanProducts.map((karadumanProduct) => (
+                <Grid key={karadumanProduct._id} item lg={3}>
+                  {/* Karaduman Product Card */}
+                  <a href={karadumanProduct.link}>
+                    <div className='ekin-card'>
+                      {/* Product Image */}
+                      <img className='ekin-prod' src={karadumanProduct.imageURL} alt="" />
+                      {/* Product Name */}
+                      <p className='prod-name'><b>{karadumanProduct.name}</b></p>
+                    </div>
+                  </a>
+                </Grid>
+              ))}
+          </Grid>
+        </div>
+      )}
     </section>
-  )
+  );
 }
 
-export default KaradumanKalip
+export default KaradumanKalip;

@@ -23,9 +23,11 @@
 .fa-info{
   font-size: 60px;
   line-height: 50px;
-  color: #0c41be;
-  background-color: white;
+  color: #29335C;
+  // color: #0C41BE;
+  // background-color: white;
   border-radius: 50%;
+  border: 1px solid #29335C;
   padding: 25px;
   transition: 0.5s;
 }
@@ -45,6 +47,8 @@ justify-content: center;
 align-items: center;
 text-align: center;
 width: 70%;
+margin-top: 50px;
+
 }
 
 .grid{
@@ -52,6 +56,88 @@ width: 70%;
   justify-content: center;
   align-items: center;
 }
+
+
+
+// GENİS MEHSUL CESİDİ
+.product-category{
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-family: Roboto;
+  margin: 0 0 15px;
+}
+.product-category-txt{
+  font-size: 21px;
+  line-height: 35.7px;
+  letter-spacing: 0.2px;
+  margin: 25px 0px;
+  font-weight: 100;
+  font-family: Roboto;
+}
+
+
+
+.card-home{
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 15rem;
+  height: 250px;
+  // margin-left: 100px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.reference-image-home{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  object-fit: cover;
+  display: flex;
+  margin: 0 auto;
+
+}
+.card-title-home{
+  font-size: 18px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.card-txt-home{
+  margin-top: -25px;
+}
+.div-grid-2{
+  margin: 50px 0;
+}
+.all-products-1{
+  font-size: 16px;
+  color: white;
+  background-color: #29335C;
+  font-family: Roboto;
+  letter-spacing: 0.2px;
+  padding: 10px 30px;
+  font-weight: 500;
+  border-radius: 10px;
+  // margin-top: 100px;
+}
+
+.all-products-2{
+  font-size: 18px;
+  color: white;
+  background-color: #29335C;
+  font-family: Roboto;
+  letter-spacing: 0.2px;
+  padding: 10px 40px;
+  font-weight: 500;
+  border-radius: 10px;
+  // margin-top: 100px;
+}
+
+
+
 
 
 .slider-div{
@@ -108,10 +194,7 @@ justify-content: space-between;
   justify-content: space-around;
   margin-bottom: 100px;
 }
-.gear{
-  width: 50%;
-object-fit: contain;
-}
+
 
   /* RESPONSIVES */
   /* DESTKOP && LAPTOPS */
@@ -161,11 +244,7 @@ flex-direction: row;
 align-items: center;
 object-fit: contain;
 }
-.gear{
-object-fit: contain;
-display: flex;
-justify-content: flex-end;
-}
+
 .map-content{
  width: 70%;
 }
@@ -238,8 +317,6 @@ gap: 50px;
                 .fa-info{
                     font-size: 60px;
                     line-height: 50px;
-                    color: #0c41be;
-                    background-color: white;
                     border-radius: 50%;
                     padding: 25px;
                     transition: 0.5s;
@@ -267,7 +344,6 @@ gap: 50px;
               .map-title{
                 text-align: center;
                 font-family: Roboto;
-                color: #0C41BE;
                 font-size: 28px;
                 line-height: 42px;
                 
@@ -307,8 +383,6 @@ gap: 50px;
               .fa-info{
                   font-size: 60px;
                   line-height: 50px;
-                  color: #0c41be;
-                  background-color: white;
                   border-radius: 50%;
                   padding: 25px;
                   transition: 0.5s;
@@ -336,7 +410,6 @@ gap: 50px;
             .map-title{
               text-align: center;
               font-family: Roboto;
-              color: #0C41BE;
               font-size: 28px;
               line-height: 42px;
               
@@ -376,8 +449,6 @@ gap: 50px;
             .fa-info{
                 font-size: 60px;
                 line-height: 50px;
-                color: #0c41be;
-                background-color: white;
                 border-radius: 50%;
                 padding: 25px;
                 transition: 0.5s;
@@ -405,7 +476,6 @@ gap: 50px;
           .map-title{
             text-align: center;
             font-family: Roboto;
-            color: #0C41BE;
             font-size: 22px;
             line-height: 32px;
             
@@ -445,8 +515,6 @@ gap: 50px;
         .fa-info{
             font-size: 60px;
             line-height: 50px;
-            color: #0c41be;
-            background-color: white;
             border-radius: 50%;
             padding: 25px;
             transition: 0.5s;
@@ -474,7 +542,6 @@ gap: 50px;
       .map-title{
         text-align: center;
         font-family: Roboto;
-        color: #0C41BE;
         font-size: 18px;
         line-height: 32px;
         
@@ -517,8 +584,6 @@ gap: 50px;
         .fa-info{
             font-size: 60px;
             line-height: 50px;
-            color: #0c41be;
-            background-color: white;
             border-radius: 50%;
             padding: 25px;
             transition: 0.5s;
@@ -546,7 +611,6 @@ gap: 50px;
       .map-title{
         text-align: center;
         font-family: Roboto;
-        color: #0C41BE;
         font-size: 18px;
         line-height: 32px;
         
@@ -590,8 +654,6 @@ gap: 50px;
       .fa-info{
           font-size: 60px;
           line-height: 50px;
-          color: #0c41be;
-          background-color: white;
           border-radius: 50%;
           padding: 25px;
           transition: 0.5s;
@@ -619,7 +681,6 @@ gap: 50px;
     .map-title{
       text-align: center;
       font-family: Roboto;
-      color: #0C41BE;
       font-size: 18px;
       line-height: 32px;
       
@@ -660,8 +721,6 @@ gap: 50px;
       .fa-info{
           font-size: 60px;
           line-height: 50px;
-          color: #0c41be;
-          background-color: white;
           border-radius: 50%;
           padding: 25px;
           transition: 0.5s;
@@ -689,7 +748,6 @@ gap: 50px;
     .map-title{
       text-align: center;
       font-family: Roboto;
-      color: #0C41BE;
       font-size: 18px;
       line-height: 32px;
       
@@ -733,8 +791,6 @@ gap: 50px;
     .fa-info{
         font-size: 60px;
         line-height: 50px;
-        color: #0c41be;
-        background-color: white;
         border-radius: 50%;
         padding: 25px;
         transition: 0.5s;
@@ -762,7 +818,6 @@ gap: 50px;
   .map-title{
     text-align: center;
     font-family: Roboto;
-    color: #0C41BE;
     font-size: 18px;
     line-height: 32px;
     
@@ -806,8 +861,6 @@ gap: 50px;
     .fa-info{
         font-size: 60px;
         line-height: 50px;
-        color: #0c41be;
-        background-color: white;
         border-radius: 50%;
         padding: 25px;
         transition: 0.5s;
@@ -835,7 +888,6 @@ gap: 50px;
   .map-title{
     text-align: center;
     font-family: Roboto;
-    color: #0C41BE;
     font-size: 18px;
     line-height: 32px;
     
@@ -880,8 +932,6 @@ gap: 50px;
   .fa-info{
       font-size: 60px;
       line-height: 50px;
-      color: #0c41be;
-      background-color: white;
       border-radius: 50%;
       padding: 25px;
       transition: 0.5s;
@@ -909,7 +959,6 @@ gap: 50px;
 .map-title{
   text-align: center;
   font-family: Roboto;
-  color: #0C41BE;
   font-size: 18px;
   line-height: 32px;
   
@@ -950,8 +999,6 @@ gap: 50px;
 .fa-info{
     font-size: 60px;
     line-height: 50px;
-    color: #0c41be;
-    background-color: white;
     border-radius: 50%;
     padding: 25px;
     transition: 0.5s;
@@ -979,7 +1026,6 @@ gap: 50px;
 .map-title{
 text-align: center;
 font-family: Roboto;
-color: #0C41BE;
 font-size: 16px;
 line-height: 32px;
 

@@ -29,20 +29,20 @@ const USERNAVBAR = () => {
           {/* CONTACT NUMBER */}
         <div className='contact'>
           <div className='icon-div'><FontAwesomeIcon className='nav-icon' icon={faPhone} /></div>
-          <span className='txt'><a style={{color:'black'}}  href="tel:+994-50-555-25-50">+994 (50) 555 25 50</a></span>
+          <span style={{fontFamily:'Roboto'}} className='txt'><a style={{color:'black'}}  href="tel:+994-50-555-25-50">+994 (50) 555 25 50</a></span>
           </div>
 
           {/* GMAIL */}
           <div className='contact'>
            <div className='icon-div'> <FontAwesomeIcon className='nav-icon' icon={faEnvelope} /> </div>
-            <span className='txt'><a style={{textDecoration:'none',color:'black'}} href="mailto:laletech4@gmail.com">laletech4@gmail.com</a></span>
+            <span style={{fontFamily:'Roboto'}} className='txt'><a style={{textDecoration:'none',color:'black'}} href="mailto:laletech4@gmail.com">laletech4@gmail.com</a></span>
           </div>
 
           {/* LOCATION ADDRESS */}
           <div className='contact'>
             <a className='contact' href="https://goo.gl/maps/Tb971sNrbD1xb4TV8">
             <div className='icon-div'><FontAwesomeIcon className='nav-icon' icon={faLocationDot} /></div>
-            <span className='txt'>Laletech,
+            <span style={{fontFamily:'Roboto'}} className='txt'>Laletech,
              <br />
              Sattar Bahulul-Zadeh, Baku
              </span>

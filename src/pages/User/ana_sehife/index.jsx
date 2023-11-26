@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet'
 import {Link} from 'react-router-dom'
-import {  Grid } from '@mui/material';
+import {  Button, Grid } from '@mui/material';
 import './index.scss'
 import image1 from './images/aweta.jpg'
 import image2 from './images/ekin-makina.png'
@@ -21,9 +21,9 @@ import Karaduman from './images/karadumanbg.png'
 import SeriLogo from './images/serimakinabg.png'
 import Soley from './images/soley-1.jpg'
 import LALETECH from './images/Logo.png'
-import Gear from './images/gear.png'
-
-
+import Ekin120 from './images/ekin-120-orion.jpg'
+import Avocado from './images/sogutma.png'
+import Dizel from './images/dizel.png'
 
 // FONT AWESOME
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -205,13 +205,18 @@ const Home = () => {
       </div>
 
       {/* INFO */}
-      <div className='ltech-info'>
+      <div className='ltech-info' style={{display:'flex', flexDirection:'column'}}>
+        <div style={{textAlign:'center'}}>
+        <h1 className='product-category'>Bizi Seçmək üçün Dörd Səbəb</h1>
+          <div className='line' style={{margin:' 25px auto'}}></div>
+          <span className='product-category-txt'>Haqqımızda ətraflı məlumat üçün bu səhifəyə daxil ola bilərsiniz.</span>
 
+        </div>
       <Grid className='grid' container spacing={{ xs: 12, sm:6, md:4, lg:3 }}>
      
        <Grid item lg={3}>
        <div className='info-content'>
-        <FontAwesomeIcon className='fa-info' icon={faSitemap}/> 
+        <FontAwesomeIcon style={{padding:'30px 25px'}} className='fa-info' icon={faSitemap}/> 
         <h3 className='info-title'>MÜTƏXƏSSİS HEYƏTİ</h3>
         <p className='info-text'>LALETECH MMC Expert 4 mühəndis və 10 texniki xidmət personalı ilə xidmət göstərir.</p>
         </div>
@@ -227,21 +232,22 @@ const Home = () => {
 
        <Grid item lg={3}>
          <div className='info-content'>
-           <FontAwesomeIcon className='fa-info' icon={faQrcode}/> 
+           <FontAwesomeIcon style={{padding:'25px 30px'}} className='fa-info' icon={faQrcode}/> 
            <h3 className='info-title'style={{'textAlign':'center'}}>STOKTAN MƏHSUL TƏSLİMİ</h3>
-           <p className='info-text'>LALETECH MMC inkişaf edən və dəyişən güclü məhsul çeşidi sayəsində məhsulları anbardan təhvil verə bilir.</p>
+           <p className='info-text'>LALETECH MMC inkişaf edən güclü məhsul çeşidi sayəsində məhsulları anbardan təhvil verir.</p>
          </div>
        </Grid>  
 
        <Grid item lg={3}>
          <div className='info-content'>
-           <FontAwesomeIcon className='fa-info' icon={faGears}/> 
+           <FontAwesomeIcon style={{padding:'25px 20px'}} className='fa-info' icon={faGears}/> 
            <h3 className='info-title'style={{'textAlign':'center'}}>KÖMƏKÇİ QURĞULARIN  TƏMİNİ</h3>
            <p className='info-text'>LALETECH MMC idxal etdiyi bütün makina qrupları üçün böyük ehtiyat hissələri ehtiyatına malikdir.</p>
          </div>
        </Grid>
 
      </Grid>
+     <Link style={{margin:"50px 0"}} onClick={()=>window.scrollTo(0, 0)} to='about' className='all-products-1'>HAQQIMIZDA</Link>
 
       </div>
 
@@ -257,88 +263,90 @@ const Home = () => {
           <div className='map'>
 
         <img className='map-image' src={Map} alt="MAP" />
+        <Link onClick={()=>window.scrollTo(0, 0)} to='projects' className='all-products-2'>Layihələrimiz</Link>
+
       </div>
         </div>
+        <div style={{textAlign:'center'}}>
+          <h1 className='product-category'>Geniş Məhsul Çeşidi</h1>
+          <span className='product-category-txt'>Müxtəlif proseslər və sektorlar üçün müasir dizaynlı  makinalar...</span>
+          <div className='line' style={{margin:' 25px auto'}}></div>
 
-        <div className='main-map'>
-        <div className='map-content'>
-        <h1 className='map-title' style={{color:'black'}}>QURULAN AVADANLIQLARDAN BƏZİLƏRİ</h1>
-        <div>
-          <h1 className='pro-titles'>BAKI</h1>
-          <br />
-          <ul className='map-list'>
-           <li><b>AQRO İNVEST İSTEHSALAT MMC.</b> Fabrikinin Tam Qurulması.və.s</li>
-           <li><b>CƏNNƏT AQRO MMC.</b> Banan Saraltma Soyuducusunun Qurulması.və.s</li>
-           <li><b>FİBER KARTON MMC. </b> Viol,Karton qutu və Köşəbənd Avadanlığının Qurulması və.s</li>
-         </ul>
-        </div>
+  <div className='div-grid-2'>
+        
 
-        <div>
-         <h1 className='pro-titles'>XAÇMAZ</h1>
-         <br />
-         <ul className='map-list'>
-           <li>Fiziki Şəxs Müzəffər bəy <b>EKİN MAKİNA</b> Plastik yeşik Makinasının Avadanlığın Qurulması və.s</li>
-         </ul>
-        </div>
+   <Grid  style={{display:'flex',justifyContent:'center', alignItems:'center'}}container spacing={{ xs: 12, sm: 6, md: 4, lg: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 
-        <div>
-         <h1 className='pro-titles'>TOVUZ</h1>
-         <br />
-         <ul className='map-list'>
-           <li><b>TOVUZ AQRO PARK.</b> Heyvandarlıq Kompleksinin Qurulması və.s</li>
-           <li><b>TOVUZ KARTON MMC.</b> Karton Qutu, Köşəbənd, Viol, İnyeksiya Avadanlığının Qurulması və.s</li>
-         </ul>
-        </div>
 
-        <div>
-         <h1 className='pro-titles'>LƏNKƏRAN</h1>
-         <br />
-         <ul className='map-list'>
-           <li><b>MİRAN 19 ÇİYƏLƏK ŞİRKƏTİ</b> Plastik yeşik makinasının  Qurulması və.s</li>
-         </ul>
-        </div>
+         {/* CARD 1 */}
 
-        <div>
-         <h1 className='pro-titles'>NAXÇIVAN</h1>
-         <br />
-         <ul className='map-list'>
-           <li><b>ŞƏRUR 3 MMC</b> Karton qutu və Kağız Klok makinasının qurulması və.s</li>
-         </ul>
-        </div>
+         <Grid  item lg={3}>
+         <Link onClick={()=>window.scrollTo(0, 0)} className='dropLink' to='/products/ekin-makina'>
+           {/* Reference Card */}
+           <div className='card-home'>
+             {/* Image */}
+             <div><img className='reference-image-home' src={Ekin120} alt="" /></div>
+             {/* Card Text */}
+             <div className='card-txt-home'>
+               <div><p className='card-title-home'>EKIN MAKINA</p></div>
+             </div>
+           </div>
+         </Link>
+         </Grid>
 
-        <div>
-         <h1 className='pro-titles'>YEVLAX</h1>
-         <br />
-         <ul className='map-list'>
-           <li><b>BİO MMC.</b> Karton Qutu və Qutu Yapışdırma Avadanlıqlarının Qurulması </li>
-         </ul>
-        </div>
+        
+         {/* CARD 2 */}
+         <Grid  item lg={3}>
+         <Link onClick={()=>window.scrollTo(0, 0)} className='dropLink' to='/products/atlasics'>
+         <div className='card-home'>
+             {/* Image */}
+             <div><img className='reference-image-home' style={{padding:'40px 0 0 0'}} src={Avocado} alt="" /></div>
+             {/* Card Text */}
+             <div className='card-txt-home'>
+               <div><p className='card-title-home'>LALETECH SOGUTMA SISTEMLERI</p></div>
+             </div>
+           </div>
+         </Link>
+         </Grid>
 
-        <div>
-        <h1 className='pro-titles'>QUBA</h1>
-        <br />
-        <ul className='map-list'>
-          <li><b>CƏNNƏT AQRO.</b> Plastik Yeşik Fabrikasının Qurulması,Karton Qutu Avadanlığı,Köşəbənd Avadanlığı,Meyvə Çeşidləmə Avadanlıqlarının Qurulması və.s </li>
-        </ul>
-        </div>
 
-        <div>
-        <h1 className='pro-titles'>ŞAMAXI</h1>
-        <br />
-        <ul className='map-list'>
-          <li> XAMMAL VƏ ƏLAVƏ MƏHSULLARIN SATIŞI və.s</li>
-        </ul>
-        </div>
 
-        <div>
-        <h1 className='pro-titles'>GÖYÇAY</h1>
-        <br />
-        <ul className='map-list'>
-          <li> XAMMAL VƏ ƏLAVƏ MƏHSULLARIN SATIŞI və.s </li>
-        </ul>
-        </div>
-      </div>
-        <img className='gear' src={Gear} alt="" />
+          {/* CARD 3 */}
+         <Grid  item lg={3}>
+         <Link onClick={()=>window.scrollTo(0, 0)} className='dropLink' to='/products/ceylift'>
+         <div className='card-home'>
+             {/* Image */}
+             <div><img className='reference-image-home' src={Dizel} alt="" /></div>
+             {/* Card Text */}
+             <div className='card-txt-home'>
+               <div><p className='card-title-home'>CEYLIFT FORKLIFTS</p></div>
+             </div>
+           </div>
+         </Link>
+         </Grid>
+
+
+
+          {/* CARD 4 */}
+         <Grid  item lg={3}>
+         <Link onClick={()=>window.scrollTo(0, 0)} className='dropLink' to='/products/elave-mehsullar'>
+         <div className='card-home'>
+             {/* Image */}
+             <div><img className='reference-image-home' src={image13} alt="" /></div>
+             {/* Card Text */}
+             <div className='card-txt-home'>
+               <div><p className='card-title-home'> ƏLAVƏ MƏHSUL SATIŞI</p></div>
+             </div>
+           </div>
+
+         </Link>
+         </Grid>
+
+</Grid>
+
+</div>
+<Link onClick={()=>window.scrollTo(0, 0)} to='products/ekin-makina' className='all-products-1'>Bütün Məhsulları Göstər</Link>
+
         </div>
       </div>
 

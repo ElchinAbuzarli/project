@@ -65,10 +65,10 @@ const USERNAVBAR = () => {
 
         <ul className='nav-list' onClick={()=>window.scrollTo(0, 0)}>
             <li>
-              <Link onClick={showNavbar}  className='link' to='/'>Ana Səhifə</Link>
+              <Link  onClick={showNavbar}  className='link' to='/'>Ana Səhifə</Link>
             </li>
             <li>
-              <Link onClick={showNavbar}  className='link' to='/about'>Haqqımızda</Link>
+              <Link  onClick={showNavbar}  className='link' to='/about'>Haqqımızda</Link>
             </li>
             <li>
               <Link onClick={showNavbar}  className='link' to='/references'>Referanslar</Link>

@@ -254,7 +254,7 @@ const Home = () => {
       <div className='map-parent'>
         <div className='map-div'>
           <div>
-          <h1 className='map-title'>LALETECH TƏRƏRFİNDƏN TƏHVİL VERİLƏN AVADANLIQLAR
+          <h1 className='map-title'>LALETECH TƏRƏFİNDƏN TƏHVİL VERİLƏN AVADANLIQLAR
           <br />
           HAZIRDA AZƏRBAYCANIN BİR ÇOX BÖLGƏSİNDƏ FƏALİYYƏT GÖSTƏRMƏKDƏDİR
         </h1>

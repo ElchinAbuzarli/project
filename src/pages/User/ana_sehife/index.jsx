@@ -316,10 +316,10 @@ const Home = () => {
          <Link onClick={()=>window.scrollTo(0, 0)} className='dropLink' to='/products/ceylift'>
          <div className='card-home'>
              {/* Image */}
-             <div><img className='reference-image-home' src={Dizel} alt="" /></div>
+             <div><img className='reference-image-home' src={image3} alt="" /></div>
              {/* Card Text */}
              <div className='card-txt-home'>
-               <div><p className='card-title-home'>CEYLIFT FORKLIFTS</p></div>
+               <div><p className='card-title-home'>SOLEY KAĞIZ PAKET MAKİNA</p></div>
              </div>
            </div>
          </Link>

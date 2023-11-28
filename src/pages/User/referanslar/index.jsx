@@ -44,7 +44,7 @@ const References = () => {
                 className='loading'
                 color={"#5DDAC9"}
                 loading={loading}
-                size={150}
+                size={80}
                 aria-label="Loading Spinner"
                 data-testid="loader"
               />

@@ -213,6 +213,12 @@
 // SMARTPHONES
 
 @media(max-width:1441px) {
+    .prod-logo{
+        width: 30%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+    }
     .ekin-card{
         background-color: white;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -258,6 +264,12 @@
 }
 
 @media(max-width:1243px) {
+    .prod-logo{
+        width: 30%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+    }
     .ekin-card{
         background-color: white;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -303,6 +315,12 @@
 }
 
 @media(max-width:1081px) {
+    .prod-logo{
+        width: 30%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+    }
     .ekin-card{
         background-color: white;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -348,6 +366,12 @@
 }
 
 @media(max-width:1025px){
+    .prod-logo{
+        width: 30%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+    }
     .ekin-card{
         background-color: white;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -393,6 +417,12 @@
 }
 
 @media(max-width:836px) {
+    .prod-logo{
+        width: 40%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+    }
     .ekin-card{
         background-color: white;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -438,6 +468,12 @@
 }
 
 @media(max-width:751px) {
+    .prod-logo{
+        width: 40%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+    }
     .ekin-card{
         background-color: white;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -483,6 +519,12 @@
 }
 
 @media(max-width:641px) {
+    .prod-logo{
+        width: 45%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+    }
     .ekin-card{
         background-color: white;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -528,6 +570,12 @@
 }
 
 @media(max-width:471px){
+    .prod-logo{
+        width: 50%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+    }
     .ekin-card{
         background-color: white;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -573,6 +621,12 @@
 }
 
 @media(max-width:426px){
+    .prod-logo{
+        width: 60%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+    }
     .ekin-card{
         background-color: white;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -659,11 +713,17 @@
         line-height: 32px;
         padding: 0 10px 0 10px;
     }
+    .prod-logo{
+        width: 70%;
+        display: flex;
+        margin: 0 auto;
+        // margin-left: 100px;
+    }
 }
 
 @media(max-width:321px){
     .prod-logo{
-        width: 90%;
+        width: 70%;
         display: flex;
         margin: 0 auto;
         // margin-left: 100px;

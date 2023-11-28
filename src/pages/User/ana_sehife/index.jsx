@@ -313,7 +313,7 @@ const Home = () => {
 
           {/* CARD 3 */}
          <Grid  item lg={3}>
-         <Link onClick={()=>window.scrollTo(0, 0)} className='dropLink' to='/products/ceylift'>
+         <Link onClick={()=>window.scrollTo(0, 0)} className='dropLink' to='/products/soley-makina'>
          <div className='card-home'>
              {/* Image */}
              <div><img className='reference-image-home' src={image3} alt="" /></div>

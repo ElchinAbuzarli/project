@@ -39,18 +39,24 @@
     font-family: Roboto;
     font-weight: 500;
     line-height: 23.04px;
-    // color:#A3A8B2 ;
     font-size: 19.2px;
 }
 
 .fbicon{
     color: white;
-    font-size: 30px;
 }
 .inicon{
     color: white;
-    font-size: 30px;
 }
+.mailicon{
+    color: white;
+}
+.mailicon:hover{
+    color: coral;
+    transition: 0.5s ease-in-out;
+
+}
+
 .fbicon:hover{
     color: skyblue;
     transition: 0.5s ease-in-out;
@@ -60,9 +66,9 @@
     transition: 0.5s ease-in-out;
 }
 .icon-div{
-    border: 1px solid #08256a;
+    border: 1px solid ;
     border-radius: 50%;
-    background: linear-gradient(#0c41be, #000046); 
+    background-color: #29335C !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,7 +113,7 @@ header nav{
 .link{
     margin: 0 20px;
     letter-spacing: 0.8px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
     color: var(--textColor);

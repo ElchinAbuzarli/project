@@ -3,9 +3,8 @@ import './responsive.scss'
 
 import { Link } from 'react-router-dom'
 
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';import InstagramIcon from '@mui/icons-material/Instagram';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faEnvelope, faLocationDot, faPhone, faXmark, } from '@fortawesome/free-solid-svg-icons'
 import LALETECH from './images/Logo.png'
 import LALETECH_WHITE from './images/whiteLogo.png'
@@ -28,14 +27,18 @@ const USERNAVBAR = () => {
         <div className='cont-1'>
           {/* CONTACT NUMBER */}
         <div className='contact'>
+          <a className='contact'style={{color:'black'}}  href="tel:+994-50-555-25-50">
           <div className='icon-div'><FontAwesomeIcon className='nav-icon' icon={faPhone} /></div>
-          <span style={{fontFamily:'Roboto'}} className='txt'><a style={{color:'black'}}  href="tel:+994-50-555-25-50">+994 (50) 555 25 50</a></span>
+          <span style={{fontFamily:'Roboto'}} className='txt'>+994 (50) 555 25 50</span>
+          </a>
           </div>
 
           {/* GMAIL */}
           <div className='contact'>
+            <a className='contact' style={{textDecoration:'none',color:'black'}} href="mailto:laletech4@gmail.com">
            <div className='icon-div'> <FontAwesomeIcon className='nav-icon' icon={faEnvelope} /> </div>
-            <span style={{fontFamily:'Roboto'}} className='txt'><a style={{textDecoration:'none',color:'black'}} href="mailto:laletech4@gmail.com">laletech4@gmail.com</a></span>
+            <span style={{fontFamily:'Roboto'}} className='txt'>laletech4@gmail.com</span>
+            </a>
           </div>
 
           {/* LOCATION ADDRESS */}
@@ -55,8 +58,8 @@ const USERNAVBAR = () => {
   {/* NAV MAIN */}
   <header style={{zIndex:'999'}}>
   <div className='social-div-responsive'>
-          <a className='social' target='_blank' href="https://www.facebook.com/profile.php?id=100094357220772&mibextid=ZbWKwL"><FacebookIcon className='fbicon' style={{fontSize:'30px'}}/></a>
-          <a className='social' target='_blank' href="https://instagram.com/laletech.mmc?igshid=MzRlODBiNWFlZA=="><InstagramIcon className='inicon' style={{fontSize:'30px'}}/></a>
+          <a className='social' target='_blank' href="https://www.facebook.com/profile.php?id=100094357220772&mibextid=ZbWKwL"><FacebookOutlinedIcon className='fbicon' style={{fontSize:'25px', marginRight:'5px'}}/></a>
+          <a className='social' target='_blank' href="https://instagram.com/laletech.mmc?igshid=MzRlODBiNWFlZA=="><InstagramIcon className='inicon' style={{fontSize:'25px'}}/></a>
           </div>
         <Link to='/'><img className='logos' src={LALETECH_WHITE} alt="LALETECH" /></Link>
         <nav ref={navRef}>
@@ -96,8 +99,9 @@ const USERNAVBAR = () => {
           </button>
         </nav>
         <div className='social-div'>
-          <a className='social' target='_blank' href="https://www.facebook.com/profile.php?id=100094357220772&mibextid=ZbWKwL"><FacebookIcon className='fbicon' style={{fontSize:'30px', marginRight:'5px'}}/></a>
-          <a className='social' target='_blank' href="https://instagram.com/laletech.mmc?igshid=MzRlODBiNWFlZA=="><InstagramIcon className='inicon' style={{fontSize:'30px'}}/></a>
+          <a className='social' target='_blank' href="https://www.facebook.com/profile.php?id=100094357220772&mibextid=ZbWKwL"><FacebookOutlinedIcon className='fbicon' style={{fontSize:'25px', marginRight:'5px'}}/></a>
+          <a className='social' target='_blank' href="https://instagram.com/laletech.mmc?igshid=MzRlODBiNWFlZA=="><InstagramIcon className='inicon' style={{fontSize:'25px',marginRight:'5px'}}/></a>
+
           </div>
         <button className='nav-btn' onClick={showNavbar}>
           <FontAwesomeIcon icon={faBars} />

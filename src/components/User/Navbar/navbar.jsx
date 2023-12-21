@@ -3,8 +3,10 @@ import './responsive.scss'
 
 import { Link } from 'react-router-dom'
 
-import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';import InstagramIcon from '@mui/icons-material/Instagram';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faEnvelope, faLocationDot, faPhone, faXmark, } from '@fortawesome/free-solid-svg-icons'
 import LALETECH from './images/Logo.png'
 import LALETECH_WHITE from './images/whiteLogo.png'

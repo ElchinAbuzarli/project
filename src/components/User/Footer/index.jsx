@@ -10,6 +10,14 @@ import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-
 import { Button } from '@mui/material';
 
 
+export function AddLibrary(urlOfTheLibrary) {
+  const script = document.createElement("script");
+  script.src = urlOfTheLibrary;
+  script.async = true;
+  document.body.appendChild(script);
+}
+
+
 const FOOTER = () => {
   return (
     <section className='main-foot' >
@@ -106,7 +114,13 @@ const FOOTER = () => {
       <div className='copyright'>
           <p className='copyright-text'>Copyright © 2023 Laletech MMC. Created by <a style={{color:'red'}} href="https://www.linkedin.com/in/elchin-abuzarli-6769b427a/" target="_blank">Elchin Abuzarli</a></p>
         </div>
+        {/* Call the function to add a library */}
+        {AddLibrary(
+"//code.jivosite.com/widget/rX7TRzBd6Z"
+            )}
     </section>
+  
+ 
 
   )
 }

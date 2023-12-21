@@ -5,7 +5,7 @@ const ProductNav = () => {
   return (
     <section>
           <h1 className='product-title' >BÜTÜN MƏHSULLAR</h1>
-         <div className='product-nav'>
+          <div className='product-nav'>
             <NavLink style={{textDecoration:'none'}} onClick={()=>window.scrollTo(0, 0)} className='prod-nav' activeclassname='active' to='/products/ekin-makina'>EKIN MAKINA</NavLink>
             <NavLink style={{textDecoration:'none'}} onClick={()=>window.scrollTo(0, 0)} className='prod-nav' activeclassname='active' to='/products/atlasics'>LALETECH</NavLink>
             <NavLink style={{textDecoration:'none'}} onClick={()=>window.scrollTo(0, 0)} className='prod-nav' activeclassname='active' to='/products/aweta'>AWETA</NavLink>

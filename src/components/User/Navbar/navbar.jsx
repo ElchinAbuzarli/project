@@ -79,7 +79,9 @@ const USERNAVBAR = () => {
             <li>
               <Link onClick={showNavbar}  className='link' to='/service'>Servis</Link>
             </li>
-
+            <li>
+              <a className='link' href="https://drive.google.com/file/d/1ZgNkngNKhE4nMs98THcS9gIyuydM_hS0/view?usp=sharing">Kataloq</a>
+            </li>
             <li>
               <Link onClick={showNavbar}  className='link' to='/xidmet'>Xidmətlər</Link>
             </li>

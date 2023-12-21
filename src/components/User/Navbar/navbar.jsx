@@ -80,7 +80,7 @@ const USERNAVBAR = () => {
               <Link onClick={showNavbar}  className='link' to='/service'>Servis</Link>
             </li>
             <li>
-              <a target='blank' className='link' href="https://drive.google.com/file/d/1ZgNkngNKhE4nMs98THcS9gIyuydM_hS0/view?usp=sharing">Kataloq</a>
+              <a onClick={showNavbar} target='blank' className='link' href="https://drive.google.com/file/d/1ZgNkngNKhE4nMs98THcS9gIyuydM_hS0/view?usp=sharing">Kataloq</a>
             </li>
             <li>
               <Link onClick={showNavbar}  className='link' to='/xidmet'>Xidmətlər</Link>

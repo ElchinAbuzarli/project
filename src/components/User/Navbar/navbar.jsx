@@ -46,7 +46,7 @@ const USERNAVBAR = () => {
           {/* LOCATION ADDRESS */}
           <div className='contact'>
             <a className='contact' href="https://goo.gl/maps/Tb971sNrbD1xb4TV8">
-            <div className='icon-div'><FontAwesomeIcon className='nav-icon' icon={faLocationDot} /></div>
+            <div className='icon-div'><FontAwesomeIcon className='nav-icon' style={{padding:'18px 20px'}} icon={faLocationDot} /></div>
             <span style={{fontFamily:'Roboto'}} className='txt'>Laletech,
              <br />
              Sattar Bahulul-Zadeh, Baku

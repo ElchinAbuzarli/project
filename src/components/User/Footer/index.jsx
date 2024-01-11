@@ -46,7 +46,7 @@ const FOOTER = () => {
            Dərnəgül yaşayış sahəsi 3117
           </li>
           <li><FontAwesomeIcon icon={faPhone}/><a style={{color:'white'}}  href="tel:+994-50-555-25-50">+994 (50) 555 25 50</a></li> 
-          <li><FontAwesomeIcon icon={faPhone}/><a style={{color:'white'}}  href="tel:+994-70-555-55-90">+994 (50) 555 25 50</a></li>  
+          <li><FontAwesomeIcon icon={faPhone}/><a style={{color:'white'}}  href="tel:+994-70-555-55-90">+994 (70) 555 55 90</a></li>  
           <li><FontAwesomeIcon icon={faEnvelope}/><a style={{textDecoration:'none',color:'white'}} href="mailto:laletech4@gmail.com">laletech4@gmail.com</a></li>
           <li><FacebookIcon style={{'width':'20px'}}/>
            <a style={{textDecoration:'none', color:'white'}} href="https://www.facebook.com/profile.php?id=100094357220772&mibextid=ZbWKwL">Laletech Mmc</a>

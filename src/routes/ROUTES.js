@@ -1,5 +1,5 @@
 import AdminRoot from "../pages/Admin/AdminRoot";
-import DASHBOARD from "../pages/Admin/dashboard";
+import DASHBOARD from "../pages/Admin/scenes/dashboard";
 import MainRoot from "../pages/User/MainRoot";
 import Home from "../pages/User/ana_sehife";
 import Contact from "../pages/User/elaqe";
@@ -175,7 +175,8 @@ export const ROUTES = [
     // },
     {
 
-        
+
+
 
         path:'/diego',
         element:<AdminRoot/>,
@@ -202,129 +203,165 @@ export const ROUTES = [
             },
 
 
-            // PARTNERS ADMIN SIDE
-            {
-                path:'products/ekin-makina',
-                element:<EKINADMIN/>
-            },
-            {
-                path:'products/atlasics',
-                element:<ATLASICSADMIN/>
-            },
-            {
-                path:'products/aweta',
-                element:<AWETAADMIN/>
-            },
-            {
-                path:'products/seri-makina',
-                element:<SeriMakinaADMIN/>
-            },
-            {
-                path:'products/tur-var-makina',
-                element:<TurVarMakinaADMIN/>
-            },
-            {
-                path:'products/ileri-makina',
-                element:<IleriMakinaADMIN/>
-            },
-            {
-                path:'products/soley-makina',
-                element:<SoleyMakinaADMIN/>
-            },
-            {
-                path:'products/osman-cubuk',
-                element:<OsmanCubukADMIN/>
-            },
-            {
-                path:'products/ceylift',
-                element:<CEYLIFTADMIN/>
-            },
-            {
-                path:'products/karaduman-kalip',
-                element:<KaradumanKalipADMIN/>
-            },
-            {
-                path:'products/haknersan',
-                element:<HAKNERSANADMIN/>
-            },
-            {
-                path:'products/cetinel',
-                element:<CETINELADMIN/>
-            },
-            {
-                path:'products/uzay-baskul',
-                element:<UzayBaskulADMIN/>
-            },
-            {
-                path:'products/filo-kompressor',
-                element:<FiloKompresorADMIN/>
-            },
-            {
-                path:'products/elave-mehsullar',
-                element:<ElaveMehsullarADMIN/>
-            },
 
-            // ADD PRODUCTS
-            {
-                path:'products/ekin-makina/add-product',
-                element:<AddEkinProduct/>
-            },
-            {
-                path:'products/atlasics/add-product',
-                element:<AddAtlasProduct/>
-            },
-            {
-                path:'products/aweta/add-product',
-                element:<AddAwetaProduct/>
-            },
-            {
-                path:'products/seri-makina/add-product',
-                element:<AddSeriProduct/>
-            },
-            {
-                path:'products/tur-var-makina/add-product',
-                element:<AddTurVarProduct/>
-            },
-            {
-                path:'products/ileri-makina/add-product',
-                element:<AddIleriProduct/>
-            },
-            {
-                path:'products/soley-makina/add-product',
-                element:<AddSoleyProduct/>
-            },
-            {
-                path:'products/osman-cubuk/add-product',
-                element:<AddOsmanProduct/>
-            },
-            {
-                path:'products/ceylift/add-product',
-                element:<AddCeyliftProduct/>
-            },
-            {
-                path:'products/karaduman-kalip/add-product',
-                element:<AddKaradumanProduct/>
-            },
-            {
-                path:'products/haknersan/add-product',
-                element:<AddHaknersanProduct/>
-            },
-            {
-                path:'products/cetinel/add-product',
-                element:<AddCetinelProduct/>
-            },
-            {
-                path:'products/uzay-baskul/add-product',
-                element:<AddUzayProduct/>
-            },
-            {
-                path:'products/filo-kompressor/add-product',
-                element:<AddFiloProduct/>
-            },
-            {
-                path:'products/elave-mehsullar/add-product',
-                element:<AddOtherProduct/>
-            },
+
+
+
+
+
+
+
+
+
+
+        // path:'/diego',
+        // element:<AdminRoot/>,
+        // children:[
+
+        //     {
+        //         path:'dashboard',
+        //         element: <DASHBOARD/>
+        //     },
+            
+        //     {
+        //         path:'products',
+        //         element: <PRODUCTS/>
+        //     },
+
+        //     {
+        //         path:'references',
+        //         element: <REFERENCES/>
+        //     },
+
+        //     {
+        //         path:'references/add-reference',
+        //         element:<AddReference/>
+        //     },
+
+
+        //     // PARTNERS ADMIN SIDE
+        //     {
+        //         path:'products/ekin-makina',
+        //         element:<EKINADMIN/>
+        //     },
+        //     {
+        //         path:'products/atlasics',
+        //         element:<ATLASICSADMIN/>
+        //     },
+        //     {
+        //         path:'products/aweta',
+        //         element:<AWETAADMIN/>
+        //     },
+        //     {
+        //         path:'products/seri-makina',
+        //         element:<SeriMakinaADMIN/>
+        //     },
+        //     {
+        //         path:'products/tur-var-makina',
+        //         element:<TurVarMakinaADMIN/>
+        //     },
+        //     {
+        //         path:'products/ileri-makina',
+        //         element:<IleriMakinaADMIN/>
+        //     },
+        //     {
+        //         path:'products/soley-makina',
+        //         element:<SoleyMakinaADMIN/>
+        //     },
+        //     {
+        //         path:'products/osman-cubuk',
+        //         element:<OsmanCubukADMIN/>
+        //     },
+        //     {
+        //         path:'products/ceylift',
+        //         element:<CEYLIFTADMIN/>
+        //     },
+        //     {
+        //         path:'products/karaduman-kalip',
+        //         element:<KaradumanKalipADMIN/>
+        //     },
+        //     {
+        //         path:'products/haknersan',
+        //         element:<HAKNERSANADMIN/>
+        //     },
+        //     {
+        //         path:'products/cetinel',
+        //         element:<CETINELADMIN/>
+        //     },
+        //     {
+        //         path:'products/uzay-baskul',
+        //         element:<UzayBaskulADMIN/>
+        //     },
+        //     {
+        //         path:'products/filo-kompressor',
+        //         element:<FiloKompresorADMIN/>
+        //     },
+        //     {
+        //         path:'products/elave-mehsullar',
+        //         element:<ElaveMehsullarADMIN/>
+        //     },
+
+        //     // ADD PRODUCTS
+        //     {
+        //         path:'products/ekin-makina/add-product',
+        //         element:<AddEkinProduct/>
+        //     },
+        //     {
+        //         path:'products/atlasics/add-product',
+        //         element:<AddAtlasProduct/>
+        //     },
+        //     {
+        //         path:'products/aweta/add-product',
+        //         element:<AddAwetaProduct/>
+        //     },
+        //     {
+        //         path:'products/seri-makina/add-product',
+        //         element:<AddSeriProduct/>
+        //     },
+        //     {
+        //         path:'products/tur-var-makina/add-product',
+        //         element:<AddTurVarProduct/>
+        //     },
+        //     {
+        //         path:'products/ileri-makina/add-product',
+        //         element:<AddIleriProduct/>
+        //     },
+        //     {
+        //         path:'products/soley-makina/add-product',
+        //         element:<AddSoleyProduct/>
+        //     },
+        //     {
+        //         path:'products/osman-cubuk/add-product',
+        //         element:<AddOsmanProduct/>
+        //     },
+        //     {
+        //         path:'products/ceylift/add-product',
+        //         element:<AddCeyliftProduct/>
+        //     },
+        //     {
+        //         path:'products/karaduman-kalip/add-product',
+        //         element:<AddKaradumanProduct/>
+        //     },
+        //     {
+        //         path:'products/haknersan/add-product',
+        //         element:<AddHaknersanProduct/>
+        //     },
+        //     {
+        //         path:'products/cetinel/add-product',
+        //         element:<AddCetinelProduct/>
+        //     },
+        //     {
+        //         path:'products/uzay-baskul/add-product',
+        //         element:<AddUzayProduct/>
+        //     },
+        //     {
+        //         path:'products/filo-kompressor/add-product',
+        //         element:<AddFiloProduct/>
+        //     },
+        //     {
+        //         path:'products/elave-mehsullar/add-product',
+        //         element:<AddOtherProduct/>
+        //     },
 
 
 
